@@ -1,42 +1,191 @@
+/* === Global Variables === */
+:root {
+  --color-bg: #0b0b0b;
+  --color-header-bg-start: #1a1a1a;
+  --color-header-bg-end: #000000;
+  --color-text: #ffffff;
+  --color-link: #dddddd;
+  --color-link-hover: #facc15;
+  --color-dropdown-bg: #1a1a1a;
+  --color-dropdown-hover: #2a2a2a;
+  --color-search-bg: #333333;
+  --color-search-placeholder: #aaaaaa;
+
+  --font-base: serif;
+  --radius-rounded: 8px;
+  --radius-pill: 9999px;
+  --transition-speed: 0.3s;
+}
+
+/* === Base Reset === */
 body {
-  font-family: "Nunito Sans", sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: var(--font-base);
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
-header {
-  background-color: black;
-  color: white;
-  padding: 20px;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+/* === Header === */
+.header {
+  background: linear-gradient(
+    to right,
+    var(--color-header-bg-start),
+    var(--color-header-bg-end)
+  );
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 1000;
 }
 
-li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-section {
-  background-color: white;
-  color: black;
-  padding: 20px;
+.container {
   display: flex;
-  flex-wrap: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-div {
-  background-color: red;
-  margin: auto;
-  width: 100px;
+/* === Left: Logo + Navigation === */
+.nav-left {
+  display: flex;
+  align-items: center;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  padding: 10px 20px;
+.home-logo img {
+  height: 40px;
+  margin-right: 1.5rem;
+}
+
+/* === Navigation Links === */
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+  color: var(--color-text);
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  transition: color var(--transition-speed);
+}
+
+.dropbtn:hover {
+  color: var(--color-link-hover);
+}
+
+/* === Dropdown Menu === */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--color-dropdown-bg);
+  min-width: 200px;
+  border-radius: var(--radius-rounded);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+  margin-top: 0;
+  padding-top: 0;
+  padding: 0.75rem 0 0.5rem 0;
+  z-index: 1000;
+
+  /* Smooth fade/slide */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5px);
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+  pointer-events: none;
+}
+
+.dropdown-content::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+}
+
+/* Dropdown Arrow */
+.dropdown-arrow {
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid var(--color-dropdown-bg);
+  position: absolute;
+  top: -8px;
+  left: 20px;
+}
+
+/* Dropdown Links */
+.dropdown-content a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: var(--color-link);
+  font-size: 0.95rem;
+  transition: background var(--transition-speed), color var(--transition-speed);
+}
+
+.dropdown-content a:hover {
+  background-color: var(--color-dropdown-hover);
+  color: var(--color-link-hover);
+}
+
+/* === Search Bar === */
+.search-container {
+  position: relative;
+}
+
+.search-container input {
+  background-color: var(--color-search-bg);
+  border: none;
+  border-radius: var(--radius-pill);
+  padding: 0.5rem 2.5rem 0.5rem 1rem;
+  color: var(--color-text);
+  font-size: 0.9rem;
+}
+
+.search-container input::placeholder {
+  color: var(--color-search-placeholder);
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-search-placeholder);
+  font-size: 1rem;
+}
+
+/* === Responsive (Optional) === */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Could be replaced with hamburger menu */
+  }
+
+  .search-container input {
+    width: 120px;
+  }
 }
