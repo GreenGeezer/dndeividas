@@ -1,4 +1,18 @@
 /* === Global Variables === */
+@font-face {
+  font-family: "Optimus";
+  src: url("fonts/OptimusPrinceps.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OptimusBold";
+  src: url("fonts/OptimusPrincepsSemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --color-bg: #0b0b0b;
   --color-header-bg-start: #1a1a1a;
@@ -11,15 +25,23 @@
   --color-search-bg: #333333;
   --color-search-placeholder: #aaaaaa;
 
-  --font-base: serif;
+  --font-base: "Optimus";
+  --font-bold: "OptimusBold";
   --radius-rounded: 8px;
   --radius-pill: 9999px;
   --transition-speed: 0.3s;
 }
 
 /* === Base Reset === */
+header .dropbtn,
+header a {
+  font-family: var(--font-bold);
+  font-size: 20px;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: var(--font-base);
   background-color: var(--color-bg);
   color: var(--color-text);
@@ -37,7 +59,7 @@ a {
     var(--color-header-bg-start),
     var(--color-header-bg-end)
   );
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   position: relative;
   z-index: 1000;
@@ -56,8 +78,9 @@ a {
 }
 
 .home-logo img {
-  height: 40px;
+  width: 200px;
   margin-right: 1.5rem;
+  padding: 0 0 10px;
 }
 
 /* === Navigation Links === */
@@ -70,10 +93,8 @@ a {
   background: none;
   border: none;
   color: var(--color-text);
-  font-size: 1rem;
   cursor: pointer;
   position: relative;
-  padding: 0.5rem 0;
   font-weight: bold;
   transition: color var(--transition-speed);
 }
@@ -105,7 +126,7 @@ a {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
   margin-top: 0;
   padding-top: 0;
-  padding: 0.75rem 0 0.5rem 0;
+  padding: 0.5rem 0 0.5rem 0;
   z-index: 1000;
 
   /* Smooth fade/slide */
@@ -114,15 +135,6 @@ a {
   transform: translateY(-5px);
   transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
   pointer-events: none;
-}
-
-.dropdown-content::before {
-  content: "";
-  position: absolute;
-  top: -8px;
-  left: 0;
-  width: 100%;
-  height: 8px;
 }
 
 /* Dropdown Arrow */
