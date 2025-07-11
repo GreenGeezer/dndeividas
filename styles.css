@@ -57,7 +57,7 @@ a {
     var(--color-header-bg-start),
     var(--color-header-bg-end)
   );
-  padding: 1rem 2rem 0;
+  padding: 1rem 2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   position: relative;
   z-index: 1000;
@@ -75,10 +75,15 @@ a {
   align-items: center;
 }
 
-.home-logo img {
-  width: 200px;
+.logo-image {
+  height: 90px;
   margin-right: 1.5rem;
-  padding: 0 0 15px;
+  transition: transform 330ms ease-in-out, filter 330ms ease-in-out;
+}
+
+.home-logo:hover .logo-image {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 10px rgba(250, 206, 28, 0.981));
 }
 
 /* === Navigation Links === */
@@ -88,6 +93,7 @@ a {
 }
 
 .dropbtn {
+  top: 0.5rem;
   background: none;
   border: none;
   color: var(--color-text);
@@ -200,7 +206,7 @@ a {
   filter: invert(1);
 }
 
-/* === Responsive (Optional) === */
+/* === Responsive === */
 @media (max-width: 768px) {
   .nav-links {
     display: none; /* Could be replaced with hamburger menu */
