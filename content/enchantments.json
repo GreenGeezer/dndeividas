@@ -1,0 +1,458 @@
+{
+  "armor_quality_enchantments": [
+    { "quality": "+1", "price": "60 gp" },
+    { "quality": "+2", "price": "500 gp" },
+    { "quality": "+3", "price": "1000 gp" }
+  ],
+  "minor_armor_enchantments": [
+    {
+      "name": "Adepts Armor",
+      "description": "Gain proficiency in a skill or double proficiency if already proficient.",
+      "cost": "10 gp"
+    },
+    {
+      "name": "Armor Bond",
+      "description": "Summon or dismiss armor as a bonus action.",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Hardened Armor",
+      "description": "Critical hits become normal hits. Reduce forced movement by 10 feet.",
+      "cost": "10 gp"
+    },
+    {
+      "name": "Icarus Armor",
+      "description": "Gain 60 ft flying speed for 10 minutes. Usable once per dawn.",
+      "cost": "50 gp"
+    }
+  ],
+  "major_armor_enchantments": [
+    {
+      "name": "Reactive Armor",
+      "description": "+3 AC against subsequent attacks from a creature that hit you.",
+      "cost": "50 gp"
+    },
+    {
+      "name": "Damage Reduction",
+      "description": "Reduce melee, ranged, or spell damage by the enchantment tier value. Doesn't stack with similar effects.",
+      "cost": "50 gp (3) / 150 gp (4) / 250 gp (5)"
+    },
+    {
+      "name": "Glamoured Armor",
+      "description": "Advantage on Charisma (Persuasion) checks. Disguise armor appearance.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Invulnerability",
+      "description": "Resistance to nonmagical damage. Once per long rest, immunity for 10 minutes.",
+      "cost": "200 gp"
+    },
+    {
+      "name": "Liars Armor",
+      "description": "Advantage on Deception. Bonus action to deceive and gain attack advantage.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Mage Armor",
+      "description": "Reroll failed concentration saves.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Sadist's Armor",
+      "description": "Advantage on Intimidation. Frighten enemies within 30 feet. Reactions forced.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Versatile Armor",
+      "description": "3 charges to cast jump, longstrider, or enhance ability. Regains at dawn.",
+      "cost": "100 gp",
+      "requires_attunement": true
+    }
+  ],
+  "shield_quality_enchantments": [
+    { "quality": "+1", "price": "20 gp" },
+    { "quality": "+2", "price": "200 gp" },
+    { "quality": "+3", "price": "600 gp" }
+  ],
+  "minor_shield_enchantments": [
+    {
+      "name": "Bashing",
+      "description": "Advantage on shove checks. Can shove as a bonus action and deal bludgeoning damage.",
+      "cost": "10 gp"
+    },
+    {
+      "name": "Deflect Attacks",
+      "description": "Use reaction to gain resistance against an attack’s damage.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Deflect Elements",
+      "description": "Use reaction to gain resistance to elemental damage type until end of next turn.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Redirect Damage",
+      "description": "Use reaction to take damage instead of ally within 5 feet.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    }
+  ],
+  "major_shield_enchantments": [
+    {
+      "name": "Spellguard",
+      "description": "Spell attacks have disadvantage against you. Resistance to spell damage.",
+      "cost": "100 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Shield Animation",
+      "description": "Animate shield to float and protect you while freeing your hands.",
+      "cost": "100 gp",
+      "requires_attunement": true
+    }
+  ],
+  "weapon_quality_enchantments": [
+    { "quality": "+1", "price": "6 gp" },
+    { "quality": "+2", "price": "100 gp" },
+    { "quality": "+3", "price": "300 gp" }
+  ],
+  "minor_weapon_enchantments": [
+    {
+      "name": "Answering",
+      "description": "Use reaction to attack a creature that damaged you. Gain advantage on the attack roll.",
+      "cost": "50 gp"
+    },
+    {
+      "name": "Berserker",
+      "description": "Deals +2d6 extra damage when below half hit points.",
+      "cost": "50 gp"
+    },
+    {
+      "name": "Brutal Critical",
+      "description": "Roll an extra damage die on a critical hit. Can be applied multiple times.",
+      "cost": "50 gp"
+    },
+    {
+      "name": "Draw Vitality",
+      "description": "Spend a Hit Die on hit to heal. Regain all Hit Dice on long rest.",
+      "cost": "3 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Extend",
+      "description": "Weapon's reach increases by 5 feet.",
+      "cost": "6 gp"
+    },
+    {
+      "name": "Improved Critical",
+      "description": "Crits on 19-20. Also crit if attack roll exceeds AC by 10.",
+      "cost": "50 gp"
+    },
+    {
+      "name": "Life Stealer",
+      "description": "Gain temporary HP based on tier when reducing a creature to 0 HP.",
+      "cost": "3 gp (2d6) / 30 gp (4d8) / 150 gp (6d10)"
+    },
+    {
+      "name": "Returnin",
+      "description": "Weapon gains thrown property and returns to your hand.",
+      "cost": "10 gp"
+    },
+    {
+      "name": "Weapon Bond",
+      "description": "Returns after thrown. Recall from up to 1 mile.",
+      "cost": "3 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Weapon Focus",
+      "description": "Use spellcasting ability for weapon attack/damage rolls. Acts as a spellcasting focus.",
+      "cost": "5 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Wounding",
+      "description": "HP lost to this weapon can only be regained through rest.",
+      "cost": "30 gp"
+    }
+  ],
+  "major_weapon_enchantments": [
+    {
+      "name": "Blinding",
+      "description": "On a crit, deal radiant damage and potentially blind the target.",
+      "cost": "250 gp"
+    },
+    {
+      "name": "Creature Slaying",
+      "description": "Extra 3d8 damage to a chosen creature type.",
+      "cost": "50 gp"
+    },
+    {
+      "name": "Dualist",
+      "description": "Add proficiency to AC when hit. If missed, make an opportunity attack.",
+      "cost": "25 gp"
+    },
+    {
+      "name": "Elemental Smite",
+      "description": "Spend spell slot to deal 1d8/level elemental damage.",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Magical Power",
+      "description": "Bonus damage dice of chosen type.",
+      "cost": "5 gp (1d4) / 50 gp (2d6) / 400 gp (3d8)"
+    },
+    {
+      "name": "Mark of the Protector",
+      "description": "Mark target on hit. They have disadvantage to attack others.",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Speed",
+      "description": "Make one additional weapon attack as a bonus action.",
+      "cost": "60 gp"
+    }
+  ],
+  "minor_object_enchantments": [
+    {
+      "name": "Ability Enhancement",
+      "description": "Gain a bonus to ability checks and saving throws equal to the enchantment tier value.",
+      "cost": "2 gp (+1) / 10 gp (+2) / 100 gp (+3) / 250 gp (+4)",
+      "requires_attunement": true
+    },
+    {
+      "name": "Commanders Enhancement",
+      "description": "Use reaction to grant advantage on attack roll or saving throw to ally within 30 feet.",
+      "cost": "20 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Defensive Enhancement",
+      "description": "Bonus to AC equal to enchantment tier. Does not stack with Unarmored Defense.",
+      "cost": "30 gp (+1) / 250 gp (+2) / 500 gp (+3)",
+      "requires_attunement": true
+    },
+    {
+      "name": "Elemental Resistance",
+      "description": "Gain resistance to a chosen damage type. Multiple instances allowed.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Elemental Focus",
+      "description": "Spells you cast ignore resistance to chosen damage type. Multiple instances allowed.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "False Detection",
+      "description": "You are hidden from divination magic, can't be targeted or scryed by it.",
+      "cost": "3 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Greater Healing",
+      "description": "Add dice from tier to healing spells. Must be holding item during cast.",
+      "cost": "6 gp (1d8) / 60 gp (2d10) / 300 gp (3d12)",
+      "requires_attunement": true
+    },
+    {
+      "name": "Greater Power Increase",
+      "description": "Increase an ability score by 2, up to 22. Chosen at enchantment.",
+      "cost": "200 gp"
+    },
+    {
+      "name": "Power Increase",
+      "description": "Increase an ability score by 2, up to 20. Chosen at enchantment.",
+      "cost": "50 gp"
+    },
+    {
+      "name": "Resilience",
+      "description": "Gain proficiency in a saving throw of your choice. Multiple instances allowed.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Skill Empowerment",
+      "description": "Advantage on ability checks using a specific skill/tool you're proficient in. Multiple instances allowed.",
+      "cost": "20 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Spell Enhancement",
+      "description": "Bonus to spell attacks and DC. Regain spell slot once per long rest. Acts as focus.",
+      "cost": "50 gp (+1) / 150 gp (+2) / 350 gp (+3)",
+      "requires_attunement": true
+    }
+  ],
+  "major_object_enchantments": [
+    {
+      "name": "Barrier",
+      "description": "Gain temporary HP for self or ally. Uses per day based on tier. Must hold object.",
+      "cost": "5 gp (x1) / 50 gp (x2) / 150 gp (x3)",
+      "requires_attunement": true
+    },
+    {
+      "name": "Bind Spell",
+      "description": "Object can cast bound spells. Costs based on spell level and effects. Highly customizable.",
+      "cost": "Variable per spell level and effect (see spell table and modifiers)",
+      "requires_attunement": true
+    },
+    {
+      "name": "Creature Protection",
+      "description": "Disadvantage to attacks from chosen creature type. Immunity to charm, fright, and possession from them.",
+      "cost": "400 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Damage Resistance",
+      "description": "Resistance to chosen physical damage type.",
+      "cost": "250 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Elemental Immunity",
+      "description": "Immunity to chosen elemental damage type.",
+      "cost": "300 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Magical Mastery",
+      "description": "Cast spells of chosen school one level higher.",
+      "cost": "500 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Magical Mitigation",
+      "description": "Use reaction and spell slot to reduce damage taken.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Magic Resistance",
+      "description": "Advantage on saving throws vs spells and magical effects.",
+      "cost": "100 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Missile Resistance",
+      "description": "Resistance to ranged weapon attacks and Dex save damage.",
+      "cost": "50 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Resource Recharge",
+      "description": "Class-based recharge ability, varies by class. Once per long rest.",
+      "cost": "500 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Restore",
+      "description": "Restore HP for self or ally. Uses per day based on tier. Must hold object.",
+      "cost": "5 gp (x1) / 50 gp (x2) / 150 gp (x3)",
+      "requires_attunement": true
+    },
+    {
+      "name": "Regeneration",
+      "description": "Regain 1 HP each turn unless at 0 HP.",
+      "cost": "500 gp",
+      "requires_attunement": true
+    },
+    {
+      "name": "Ruin",
+      "description": "Deal force damage to creature or heal undead. Uses per day based on tier. Must hold object.",
+      "cost": "5 gp (x1) / 50 gp (x2) / 150 gp (x3)",
+      "requires_attunement": true
+    },
+    {
+      "name": "Summon Monster",
+      "description": "Summons creatures of a specified type (e.g., undead, fey, etc.) once per day. You choose tier (I-X) and CR breakdown. Summoned creatures act on your initiative and vanish if reduced to 0 HP, after 1 hour, or if you lose concentration. Must hold the object to activate. Includes options for consumable version (25% cost). Extensive customization.",
+      "table": [
+        {
+          "tier": "Summon Monster I",
+          "cost": "2.5 gp",
+          "one": "¼",
+          "two": "⅛"
+        },
+        {
+          "tier": "Summon Monster II",
+          "cost": "5 gp",
+          "one": "½",
+          "two": "¼",
+          "three": "⅛"
+        },
+        {
+          "tier": "Summon Monster III",
+          "cost": "10 gp",
+          "one": "2",
+          "two": "1",
+          "three": "½",
+          "four": "⅛"
+        },
+        {
+          "tier": "Summon Monster IV",
+          "cost": "40 gp",
+          "one": "3",
+          "two": "2",
+          "three": "1",
+          "four": "½"
+        },
+        {
+          "tier": "Summon Monster V",
+          "cost": "90 gp",
+          "one": "4",
+          "two": "2",
+          "three": "1",
+          "four": "½"
+        },
+        {
+          "tier": "Summon Monster VI",
+          "cost": "200 gp",
+          "one": "5",
+          "two": "3",
+          "three": "2",
+          "four": "1"
+        },
+        {
+          "tier": "Summon Monster VII",
+          "cost": "300 gp",
+          "one": "6",
+          "two": "4",
+          "three": "2",
+          "four": "1"
+        },
+        {
+          "tier": "Summon Monster VIII",
+          "cost": "400 gp",
+          "one": "7",
+          "two": "4",
+          "three": "3",
+          "four": "2"
+        },
+        {
+          "tier": "Summon Monster IX",
+          "cost": "800 gp",
+          "one": "8",
+          "two": "5",
+          "three": "3",
+          "four": "2"
+        },
+        {
+          "tier": "Summon Monster X",
+          "cost": "1500 gp",
+          "one": "10",
+          "two": "6",
+          "three": "4",
+          "four": "3"
+        }
+      ],
+      "requires_attunement": true
+    }
+  ]
+}

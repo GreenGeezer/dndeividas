@@ -1,0 +1,494 @@
+{
+  "poisons": [
+    {
+      "title": "Aboleth Oil",
+      "description": "Aboleth oil is impossibly rare and incredibly dangerous. Coming into contact with it accidentally can quickly spell death for most creatures.",
+      "image": "poison_name.webp",
+      "aquisition": "This poison must be harvested from a recently dead or incapacitated aboleth. It requires no further preparation.",
+      "effect": "A creature subjected to this oil must make a Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease, but the creature is unaware they are affected. After 1 minute.",
+      "types": ["Contact", "Venom", "Aquatoxin"],
+      "stats": {
+        "market_value": 250,
+        "modification_dc": 25,
+        "medicine_dc": 27,
+        "saving_throw_dc": 15
+      }
+    },
+    {
+      "title": "Anosmia",
+      "description": "This gas eliminates the sense of smell, which can be devastating for creatures that rely on it.",
+      "image": "anosmia.webp",
+      "aquisition": "Made from",
+      "effect": "A creature subjected to this poison must make a Constitution saving throw. On a failed save:",
+      "types": ["Inhaled"],
+      "stats": {
+        "market_value": 80,
+        "modification_dc": 18,
+        "medicine_dc": 23,
+        "saving_throw_dc": 18
+      }
+    },
+    {
+      "title": "Antithesis",
+      "description": "While not technically a poison itself, this oily mixture serves a similar purpose. It contains microscopic parasitic entities that live in oil and feast on magic.",
+      "image": "antithesis.webp",
+      "aquisition": "One must first find or acquire a solution that contains the creatures necessary for this mixture. They are typically found in pools of natural",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw. On a failed save, they are infected with a parasitic disease. While diseased in this way:",
+      "types": ["Ingested", "Injury", "Aquatoxin"],
+      "stats": {
+        "market_value": 130,
+        "modification_dc": 18,
+        "medicine_dc": 21,
+        "saving_throw_dc": 14
+      }
+    },
+    {
+      "title": "Bearded Devil Venom",
+      "description": "A less powerful but still dangerous venom derived from bearded devils.",
+      "image": "bearded_devil_venom.webp",
+      "aquisition": "Harvested from a dead or incapacitated bearded devil. Once extracted, the venom retains its potency indefinitely, requiring no further preparation.",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw or be poisoned for 1 minute. While poisoned, the target:",
+      "types": ["Injury", "Venom"],
+      "stats": {
+        "market_value": 60,
+        "modification_dc": 17,
+        "medicine_dc": 20,
+        "saving_throw_dc": 12
+      }
+    },
+    {
+      "title": "Bloodfire Paste",
+      "description": "A reddish-brown paste that reacts with a creature\u2019s blood, igniting it and burning the victim from within.",
+      "image": "bloodfire_paste.webp",
+      "aquisition": "Created from",
+      "effect": "A creature subjected to this poison must make a Constitution saving throw:",
+      "types": ["Injury"],
+      "stats": {
+        "market_value": 65,
+        "modification_dc": 17,
+        "medicine_dc": 17,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Bloodwine",
+      "description": "A versatile positoxin designed to harm undead and heal the living.",
+      "image": "bloodwine.webp",
+      "aquisition": "Created by mixing the blood of a holy creature with blessed wine.",
+      "effect": "",
+      "types": ["Ingested", "Injury", "Positoxin"],
+      "stats": {
+        "market_value": 25,
+        "modification_dc": 15,
+        "medicine_dc": 18,
+        "saving_throw_dc": 11
+      }
+    },
+    {
+      "title": "Boneshard Paste",
+      "description": "This uncommon positoxin is typically spread on surfaces to guard against undead intrusion. It blends easily with light-colored surfaces.",
+      "image": "boneshard_paste.webp",
+      "aquisition": "Made by mixing",
+      "effect": "An undead creature subjected to this poison must succeed on a Constitution saving throw or be poisoned for 1 minute, taking 18 (4d8) radiant damage on a failed save or half as much on a success. Additionally:",
+      "types": ["Contact", "Positoxin"],
+      "stats": {
+        "market_value": 75,
+        "modification_dc": 17,
+        "medicine_dc": 15,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Burnt Othur Fumes",
+      "description": "Poisonous fumes created by burning a specialized compound, causing lingering damage.",
+      "image": "burnt_othur_fumes.webp",
+      "aquisition": "Made from",
+      "effect": "A creature subjected to this poison must make a Constitution saving throw:",
+      "types": ["Inhaled"],
+      "stats": {
+        "market_value": 50,
+        "modification_dc": 15,
+        "medicine_dc": 14,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Chuul Paralytic",
+      "description": "Chuul paralytic is more expensive than crawler mucus but is easier to modify and harder to treat.",
+      "image": "chuul_paralytic.webp",
+      "aquisition": "Harvested from a dead or incapacitated chuul. Once extracted, the venom is carefully distilled to maintain its potency, requiring no further preparation.",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw or be poisoned for 1 minute. While poisoned, the creature is paralyzed. The target can repeat the saving throw at the end of each turn, ending the effect with a success.",
+      "types": ["Contact", "Venom"],
+      "stats": {
+        "market_value": 45,
+        "modification_dc": 14,
+        "medicine_dc": 19,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Cockatrice Saliva",
+      "description": "Saliva from a cockatrice that causes petrification upon contact.",
+      "image": "cockatrice_saliva.webp",
+      "aquisition": "Harvested from a dead or incapacitated cockatrice. Requires no further preparation.",
+      "effect": "A creature subjected to this venom must succeed on a Constitution saving throw:",
+      "types": ["Injury", "Venom"],
+      "stats": {
+        "market_value": 75,
+        "modification_dc": 20,
+        "medicine_dc": 22,
+        "saving_throw_dc": 11
+      }
+    },
+    {
+      "title": "Depraved Decadence",
+      "description": "There exists a special type of acid with unique properties that allow it to be modified to ignore certain types of material. This acid once reached the hands of extremely evil poisoners who refined it into a banetoxin that causes a slow, painful death by starvation. Using this banetoxin is considered cruel even by the standards of most assassins.",
+      "image": "depraved_decadence.webp",
+      "aquisition": "This poison is created using",
+      "effect": "A creature subjected to this poison must make a Constitution saving throw. On a failed save, they can no longer receive sustenance from food. Every two days the creature goes without nourishment, their Constitution score is reduced by 1. If this score reaches 0 due to this effect, the creature dies.",
+      "types": ["Ingested", "Banetoxin"],
+      "stats": {
+        "market_value": 950,
+        "modification_dc": 24,
+        "medicine_dc": 17,
+        "saving_throw_dc": 25
+      }
+    },
+    {
+      "title": "Drow Poison",
+      "description": "A poison used almost exclusively by drow to subdue enemies with minimal effort.",
+      "image": "drow_poison.webp",
+      "aquisition": "Made from",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw:",
+      "types": ["Injury"],
+      "stats": {
+        "market_value": 2,
+        "modification_dc": 17,
+        "medicine_dc": 17,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Elemental Contra",
+      "description": "Elemental Contra comes in many different forms. In addition to targeting the physiology of a specific creature type, it is also made to affect a specific elemental damage type: cold, fire, or lightning.",
+      "image": "elemental_contra.webp",
+      "aquisition": "Elemental Contra requires the",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw. On a failed save, the creature loses all immunities or resistances to the poison's elemental damage type, and gains vulnerability to that damage type. This effect lasts for 1 minute or until cured.",
+      "types": ["Injury", "Banetoxin"],
+      "stats": {
+        "market_value": 310,
+        "modification_dc": 21,
+        "medicine_dc": 22,
+        "saving_throw_dc": 25
+      }
+    },
+    {
+      "title": "Euphoria Breath",
+      "description": "Commonly known as \"knock-out gas,\" this poison is used for crowd control and nefarious purposes.",
+      "image": "essence_of_ether.webp",
+      "aquisition": "Extracted from",
+      "effect": "A creature subjected to this poison must make a Constitution saving throw:",
+      "types": ["Inhaled"],
+      "stats": {
+        "market_value": 30,
+        "modification_dc": 17,
+        "medicine_dc": 13,
+        "saving_throw_dc": 15
+      }
+    },
+    {
+      "title": "Fish out of Water",
+      "description": "A unique poison designed for underwater use, targeting aquatic creatures.",
+      "image": "fish_out_of_water.webp",
+      "aquisition": "Derived from",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw:",
+      "types": ["Inhaled", "Aquatoxin"],
+      "stats": {
+        "market_value": 35,
+        "modification_dc": 15,
+        "medicine_dc": 19,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Ghost Blossom Extract",
+      "description": "A hallucinogenic poison derived from the rare ghost blossom plant.",
+      "image": "ghost_blossom_extract.webp",
+      "aquisition": "Extracted from",
+      "effect": "A creature subjected to this poison must succeed on a Wisdom saving throw:",
+      "types": ["Ingested", "Injury"],
+      "stats": {
+        "market_value": 43,
+        "modification_dc": 13,
+        "medicine_dc": 15,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Golden Ice",
+      "description": "Golden Ice is a specialized poison used by good-aligned creatures for a variety of purposes. The nature of the ice allows it to be shaped into a variety of objects: coins, ammunition, and anything else the creative owner might imagine. Evil creatures often mistake it for a gold coin, only to pick it up and realize their mistake.",
+      "image": "golden_ice.webp",
+      "aquisition": "This is made by mixing",
+      "effect": "An evil creature that comes into contact with Golden Ice must make a Constitution saving throw or take 30 (12d4) cold damage. This damage bypasses all resistances and immunities.",
+      "types": ["Contact"],
+      "stats": {
+        "market_value": 120,
+        "modification_dc": 20,
+        "medicine_dc": 24,
+        "saving_throw_dc": 17
+      }
+    },
+    {
+      "title": "Goodbye Kiss",
+      "description": "Some would-be assassins seem much friendlier than they really are. The Goodbye Kiss is a poison modified from Midnight Tears so that it can be applied to the lips without harming the poisoner. The poisoner must first coat the area of their skin that will come in contact with the poison in the nectar of the flower that Midnight Tears are made from.",
+      "image": "goodbye_kiss.webp",
+      "aquisition": "The Goodbye Kiss requires",
+      "effect": "A creature subjected to this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a Constitution saving throw, taking 31 (9d6) poison damage on a failed save, or half as much damage on a successful one.",
+      "types": ["Contact"],
+      "stats": {
+        "market_value": 160,
+        "modification_dc": 20,
+        "medicine_dc": 21,
+        "saving_throw_dc": 17
+      }
+    },
+    {
+      "title": "Gorgon Breath",
+      "description": "Few that encounter a gorgon live to tell about it, and for good reason. Their breath weapon is extraordinarily dangerous, and even seasoned poisoners hesitate to attempt to harvest or use it.",
+      "image": "gorgon_breath.webp",
+      "aquisition": "This poison must be harvested from a dead or incapacitated",
+      "effect": "A creature subjected to this gas must succeed on a Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the",
+      "types": ["Inhaled", "Venom"],
+      "stats": {
+        "market_value": 120,
+        "modification_dc": 22,
+        "medicine_dc": 24,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Insanity Mist",
+      "description": "Most poisoners seek to kill their targets, but some poisoners just enjoy messing with the minds of their foes. Insanity Mist was invented by those cruel individuals.",
+      "image": "insanity_mist.webp",
+      "aquisition": "Insanity Mist is made from a number of ingredients from the outer planes, primarily",
+      "effect": "A creature subject to this poison must succeed a Constitution saving throw or gain an effect listed on the short-term madness table within the DM's Guide (page 259). The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The madness tables are included on the last page of this supplement for quick reference.",
+      "types": ["Inhaled"],
+      "stats": {
+        "market_value": 225,
+        "modification_dc": 24,
+        "medicine_dc": 19,
+        "saving_throw_dc": 15
+      }
+    },
+    {
+      "title": "Lichbane Poison",
+      "description": "A bone-white unguent that is devastating to undead spellcasters and creatures reliant on mental abilities.",
+      "image": "lichbane_poison.webp",
+      "aquisition": "Created by mixing",
+      "effect": "An undead creature subjected to this poison must make a Constitution saving throw:",
+      "types": ["Injury", "Positoxin"],
+      "stats": {
+        "market_value": 65,
+        "modification_dc": 20,
+        "medicine_dc": 19,
+        "saving_throw_dc": 17
+      }
+    },
+    {
+      "title": "Lockjaw",
+      "description": "Lockjaw causes mild paralysis, affecting the mouth and jaw muscles.",
+      "image": "lockjaw.webp",
+      "aquisition": "Extracted from",
+      "effect": "A creature subjected to this poison must make a Constitution saving throw. On a failed save:",
+      "types": ["Ingested"],
+      "stats": {
+        "market_value": 25,
+        "modification_dc": 15,
+        "medicine_dc": 16,
+        "saving_throw_dc": 11
+      }
+    },
+    {
+      "title": "Malice",
+      "description": "Also known as \"night crystal\" or \"shadeglass,\" this poison originates as a dark purple crystal found deep within the Underdark and on certain planes. When pulverized, it creates a fine powder that blinds any creature that inhales it.",
+      "image": "malice.webp",
+      "aquisition": "The crystals from which malice is created,",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw or become poisoned for 1 hour. The poisoned creature is blinded for the duration.",
+      "types": ["Inhaled"],
+      "stats": {
+        "market_value": 25,
+        "modification_dc": 18,
+        "medicine_dc": 17,
+        "saving_throw_dc": 15
+      }
+    },
+    {
+      "title": "Midnight Tears",
+      "description": "Many nobles have died peacefully in their sleep while their loved ones lay nearby, falling to the effects of a dose of Midnight Tears administered by a stealthy assassin many hours before.",
+      "image": "midnight_tears.webp",
+      "aquisition": "This poison is made from",
+      "effect": "A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a Constitution saving throw, taking 31 (9d6) poison damage on a failed save, or half as much damage on a successful one.",
+      "types": ["Ingested"],
+      "stats": {
+        "market_value": 150,
+        "modification_dc": 20,
+        "medicine_dc": 21,
+        "saving_throw_dc": 17
+      }
+    },
+    {
+      "title": "Mother's Mercy",
+      "description": "This toxin resembles cow\u2019s milk and causes a slow, painless death by rendering the victim unconscious.",
+      "image": "mothers_mercy.webp",
+      "aquisition": "Derived from",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw:",
+      "types": ["Ingested"],
+      "stats": {
+        "market_value": 60,
+        "modification_dc": 17,
+        "medicine_dc": 19,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Nightmare Root",
+      "description": "Nightmare Root comes from a plant deep within the Abyss. When ground into a paste, it can be mixed into food or drink without significantly altering its taste, color, or odor, but it does add the texture of fine sand. Those that consume the root find themselves haunted by their greatest fears upon falling asleep.",
+      "image": "nightmare_root.webp",
+      "aquisition": "This poison is derived from the pulverized roots of",
+      "effect": "A creature subjected to this poison must make a Constitution saving throw. On a failed save, the creature's sleep is haunted with a combination of their greatest fears and everything they've ever done wrong. An affected creature cannot benefit from long rests, and therefore gains a point of exhaustion at the beginning of the next day. The poison leaves the creature's system 24 hours after ingestion.",
+      "types": ["Ingested"],
+      "stats": {
+        "market_value": 145,
+        "modification_dc": 19,
+        "medicine_dc": 21,
+        "saving_throw_dc": 19
+      }
+    },
+    {
+      "title": "Oil of Taggit",
+      "description": "This oil used to be used in many medical applications, but its widespread misuse has caused it to be heavily regulated in most civilizations.",
+      "image": "oil_of_taggit.webp",
+      "aquisition": "Extracted from",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw or become poisoned for 24 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage.",
+      "types": ["Contact"],
+      "stats": {
+        "market_value": 40,
+        "modification_dc": 16,
+        "medicine_dc": 15,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Pale Tincture",
+      "description": "This milky liquid is the primary choice of cruel manipulators who use it to coerce favors from unwilling acquaintances. Introduced unknowingly, it slowly chips away at the victim's vitality, always threatening a slow and painful death. The mere promise of a cure is often enough to make most people act against their better judgment.",
+      "image": "pale_tincture.webp",
+      "aquisition": "Derived from",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw or take 3 (1d6) poison damage and become poisoned. The poisoned creature must repeat the saving throw every 24 hours, taking 3 (1d6) poison damage on a failed save. Until this poison ends, the damage it deals cannot be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally.",
+      "types": ["Ingested"],
+      "stats": {
+        "market_value": 25,
+        "modification_dc": 18,
+        "medicine_dc": 15,
+        "saving_throw_dc": 16
+      }
+    },
+    {
+      "title": "Pallid Serpent's Deception",
+      "description": "Upon ingestion, the victim begins experiencing terrible headaches and visual hallucinations. They often see things twisting and warping, with vile and hideous creatures seeking to cause them harm. Those in the throes of the poison often lash out at those around them, believing that they have suddenly been surrounded by monstrosities. A few unfortunate souls have survived the experience, and the mark of paranoia often follows them until the end of their days.",
+      "image": "pallid_serpents_deception.webp",
+      "aquisition": "This poison is created from the paste made by grinding up leaves of",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw, taking 22 (4d10) psychic damage on a failed save, and must repeat the saving throw at the start of each of its turns. On a successful save, the effect ends. While the creature remains poisoned in this way, it must succeed a Wisdom saving throw at the end of each of its turns, taking 11 (2d10) psychic damage on a failed save.",
+      "types": ["Ingested"],
+      "stats": {
+        "market_value": 134,
+        "modification_dc": 18,
+        "medicine_dc": 15,
+        "saving_throw_dc": 16
+      }
+    },
+    {
+      "title": "Potion of Poison",
+      "description": "This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An",
+      "image": "potion_of_poison.webp",
+      "aquisition": "This poison is relatively easy to craft, but requires",
+      "effect": "A creature subjected to this poison takes 10 (3d6) poison damage and must succeed on a DC 13 Constitution saving throw or be poisoned. While poisoned in this way, the creature takes 10 (3d6) poison damage at the start of each of its turns. At the end of each of its turns, the creature can repeat the saving throw. On a successful save, the poison damage the creature takes on subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.",
+      "types": ["Ingested"],
+      "stats": {
+        "market_value": 146,
+        "modification_dc": 16,
+        "medicine_dc": 15,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Purified Couatl Venom",
+      "description": "Couatl venom is different from the venom of most other creatures in that it requires a refinement process to use, and it loses its potency if taken from an unwilling couatl. However, it is extremely useful for a number of legal and illegal practices.",
+      "image": "purified_couatl_venom.webp",
+      "aquisition": "This poison must be harvested from a willing couatl and then mixed with a small amount of holy water.",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake. This effect ignores immunity to the poisoned condition.",
+      "types": ["Injury", "Venom", "Positoxin"],
+      "stats": {
+        "market_value": 70,
+        "modification_dc": 20,
+        "medicine_dc": 19,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Torpor",
+      "description": "Torpor has been used recreationally in small doses throughout history, but in its concentrated form, it has many sinister capabilities. It can render a creature completely unable to act for extended periods of time.",
+      "image": "torpor.webp",
+      "aquisition": "Derived from",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw or become poisoned for 4d6 hours. The poisoned creature is incapacitated.",
+      "types": ["Ingested"],
+      "stats": {
+        "market_value": 60,
+        "modification_dc": 18,
+        "medicine_dc": 12,
+        "saving_throw_dc": 15
+      }
+    },
+    {
+      "title": "Unicorn Blood",
+      "description": "The blood of a unicorn is thick and silvery. While the initial consumption of unicorn blood brings a sense of life and well-being, its lingering effects are rarely worth the tradeoff.",
+      "image": "unicorn_blood.webp",
+      "aquisition": "Unicorn blood must be taken from a willing unicorn. If that unicorn dies before the blood is consumed, it loses its properties and becomes inert.",
+      "effect": "A creature subjected to this poison heals (4d4 + 4) hit points and must then succeed on a Constitution saving throw. On a failed save, they are affected by one of the options of the",
+      "types": ["Ingested"],
+      "stats": {
+        "market_value": 50,
+        "modification_dc": 20,
+        "medicine_dc": 20,
+        "saving_throw_dc": 17
+      }
+    },
+    {
+      "title": "Veinrot Poison",
+      "description": "This poison has a highly noticeable visual effect upon the victim. The veins closest to the surface of the skin become visibly black as the poison begins working its way through a victim\u2019s bloodstream, turning the blood and the vessels into a rotten black ichor.",
+      "image": "veinrot_poison.webp",
+      "aquisition": "Extracted from",
+      "effect": "A creature subjected to this poison must succeed on a Constitution saving throw or take 5 (2d4) necrotic damage and become poisoned. While poisoned in this way, the creature's Constitution score decreases by 2. The poisoned creature must repeat the saving throw every 24 hours, taking 5 (2d4) necrotic damage on a failed save. Until this poison ends, the damage it deals cannot be healed by any means. After three successful saving throws, the effect ends and the creature can heal normally.",
+      "types": ["Ingested", "Injury"],
+      "stats": {
+        "market_value": 50,
+        "modification_dc": 16,
+        "medicine_dc": 12,
+        "saving_throw_dc": 13
+      }
+    },
+    {
+      "title": "Vrock Spores",
+      "description": "Vrock are giant, vulture-like demons. The spores that they release deal significant damage over time to creatures that come in contact with them.",
+      "image": "vrock_spores.webp",
+      "aquisition": "This poison must be harvested from a dead or incapacitated vrock. It requires no further preparation.",
+      "effect": "A creature subjected to these spores must succeed on a Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it.",
+      "types": ["Inhaled", "Venom"],
+      "stats": {
+        "market_value": 62,
+        "modification_dc": 20,
+        "medicine_dc": 19,
+        "saving_throw_dc": 14
+      }
+    }
+  ]
+}

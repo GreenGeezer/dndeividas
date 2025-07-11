@@ -1,0 +1,387 @@
+[
+  {
+    "title": "Air Elemental Whisp",
+    "description": "A nearly intangible strand of condensed wind, harvested from the dissipating form of an air elemental. It shimmers with an almost imperceptible silver-blue light, constantly shifting and twisting as if trying to escape. Air Elemental Whisps are essential in potions of flight, spells of swiftness, and enchantments that manipulate the wind.",
+    "image": "ingredient_air_elemental_whisp.webp",
+    "harvesting_dc": "22",
+    "toolkit": "Alchemist’s Supplies or Arcana Focus"
+  },
+  {
+    "title": "Aphibian Saliva",
+    "description": "A viscous, translucent secretion collected from magical amphibians such as giant toads or enchanted newts. Amphibian Saliva is known for its adhesive and alchemical properties, making it a crucial component in potions of adhesion, toxin brewing, and transformative elixirs. It glistens with an unnatural sheen and has a faintly iridescent hue.",
+    "image": "ingredient_amphibian_saliva.webp",
+    "harvesting_dc": "12",
+    "toolkit": "Herbalism Kit or Poisoner’s Kit"
+  },
+  {
+    "title": "Angel Blood",
+    "description": "The luminous, otherworldly essence of a celestial being, Angel Blood is a radiant white liquid that glows softly with divine golden energy. It is warm to the touch and imbued with potent restorative and purifying properties. Revered as the rarest of alchemical components, it is used in miracles, divine enchantments, and elixirs capable of healing even the gravest of wounds.",
+    "image": "ingredient_angel_blood.png",
+    "harvesting_dc": "20",
+    "toolkit": "Alchemist’s Supplies or Arcana Focus"
+  },
+  {
+    "title": "Black Corn",
+    "description": "A rare strain of corn that grows in cursed farmlands and shadowed fields, Black Corn has an unnatural onyx hue and a faint, eerie shimmer. Its kernels are tough and slightly bitter, often used in dark rituals, necromantic alchemy, and enchanted brews that grant visions of the beyond.",
+    "image": "ingredient_black_corn.webp",
+    "harvesting_dc": "13",
+    "toolkit": "Herbalism Kit or Farmer’s Tools"
+  },
+  {
+    "title": "Black Ivy",
+    "description": "A creeping vine with shadowy, almost obsidian leaves, Black Ivy thrives in cursed forests and abandoned ruins. Its tendrils move unnaturally, as if seeking something unseen. Alchemists use it in potions of stealth and shadow magic, while assassins prize it for its mildly toxic sap.",
+    "image": "ingredient_black_ivy.webp",
+    "harvesting_dc": "14",
+    "toolkit": "Herbalism Kit or Poisoner’s Kit"
+  },
+  {
+    "title": "Black Lotus",
+    "description": "A rare and mystical flower that blooms only under the light of a blood moon, the Black Lotus is infamous for its potent magical properties. Its inky black petals shimmer with a faint violet glow, exuding an intoxicating, almost hypnotic fragrance. Used in high-level enchantments, poisons, and elixirs of power, it is said to grant visions of the unknown.",
+    "image": "ingredient_black_lotus.webp",
+    "harvesting_dc": "18",
+    "toolkit": "Herbalism Kit or Poisoner’s Kit"
+  },
+  {
+    "title": "Blood Cherry Stem",
+    "description": "The dark crimson stem of the rare Blood Cherry tree, this fibrous strand seeps a thick, red sap when cut. It is highly sought after for use in elixirs that enhance vitality, as well as in rituals of blood magic. The stem carries a faint iron scent, and alchemists believe it pulses faintly when exposed to moonlight.",
+    "image": "ingredient_blood_cherry_stem.webp",
+    "harvesting_dc": "14",
+    "toolkit": "Herbalism Kit or Alchemist’s Supplies"
+  },
+  {
+    "title": "Blood Tree",
+    "description": "A mythical tree said to be rooted in ancient battlefields, the Blood Tree is named for its deep crimson sap that oozes like thick, coagulated blood. Its gnarled bark is dark and rough, often streaked with veins of red. The sap is highly prized for its potent regenerative and necromantic properties, used in elixirs of life, blood magic rituals, and rare alchemical transmutations. Due to its extreme rarity, harvesting even a single drop is a perilous endeavor.",
+    "image": "ingredient_blood_tree.webp",
+    "harvesting_dc": "15",
+    "toolkit": "Herbalism Kit or Woodcarver’s Tools"
+  },
+  {
+    "title": "Caustic Blood",
+    "description": "Caustic Blooms are rare, toxic flowers that grow in areas corrupted by alchemical waste or magical decay. Their petals glow faintly with acidic hues—greens, yellows, and purples—and release a pungent vapor that can sting the eyes. Alchemists harvest them with care to extract potent acids or brew toxins and corrosive compounds.",
+    "image": "ingredient_caustic_bloom.webp",
+    "harvesting_dc": "25",
+    "toolkit": "Herbalism Kit or Poisoner's Kit"
+  },
+  {
+    "title": "Cremated Lich",
+    "description": "The ashen remains of a destroyed lich, still crackling with latent necrotic energy. These eerie gray-white ashes swirl with faint traces of violet and sickly green hues, refusing to scatter in the wind. Highly sought after by necromancers and alchemists, they are used in potions of undeath, phylactery enchantments, and dark rituals of resurrection.",
+    "image": "ingredient_cremated_lich.webp",
+    "harvesting_dc": "20",
+    "toolkit": "Alchemist’s Supplies or Arcana Tools"
+  },
+  {
+    "title": "Devil Heart",
+    "description": "The smoldering, corrupted heart of a fallen devil, still pulsing with infernal energy. Its dark crimson flesh is laced with blackened veins, occasionally exuding wisps of smoke and embers. Devil Hearts are incredibly rare and dangerous, used in powerful infernal rituals, hellfire enchantments, and potions that grant demonic resilience—at a cost.",
+    "image": "ingredient_devil_heart.webp",
+    "harvesting_dc": "20",
+    "toolkit": "Alchemist’s Supplies or Arcana Focus"
+  },
+  {
+    "title": "Draconis Fundamentalis",
+    "description": "A legendary and fearsome organ found within the chest of a dragon, the Draconis Fundamentalis is the very core of a dragon’s elemental power. This organ constantly pulses with raw magical energy, shifting in color and texture depending on the dragon’s elemental affinity—blazing with fire, crackling with lightning, or swirling with icy mist. It is an essential component in the most potent enchantments, weapon forgeries, and alchemical elixirs capable of imbuing elemental devastation.",
+    "image": "ingredient_draconis_fundamentalis.webp",
+    "harvesting_dc": "20",
+    "toolkit": "Alchemist’s Supplies or Leatherworker's Tools"
+  },
+  {
+    "title": "Dragons Blood",
+    "description": "The rare and potent blood of a dragon, imbued with raw magical energy. Thick and viscous, Dragon’s Blood shimmers between deep crimson and molten gold, radiating faint heat. It is a prized ingredient in legendary enchantments, powerful alchemical elixirs, and spells of destruction and renewal. Even a single drop holds immense power.",
+    "image": "ingredient_dragons_blood.webp",
+    "harvesting_dc": "25",
+    "toolkit": "Alchemist’s Supplies or Poisoner's Kit"
+  },
+  {
+    "title": "Dragons Gizzard",
+    "description": "A rare and powerful organ harvested from fallen dragons, the Dragon’s Gizzard is a dense, hardened sac lined with magical minerals and unprocessed elements. It is said to hold traces of the dragon’s breath weapon, making it a valuable reagent in alchemical combustion, elemental magic, and draconic transmutations.",
+    "image": "ingredient_dragons_gizzard.webp",
+    "harvesting_dc": "18",
+    "toolkit": "Alchemist’s Supplies or Butcher’s Tools"
+  },
+  {
+    "title": "Earth Elemental Dust",
+    "description": "A fine, rocky powder left behind when an earth elemental is destroyed, infused with trace amounts of elemental energy. It has a faint, gritty shimmer and is often used in alchemical and enchanting recipes to reinforce durability.",
+    "image": "ingredient_earh_elemental_dust.webp",
+    "harvesting_dc": "12",
+    "toolkit": "Alchemist’s Supplies or Mason’s Tools"
+  },
+  {
+    "title": "Ectoplasm",
+    "description": "A rare, ghostly residue left behind by spectral entities and otherworldly spirits. Ectoplasm shimmers with an eerie, translucent glow, shifting between liquid and vapor. It is cold to the touch and unnervingly sticky, used in powerful necromantic spells, ghostbinding rituals, and phantasmal elixirs.",
+    "image": "ingredient_ectoplasm.webp",
+    "harvesting_dc": "18",
+    "toolkit": "Alchemist’s Supplies or Glassblower's Tools"
+  },
+  {
+    "title": "Emberrose",
+    "description": "The Emberrose is a rare and volatile plant found only in scorched wastelands or deep volcanic craters. Its petals resemble burning coals, glowing with a constant inner fire. The plant reacts violently to touch, releasing a burst of flame if handled improperly. Harvested with extreme caution, its essence fuels powerful fire-based enchantments and destructive elixirs.",
+    "image": "ingredient_emberrose.webp",
+    "harvesting_dc": "18",
+    "toolkit": "Alchemist’s Supplies or Fireproof Tongs (Smith’s Tools specialization)"
+  },
+  {
+    "title": "Everfrost Berrie",
+    "description": "These small, icy-blue berries grow in the frigid realms where frost magic lingers. They are perpetually cold to the touch, covered in a thin layer of frost even in warm environments. Consuming one delivers an intense chill, and they are often used in alchemical potions to resist heat or enhance ice-based spells.",
+    "image": "ingredient_everfrost_berrie.webp",
+    "harvesting_dc": "13",
+    "toolkit": "Herbalism Kit or Alchemist’s Supplies"
+  },
+  {
+    "title": "Fairy Stool",
+    "description": "A tiny, luminescent mushroom commonly found in enchanted groves and fairy rings. Its delicate cap glows softly in the dark, pulsing with a faint magical aura. Fairy Stool is a key ingredient in potions of invisibility, dream magic, and fae-related enchantments. It is fragile and must be harvested with care.",
+    "image": "ingredient_fairy_stool.webp",
+    "harvesting_dc": "13",
+    "toolkit": "Herbalism Kit or Alchemist’s Supplies"
+  },
+  {
+    "title": "Fingernaim from a Giant",
+    "description": "A massive, keratinous fragment from the fingernail of a giant, this hardened material carries traces of the creature’s immense strength. It has a rough, weathered texture, often yellowed or chipped from years of exposure. Enchanters and alchemists use it in potions of giant’s strength and resilience, as well as in crafting durable talismans.",
+    "image": "ingredient_fingernail_from_a_giant.png",
+    "harvesting_dc": "14",
+    "toolkit": "Alchemist’s Supplies or Smith’s Tools"
+  },
+  {
+    "title": "Fire Elemental Ember",
+    "description": "A smoldering remnant of a defeated fire elemental, this ember pulses with an inner heat that never fully extinguishes. It flickers between deep red and bright orange, radiating faint warmth even in the coldest environments. Alchemists and enchanters prize it for its ability to enhance fire-based magic and forge enchanted weaponry.",
+    "image": "ingredient_fire_elemental_ember.webp",
+    "harvesting_dc": "14",
+    "toolkit": "Smith’s Tools or Alchemist’s Supplies"
+  },
+  {
+    "title": "Unknown",
+    "description": "This thick, dark crimson fluid pulses faintly with unnatural energy. Drawn from a Fzeg — a rare and cursed hybrid of vampire and werewolf — the blood is volatile and difficult to contain. Alchemists believe it holds the essence of both lunar fury and vampiric hunger, making it a dangerous but powerful ingredient in transformative or necromantic concoctions.",
+    "image": "ingredient_fzeg_blood.png",
+    "harvesting_dc": "17",
+    "toolkit": "Alchemist’s Supplies or Healer’s Kit"
+  },
+  {
+    "title": "Giant Spider Hair",
+    "description": "Long, coarse, and unnervingly strong, Giant Spider Hair is plucked from the bristling legs of enormous arachnids. The hairs contain trace amounts of venom and have natural adhesive properties, making them a key ingredient in potions of climbing, stealth elixirs, and web-like bindings.",
+    "image": "ingredient_giant_spider_hair.png",
+    "harvesting_dc": "13",
+    "toolkit": "Weaver's Tools or Poisoner’s Kit"
+  },
+  {
+    "title": "Gillyweed",
+    "description": "A rare aquatic plant found in deep, enchanted lakes and oceanic trenches, Gillyweed consists of long, slimy tendrils that shimmer with a faint green glow. When consumed, it temporarily grants the ability to breathe underwater by sprouting gill-like structures on the neck. Highly sought after by divers, explorers, and alchemists specializing in water-based potions.",
+    "image": "ingredient_gillyweed.webp",
+    "harvesting_dc": "15",
+    "toolkit": "Herbalism Kit or Fisher’s Tools"
+  },
+  {
+    "title": "Hagfinger",
+    "description": "A twisted, gnarled root resembling the shriveled finger of a hag, often found in cursed bogs and shadowed swamps. Hagfinger is infused with dark magic, making it a favored ingredient in hexes, necromantic brews, and curses. Its surface is rough and bark-like, with dark veins pulsing faintly when exposed to moonlight.",
+    "image": "ingredient_hagfinger.png",
+    "harvesting_dc": "15",
+    "toolkit": "Weaver's Tools or Poisoner’s Kit"
+  },
+  {
+    "title": "Holy Remains",
+    "description": "These sacred ashes and bone fragments are all that remain of a saint or divine being, their essence still radiating a soft, celestial glow. Holy Remains are revered for their ability to purify, heal, and ward against evil, making them a crucial component in high-level consecrations, divine magic, and resurrection rituals.",
+    "image": "ingredient_holy_remains.webp",
+    "harvesting_dc": "18",
+    "toolkit": "Priest’s Kit or Alchemist’s Supplies"
+  },
+  {
+    "title": "Holy Water",
+    "description": "A sacred liquid blessed by divine rituals, Holy Water shimmers with a faint golden glow when exposed to light. It is known for its purifying properties, burning undead and fiends while offering protection to the faithful. Often used in exorcisms, healing potions, and sanctification rituals, it carries a lingering warmth and a faint scent of myrrh.",
+    "image": "ingredient_holy_water.webp",
+    "harvesting_dc": "10",
+    "toolkit": "Alchemist’s Supplies or Priest’s Kit"
+  },
+  {
+    "title": "Unknown",
+    "description": "Ley oil is typically found in pools of water that sit along ley lines within the underdark. The oily mixture can then be processed to make it more viscous for application to weapons, or to make it clear in order to be hidden within food or drink.",
+    "image": "ingredient_ley_oil.png",
+    "harvesting_dc": "16",
+    "toolkit": "Alchemist’s Supplies or Poisoner’s Kit"
+  },
+  {
+    "title": "Lightning Moss",
+    "description": "A rare, crackling moss that thrives in the aftermath of powerful storms, often found growing on trees struck by lightning. Its surface constantly flickers with tiny electrical sparks, releasing a faint hum in the air. Lightning Moss is an essential ingredient in storm-based magic, energy-infused potions, and enchantments that enhance speed and reflexes.",
+    "image": "ingredient_lightning_moss.webp",
+    "harvesting_dc": "29",
+    "toolkit": "Herbalism Kit or Carpenter's Tools"
+  },
+  {
+    "title": "Lightning Struck Metal",
+    "description": "Metal that has been directly struck by a natural or magical lightning bolt, forever infused with crackling energy. The surface is blackened and scorched, with jagged veins of glowing blue energy running through it. This rare material is highly sought after by enchanters and artificers for crafting weapons of shocking power and spells that harness the fury of the storm.",
+    "image": "ingredient_lightning_struck_metal.png",
+    "harvesting_dc": "22",
+    "toolkit": "Smith’s Tools or Jeweler's Tools"
+  },
+  {
+    "title": "Lolths Kiss",
+    "description": "A rare, venomous flower found deep in the Underdark, Lolth’s Kiss is named after the Spider Queen herself. Its dark violet petals have a silken texture, while its long, black stamens drip with a toxic, web-like substance. Used in potent poisons, shadow enchantments, and dark rituals, it is both feared and revered by drow alchemists.",
+    "image": "ingredient_lolths_kiss.webp",
+    "harvesting_dc": "16",
+    "toolkit": "Herbalism Kit or Poisoner’s Kit"
+  },
+  {
+    "title": "Mandrake Root",
+    "description": "A rare and highly sought-after root known for its humanoid shape and its infamous, ear-piercing scream when uprooted. Mandrake Root is imbued with powerful magical properties, often used in potions of vitality, transformative magic, and deadly hexes. Its gnarled form pulses with residual life energy, making it difficult to harvest safely.",
+    "image": "ingredient_mandrake_root.png",
+    "harvesting_dc": "20",
+    "toolkit": "Herbalism Kit or Musical Instruments"
+  },
+  {
+    "title": "Meat Leaf",
+    "description": "A strange and rare plant found in deep feywilds and magical groves, the Meat Leaf appears as a thick, fleshy leaf with a reddish hue. When cut, it secretes a rich, iron-scented sap that resembles fresh blood. Used by alchemists and druids in survival potions and fleshcrafting rituals, this plant is both a curiosity and a valuable resource.",
+    "image": "ingredient_meat_leaf.webp",
+    "harvesting_dc": "14",
+    "toolkit": "Herbalism Kit or Alchemist’s Supplies"
+  },
+  {
+    "title": "Midnight Tears",
+    "description": "A rare and deadly toxin, Midnight Tears appears as a thick, inky-black liquid that gleams with a faint silver shimmer. It is said to be distilled from the sorrow of the night itself, dissolving soundlessly into liquids and remaining undetectable until midnight, when its effects take hold. Used by assassins and alchemists in lethal poisons and shadow magic.",
+    "image": "ingredient_midnight_tears.webp",
+    "harvesting_dc": "18",
+    "toolkit": "Poisoner’s Kit or Alchemist’s Supplies"
+  },
+  {
+    "title": "Mindflayer Stinkhorn",
+    "description": "A rare and grotesque fungal growth found deep within eldritch caverns and mindflayer lairs. Its slimy, purple stalk exudes a foul, psychic-saturated stench that lingers unnaturally. Mindflayer Stinkhorn is prized for its use in psionic enhancement potions, mind-affecting elixirs, and hallucinogenic brews. Those who harvest it must resist its disturbing whispers.",
+    "image": "ingredient_mindflayer_stinkhorn.png",
+    "harvesting_dc": "20",
+    "toolkit": "Herbalism Kit or Leatherworker's Tools"
+  },
+  {
+    "title": "Moonstalker",
+    "description": "A rare, spectral flower that only blooms under the full moon in hidden, enchanted glades. Its petals are an eerie silver-blue, seeming to shimmer with an internal light. Moonstalker is highly sought after for potions of invisibility, dream magic, and shadowy enchantments. The flower is stiff to the touch and brittle. It fades into fine dust if not carefully harvested with precision.",
+    "image": "ingredient_moonstalker.webp",
+    "harvesting_dc": "17",
+    "toolkit": "Herbalism Kit or Jeweler's Tools"
+  },
+  {
+    "title": "Morning Dew",
+    "description": "Collected at dawn from the petals of enchanted flora, Morning Dew is a pure and shimmering liquid infused with gentle magical properties. It is a key ingredient in potions of clarity, rejuvenation, and light-based enchantments. Each droplet refracts light beautifully, appearing almost ethereal.",
+    "image": "ingredient_morning_dew.webp",
+    "harvesting_dc": "12",
+    "toolkit": "Herbalism Kit or Alchemist’s Supplies"
+  },
+  {
+    "title": "Moxi Mushroom",
+    "description": "A legendary mushroom found only in the most secluded, magically dense forests. The Moxi Mushroom’s cap shimmers with an iridescent glow, shifting colors under the light like a precious gem. Said to be infused with raw arcane energy, this fungus is a key ingredient in elixirs of longevity, powerful restoration potions, and spells of immense vitality. Highly sought after by alchemists and mages, its rarity makes it one of the most expensive ingredients in the world.",
+    "image": "ingredient_moxi_mushroom.webp",
+    "harvesting_dc": "22",
+    "toolkit": "Herbalism Kit or Alchemist's Tools"
+  },
+  {
+    "title": "Mungo Cactus",
+    "description": "A resilient desert plant with thick, spiraling ridges and dark green flesh, the Mungo Cactus is known for storing vast amounts of water in its dense core. Its sap is bitter but highly nutritious, often used in drought-resistant tonics and alchemical drought survival brews. The cactus blooms only once a decade, revealing brilliant crimson flowers with golden stamens.",
+    "image": "ingredient_mungo_cactus.webp",
+    "harvesting_dc": "12",
+    "toolkit": "Herbalism Kit or Survival Tools"
+  },
+  {
+    "title": "Muroosa Twigs",
+    "description": "These gnarled, violet-hued twigs come from the elusive Muroosa tree, which grows in enchanted groves and deep fae forests. The twigs retain a faint, aromatic fragrance and hum with residual magical energy. Alchemists and druids prize them for use in potions of regeneration and nature-based enchantments.",
+    "image": "ingredient_muroosa_twigs.png",
+    "harvesting_dc": "12",
+    "toolkit": "Herbalism Kit or Woodcarver’s Tools"
+  },
+  {
+    "title": "Nether Spider Fang",
+    "description": "A venomous, obsidian-black fang taken from the dreaded Nether Spiders that dwell in the deepest, shadowed caverns. The fang shimmers with a faint purple sheen, exuding a toxic mist when disturbed. Alchemists and assassins use it in potent paralytic poisons, while warlocks covet it for rituals of dark summoning.",
+    "image": "ingredient_nether_spider_fang.webp",
+    "harvesting_dc": "17",
+    "toolkit": "Poisoner’s Kit or Alchemist’s Supplies"
+  },
+  {
+    "title": "Nightmare Root",
+    "description": "A twisted, blackened root found in cursed forests and shadowed glades, Nightmare Root pulses with a sinister energy. Its gnarled surface is covered in dark, vein-like patterns, and when cut, it exudes a thick, inky sap that induces vivid hallucinations. Alchemists and warlocks prize it for its use in potions of fear, sleep, and dark visions.",
+    "image": "ingredient_nightmare_root.webp",
+    "harvesting_dc": "16",
+    "toolkit": "Herbalism Kit or Poisoner’s Kit"
+  },
+  {
+    "title": "Quipper Scale",
+    "description": "Gleaming with a sharp, metallic sheen, Quipper Scales are taken from the razor-toothed quippers that dwell in dark, fast-moving rivers and subterranean lakes. Their natural toughness and jagged edges make them valuable for alchemical mixtures that enhance durability, sharpness, and luck potions.",
+    "image": "ingredient_quipper_scale.webp",
+    "harvesting_dc": "12",
+    "toolkit": "Fisher’s Tools or Alchemist’s Supplies"
+  },
+  {
+    "title": "Red Amanita Mushroom",
+    "description": "A striking red-capped mushroom with white speckles, the Red Amanita thrives in dark, damp forests and fae-infused glades. While toxic in its raw form, skilled alchemists and herbalists can refine its essence into powerful potions or poisons. It emits a faint bioluminescent glow under moonlight.",
+    "image": "ingredient_red_amanita_mushroom.webp",
+    "harvesting_dc": "14",
+    "toolkit": "Herbalism Kit or Poisoner’s Kit"
+  },
+  {
+    "title": "Red Salt",
+    "description": "Harvested from ancient volcanic springs, Red Salt is a rare mineral infused with latent fire energy. Its deep crimson crystals shimmer with an inner heat, making it a prized component in alchemical firebombs, elemental enchantments, and preservation rituals. When dissolved in liquid, it releases a faintly spicy aroma.",
+    "image": "ingredient_red_salt.webp",
+    "harvesting_dc": "15",
+    "toolkit": "Alchemist’s Supplies or Miner’s Tools"
+  },
+  {
+    "title": "Remorhaz Ichor",
+    "description": "A thick, molten-like fluid harvested from the veins of a slain remorhaz. This ichor retains intense heat even after extraction, glowing with an eerie orange-red hue. Alchemists and enchanters use it in potions of fire resistance, weapon coatings, and magical heat-based enchantments.",
+    "image": "ingredient_remorhaz_ichor.webp",
+    "harvesting_dc": "16",
+    "toolkit": "Alchemist’s Supplies or Smith’s Tools"
+  },
+  {
+    "title": "Unknown",
+    "description": "A rare, shimmering dust left behind when powerful magical items are broken down or when spells collapse upon themselves. Residuum is highly sought after for its ability to amplify enchantments, fuel arcane rituals, and serve as a universal magical reagent. The fine crystalline powder glows faintly with shifting colors, responding to ambient magic in its vicinity.",
+    "image": "ingredient_residuum.webp",
+    "harvesting_dc": "16",
+    "toolkit": "Alchemist’s Supplies or Arcana Tools"
+  },
+  {
+    "title": "Sacred Water",
+    "description": "A divine elixir created only by high-ranking clerics and priests through ancient consecration rites. Sacred Water glows with a brilliant silver-blue radiance, its surface never disturbed by impurities. It possesses immense purifying power, capable of banishing curses, healing mortal wounds, and warding off the undead. It carries the soothing scent of divine incense and radiates a comforting warmth.",
+    "image": "ingredient_sacred_water.webp",
+    "harvesting_dc": "18",
+    "toolkit": "Priest’s Kit or Alchemist’s Supplies"
+  },
+  {
+    "title": "Silverthorn",
+    "description": "A legendary plant with razor-sharp, silver-hued thorns that shimmer under the light of the stars. Found only in the most sacred and well-guarded groves, Silverthorn is infused with divine energy and is said to be able to wound even the most ethereal of beings. It is used in potions of purity, powerful warding rituals, and weapons designed to pierce through supernatural defenses.",
+    "image": "ingredient_silverthorn.webp",
+    "harvesting_dc": "26",
+    "toolkit": "Herbalism Kit or Smith’s Tools"
+  },
+  {
+    "title": "Skulk Claw",
+    "description": "A jagged, ghostly claw harvested from a slain Skulk, a creature that exists on the edge of reality. The claw appears semi-transparent, shifting between tangible and spectral form. It is infused with unnatural darkness, making it a prized ingredient in invisibility potions, shadow magic rituals, and enchantments that bend perception.",
+    "image": "ingredient_skulk_claw.png",
+    "harvesting_dc": "28",
+    "toolkit": "Alchemist’s Supplies or Arcana Focus"
+  },
+  {
+    "title": "True Ice",
+    "description": "A rare and ancient form of ice that never melts, even in the hottest conditions. True Ice is found deep within glacial caverns and enchanted tundras, its crystalline structure shimmering with an inner frost. It is highly sought after for crafting frost weapons, reinforcing magical armor, and brewing powerful cold-resistant potions.",
+    "image": "ingredient_true_ice.webp",
+    "harvesting_dc": "17",
+    "toolkit": "Smith’s Tools or Alchemist’s Supplies"
+  },
+  {
+    "title": "Unicorn Blood",
+    "description": "A legendary and forbidden substance, Unicorn Blood is a shimmering, silver-white liquid that glows softly even in darkness. It is said to hold immense restorative power, capable of healing any wound and prolonging life, but at a terrible cost. Sacred beings guard its collection fiercely, and those who spill it for selfish gain are cursed for eternity.",
+    "image": "ingredient_unicorn_blood.webp",
+    "harvesting_dc": "20",
+    "toolkit": "Alchemist’s Supplies or Priest’s Kit"
+  },
+  {
+    "title": "Verdant Surge",
+    "description": "Verdant Surge is a rare magical plant known for its rapid, explosive growth when sensing nearby movement or potential prey. Its vines burst outward in a sudden flourish of greenery, entangling anything in reach. Found in arcane-infused jungles or ancient ruins, its magical essence is used in alchemical concoctions that promote rapid healing, growth, or nature-based transmutation.",
+    "image": "ingredient_verdant_surge.webp",
+    "harvesting_dc": "21",
+    "toolkit": "Herbalism Kit or Druidic Implements (custom toolkit)"
+  },
+  {
+    "title": "Water Elemental Droplet",
+    "description": "A shimmering, ever-fluid droplet left behind when a water elemental is dispersed. This mystical liquid never evaporates, maintaining a perfect spherical shape that pulses with gentle ripples. Alchemists use it in potions of water-breathing and fluidity, while enchanters employ it to enhance aquatic magic.",
+    "image": "ingredient_water_elemental_droplet.webp",
+    "harvesting_dc": "14",
+    "toolkit": "Alchemist’s Supplies or Glassblower’s Tools"
+  },
+  {
+    "title": "Wolfsbane",
+    "description": "A deadly and mystical herb known for its toxic properties and its strong connection to lycanthropy. Wolfsbane has deep violet petals and grows only in moonlit clearings, its scent both alluring and dangerous. It is used in potions that repel werewolves, deadly poisons, and powerful transformative elixirs. Mishandling it can lead to paralysis or death.",
+    "image": "ingredient_wolfsbane.webp",
+    "harvesting_dc": "19",
+    "toolkit": "Herbalism Kit or Poisoner’s Kit"
+  }
+]

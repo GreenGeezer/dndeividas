@@ -1,0 +1,444 @@
+{
+  "potions": [
+    {
+      "title": "Potion of Advantage",
+      "description": "This potion appears as a golden mist that swirls and flows like water. It sparkles faintly in the light, and its gentle shimmer gives a sense of calm focus to those who gaze into it.",
+      "image": "potion_advantage.webp",
+      "aquisition": "The potion is brewed by collectingMorning Dewat sunrise and mixing it with powdered glowroot and a pinch of starglass sand, stirred until it becomes clear and luminous.",
+      "effect": "When you drink this potion, you gainadvantageon oneability check, attack roll, or saving throwof your choice made within the nexthour.",
+      "cost": "1.25 gp"
+    },
+    {
+      "title": "Alchemist's Fire",
+      "description": "Encased in a blackened glass flask, this volatile concoction swirls like molten lava, flickering with a dangerous inner light. Even sealed, the liquid radiates a hungry heat that seems to yearn for open air and chaos.",
+      "image": "potion_alchemists_fire.webp",
+      "aquisition": "The mixture is created by grinding aFire Elemental Emberinto fine ash and binding it with oil distilled from fireweed and brimstone resin under constant flame.",
+      "effect": "When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist\u2019s Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 + your Dexterity modifier + Proficiency Bonus) or take1d4 Fire damageand start burning.",
+      "cost": "45 sp"
+    },
+    {
+      "title": "Potion of Animal Friendship",
+      "description": "This murky potion swirls with tiny, suspended fragments\u2014feathers, scales, fur, and claws. When shaken, the pieces briefly catch the light before settling back into the cloudy liquid.",
+      "image": "potion_animal_friendship.webp",
+      "aquisition": "This potion is made by soaking aQuipper Scalewith other animal remnants in springwater under a full moon, then steeping the mixture with crushed leafbud and calming herbs.",
+      "effect": "When you drink this potion, you can cast theAnimal Friendshipspell (DC 13 Wisdom saving throw) at will for the next1 hour.",
+      "cost": "2 gp"
+    },
+    {
+      "title": "Antitoxin",
+      "description": "Chilled and crystalline, this translucent elixir glimmers with a faint blue hue and leaves a tingling frost on the tongue. A cooling mist curls from the lip of the vial, suggesting the purity and potency of its icy origins.",
+      "image": "potion_antitoxin.webp",
+      "aquisition": "The potion is prepared by crushing a handful ofEverfrost Berrieinto a glacial tincture, then infusing it with silverleaf and powdered copper shavings over a bed of herbs.",
+      "effect": "A creature that drinks this vial of liquid gains advantage on saving throws against poison for1 hour. It confers no benefit to undead or constructs.",
+      "cost": "32.50 sp"
+    },
+    {
+      "title": "Potion of Aqueous Form",
+      "description": "This potion sloshes like thick water and never fully settles, its surface rippling constantly. When held to the light, it appears almost transparent, save for a faint, swirling shimmer.",
+      "image": "potion_aqueous_form.webp",
+      "aquisition": "This potion is created by suspending aWater Elemental Dropletin enchanted seafoam and binding it with crushed frostkelp and liquid opal.",
+      "effect": "When you drink this potion, you transform into a pool of water for10 minutes, or until you are incapacitated or die.",
+      "cost": "15 gp"
+    },
+    {
+      "title": "potion_bottled_breath.md",
+      "description": "",
+      "image": "",
+      "aquisition": "",
+      "effect": "",
+      "cost": ""
+    },
+    {
+      "title": "Potion of Clairvoyance",
+      "description": "This cloudy yellow potion carries a sharp, earthy scent. A small eyeball floats within, slowly rotating in the liquid\u2014though it vanishes the moment the bottle is opened.",
+      "image": "potion_clairvoyance.webp",
+      "aquisition": "The potion is brewed by boiling slicedMandrake Rootwith dreamlily and binding herbs, then infusing it with seeing salts under a covered lens at noon.",
+      "effect": "When you drink this potion, you gain the effect of theclairvoyancespell, allowing you to see or hear a location within range as described in the spell.",
+      "cost": "13 gp"
+    },
+    {
+      "title": "Potion of Climbing",
+      "description": "This potion settles in three layers\u2014brown, silver, and gray\u2014like bands of stone. No matter how much it's shaken, the colors never mix.",
+      "image": "potion_climbing.webp",
+      "aquisition": "The potion is made by mixingEarth Elemental Dustwith crushed stonevine and boiled springwater, then left to settle undisturbed.",
+      "effect": "When you drink this potion, you gain a Climb Speed equal to your Speed for1 hour. During this time, you haveAdvantageon Strength (Athletics) checks to climb.",
+      "cost": "55 sp"
+    },
+    {
+      "title": "Potion of Cloud Giant Strength",
+      "description": "Light and vaporous, this potion swirls with silver mist and pale lavender hues. The fragment of nail inside floats weightlessly and hums faintly with stored energy.",
+      "image": "potion_giant_strength_cloud.webp",
+      "aquisition": "Infused by suspending aFingernail from a Cloud Giantin cloudberry essence, distilled windblossom, and skyglass dust.",
+      "effect": "When you drink this potion, yourStrength score becomes 27for1 hour. This has no effect if your Strength is already 27 or higher.",
+      "cost": "200 gp"
+    },
+    {
+      "title": "Potion of Diminution",
+      "description": "This potion contains a clear liquid with a single streak of deep red that pulses in and out like a slow heartbeat. The color shrinks to a bead before spreading out again, never mixing fully with the rest.",
+      "image": "potion_diminution.webp",
+      "aquisition": "The potion is prepared by soaking aMoonstalkerblossom in distilled shadowdew and adding a thread of shrinking root essence under moonlight until the mixture becomes reactive.",
+      "effect": "When you drink this potion, you gain thereduceeffect of theenlarge/reducespell for1d4 hours. This effect does not require concentration.",
+      "cost": "11.80 gp"
+    },
+    {
+      "title": "Potion of Dragon's Majesty",
+      "description": "This shimmering, golden potion glows faintly from within, its surface smooth and slow-moving like molten metal. Suspended inside is a dragon scale\u2014gleaming and unblemished\u2014matching the color of the dragon whose power it contains.",
+      "image": "potion_dragons_majesty.webp",
+      "aquisition": "This potion is brewed by infusing aDraconis Fundamentaliswith dragonbone ash and liquefied gold, then merging it with a freshly plucked dragon scale under extreme arcane pressure.",
+      "effect": "When you drink this potion, youtransform into an adult dragonof the same type as the scale suspended within. This transformation lasts for1 hour.",
+      "cost": "1,000 gp"
+    },
+    {
+      "title": "Elixir of Health",
+      "description": "This clear red liquid glows faintly, with tiny bubbles of golden light drifting slowly within. It\u2019s warm to the touch and leaves a clean, tingling sensation on the tongue.",
+      "image": "potion_elixir_of_health.webp",
+      "aquisition": "The elixir is made by steepingFairy Stoolin purified dawnwater and blending it with powdered pearl and a drop of celestial sap under a waxing moon.",
+      "effect": "When you drink this potion, itcures any diseaseaffecting you and removes theblinded, deafened, paralyzed, and poisonedconditions. It has no effect on undead or constructs.",
+      "cost": "15 gp"
+    },
+    {
+      "title": "Potion of Fire Breath",
+      "description": "This bright orange liquid flickers like a tiny flame trapped in a bottle. Smoke curls along the inside of the glass and escapes in wisps each time the seal is loosened.",
+      "image": "potion_fire_breath.webp",
+      "aquisition": "The potion is brewed by heatingRemorhaz Ichorwith fire pepper oil and salamander ash, then sealing it tightly while still warm to trap the fumes.",
+      "effect": "After drinking this potion, you can use a bonus action to exhale fire at a target within30 feet. The target must make aDC 13 Dexterity saving throw, taking4d6 fire damageon a failed save, or half as much on a success.",
+      "cost": "2 gp"
+    },
+    {
+      "title": "Potion of Fire Giant Strength",
+      "description": "This potion glows with a warm orange-red hue, and heat radiates from the vial. A dark sliver of fingernail drifts inside, occasionally flaring with ember-like sparks.",
+      "image": "potion_giant_strength_fire.webp",
+      "aquisition": "Brewed by simmering aFingernail from a Fire Giantin salamander oil and powdered emberstone, then sealed while still warm.",
+      "effect": "When you drink this potion, yourStrength score becomes 25for1 hour. This has no effect if your Strength is already 25 or higher.",
+      "cost": "50 gp"
+    },
+    {
+      "title": "Potion of Flying",
+      "description": "This potion contains a clear liquid that floats weightlessly at the top of its vial, with cloudy white wisps swirling just below. When unsealed, a faint breeze escapes as if the wind itself had been trapped inside.",
+      "image": "potion_flying.webp",
+      "aquisition": "The potion is made by binding anAir Elemental Whispinto distilled skybloom nectar, then infusing it with floating lotus and featherdust under steady airflow.",
+      "effect": "When you drink this potion, you gain aflying speed equal to your walking speedand canhoverfor1 hour.",
+      "cost": "60 gp"
+    },
+    {
+      "title": "Potion of Frost Giant Strength",
+      "description": "This potion is icy blue and cold to the touch, with a frost-covered shard of giant nail slowly turning within. Tiny ice crystals form around the rim when opened.",
+      "image": "potion_giant_strength_frost.webp",
+      "aquisition": "Created by steeping aFingernail from a Frost Giantin glacial water with crushed frostbloom petals and silverleaf oil.",
+      "effect": "When you drink this potion, yourStrength score becomes 23for1 hour. This has no effect if your Strength is already 23 or higher.",
+      "cost": "50 gp"
+    },
+    {
+      "title": "Potion of Gaseous Form",
+      "description": "This potion appears to be filled with swirling fog, yet it flows like liquid when poured. The mist inside never fully settles and seems to shift in response to movement and sound.",
+      "image": "potion_gaseous_form.webp",
+      "aquisition": "This potion is created by dissolvingEctoplasminto vaporroot extract, then infusing the blend with bottled cloud breath and binding it under a sealed glass dome overnight.",
+      "effect": "When you drink this potion, you gain the effect of thegaseous formspell for1 hour. No concentration is required, and you may end the effect early as a bonus action.",
+      "cost": "15 gp"
+    },
+    {
+      "title": "Potion of Giant Size",
+      "description": "This pale white potion has a thick consistency and carries a pungent aroma of rotting algae. Within the liquid floats a small piece of clam flesh. Despite its scent, the potion tastes oddly sweet when consumed.",
+      "image": "potion_giant_size.webp",
+      "aquisition": "This potion is brewed by distilling the essence ofVerdant Surgewith powdered giant clam tongue, stabilizing the blend with mountain root extract and lunar sap.",
+      "effect": "When you drink this potion, youbecome Hugefor24 hoursif you are Medium or smaller. If you are Large or larger, the potion has no effect.",
+      "cost": "750 gp"
+    },
+    {
+      "title": "Potion of Healing (Greater)",
+      "description": "The red liquid inside this vial glows faintly and shimmers when shaken, catching the light in a way that suggests something more potent than a standard draught. The glow settles quickly once the bottle is still.",
+      "image": "potion_healing_greater.webp",
+      "aquisition": "This potion is brewed by refining the essence ofRed Amanita Mushroom\u2014two full caps\u2014boiled in silverleaf tea and stabilized with powdered quartz.",
+      "effect": "When you drink this potion, you regain4d4 + 4 Hit Points.",
+      "cost": "1.50 gp"
+    },
+    {
+      "title": "Potion of Greater Mana",
+      "description": "This brilliant blue liquid glows softly with an inner pulse. When swirled, it shimmers with gold flecks that vanish as quickly as they appear.",
+      "image": "potion_mana_greater.webp",
+      "aquisition": "This potion is brewed by blendingDragon's Blood(two drops) with sunstone dust and mana-thistle, then stabilizing the mix with runed glass rods.",
+      "effect": "You regain1d4 + 2 levels worth of spell slotswhen you drink this potion.",
+      "cost": "100 gp"
+    },
+    {
+      "title": "Potion of Growth",
+      "description": "This clear potion holds a small red bead that slowly expands to fill the bottle, then shrinks back again\u2014over and over. The motion continues steadily no matter how the potion is shaken.",
+      "image": "potion_growth.webp",
+      "aquisition": "This potion is made by steeping a singleGiant Spider Hairin crushed firebloom and distilled oak sap, then gently heating until the red core begins its pulsing cycle.",
+      "effect": "When you drink this potion, you gain the\u201cenlarge\u201deffect of theenlarge/reducespell for1d4 hours. This does not require concentration.",
+      "cost": "2.50 gp"
+    },
+    {
+      "title": "Potion of Healing",
+      "description": "Bubbling with a faint crimson glow, this potion carries the earthy scent of the elusive Red Amanita Mushroom. Its warmth pulses through the glass, hinting at the restorative magic infused within its ruby depths.",
+      "image": "potion_healing_normal.webp",
+      "aquisition": "The potion is brewed by steeping a freshly harvestedRed Amanita Mushroomin heated spring water, then distilling the mixture with powdered quartz and a drop of ash to bind its healing essence.",
+      "effect": "The creature that drinks the magical red fluid in this vial regains2d4 + 2Hit Points.",
+      "cost": "50 sp"
+    },
+    {
+      "title": "Potion of Heroism",
+      "description": "This deep blue potion bubbles and steams constantly, as if on the verge of boiling, though it remains cool to the touch. A faint warmth fills the chest after drinking it, steadying the heart and sharpening the senses.",
+      "image": "potion_heroism.webp",
+      "aquisition": "The potion is brewed by steeping powderedHagfingerin dawnblossom extract and sun-honey, then infusing it with a drop of purified courageberry under a radiant flame.",
+      "effect": "For1 hourafter drinking this potion, you gain10 temporary hit pointsand are under the effects of theblessspell. This does not require concentration.",
+      "cost": "11 gp"
+    },
+    {
+      "title": "Potion of Hill Giant Strength",
+      "description": "This cloudy potion has a yellowish tint, with a large, jagged sliver of keratin slowly drifting inside. It gives off a faint earthy smell, like damp soil and worn leather.",
+      "image": "potion_giant_strength_hill.webp",
+      "aquisition": "Made by soaking aFingernail from a Giantin fermented barley mash and thistleroot, then strained through coarse linen.",
+      "effect": "When you drink this potion, yourStrength score becomes 21for1 hour. This has no effect if your Strength is already 21 or higher.",
+      "cost": "5 gp"
+    },
+    {
+      "title": "Potion of Invisibility",
+      "description": "This potion appears to be an empty vial, but a faint chill reveals the presence of an unseen liquid. When uncorked, it releases a brief shimmer in the air before vanishing from sight.",
+      "image": "potion_invisibility.webp",
+      "aquisition": "This potion is created by dissolving aSkulk Clawinto shadow sap and veilroot extract, then sealing the mixture in mirrored glass to preserve its effects.",
+      "effect": "When you drink this potion, you becomeinvisiblefor1 hour. Anything you wear or carry is also invisible.",
+      "cost": "73 gp"
+    },
+    {
+      "title": "Potion of Invulnerability",
+      "description": "This thick, metallic potion has the consistency of syrup and the sheen of liquid iron. When shaken, faint sparks ripple across its surface, and the mixture hums softly with stored energy.",
+      "image": "potion_invulnerability.webp",
+      "aquisition": "The potion is crafted by melting down shavings ofLightning Struck Metalinto stormvine extract, then tempering it with quicksilver and binding salts under a charged crystal rod.",
+      "effect": "For1 minuteafter drinking this potion, you gainresistance to all damage.",
+      "cost": "40 gp"
+    },
+    {
+      "title": "Potion of Longevity",
+      "description": "This thick amber potion holds several unsettling objects suspended within\u2014a scorpion\u2019s tail, an adder\u2019s fang, a dead spider, and a tiny, still-beating heart. When opened, the contents dissolve into the liquid and vanish without a trace.",
+      "image": "potion_longevity.webp",
+      "aquisition": "The potion is brewed by preserving anDevil Heartin alchemical amber, then sealing it with venomous oils and binding agents under infernal heat for thirteen days.",
+      "effect": "When you drink this potion, your physical age isreduced by 1d6 + 6 years, to a minimum of 13 years.",
+      "cost": "90 gp"
+    },
+    {
+      "title": "Lycanthropy Antidote",
+      "description": "This clear potion is laced with dark red flecks that drift like clotted blood in water. It carries a faint metallic scent and feels unnaturally cold when held.",
+      "image": "potion_lycanthropy_antidote.webp",
+      "aquisition": "This antidote is prepared by stabilizingFzeg Bloodwith silverroot extract and moonleaf oil, then tempering the mixture under a full moon's light in a lead-lined vessel.",
+      "effect": "When you drink this potion, itremoves the curse of lycanthropyfrom you if the curse was inflicted by a lycanthrope\u2019s bite or similar magical effect.",
+      "cost": "350 sp"
+    },
+    {
+      "title": "Potion of Mana",
+      "description": "This blue potion glimmers faintly when stirred, swirling with soft light like starlight on water. The liquid gives off a gentle warmth when held.",
+      "image": "potion_mana_normal.webp",
+      "aquisition": "The potion is created by carefully diluting a single drop ofDragon's Bloodinto a mixture of arcane salts and crystallized mana dust, then cooling it in a silver-lined flask.",
+      "effect": "You regain1d4 + 1 levels worth of spell slotswhen you drink this potion.",
+      "cost": "20 gp"
+    },
+    {
+      "title": "Potion of Maximum Power",
+      "description": "This bright purple potion glows faintly and releases a sugary, plum-like scent. Despite the sweet aroma, it has a thick, muddy taste that leaves a tingling sensation on the tongue.",
+      "image": "potion_maximum_power.webp",
+      "aquisition": "The potion is made by soakingLightning Mossin storm honey and plum wine, then binding the mixture with arcane salts and distilling it through a copper coil under open sky.",
+      "effect": "The first time you cast adamage-dealing spell of 4th level or lowerwithin1 minuteafter drinking this potion, you dealmaximum damageinstead of rolling.",
+      "cost": "55 gp"
+    },
+    {
+      "title": "Potion of Mind Reading",
+      "description": "This thick, purple liquid is almost opaque, save for a swirling pink cloud that floats near the center like a drifting thought. A faint pulse of psychic energy can be felt when held close to the head.",
+      "image": "potion_mind_reading.webp",
+      "aquisition": "The potion is brewed by steeping shreddedMindflayer Stinkhornin psychic brine, then distilling it through dreamglass while shielding the mind from intrusion.",
+      "effect": "When you drink this potion, you gain the effect of thedetect thoughtsspell (save DC 13).",
+      "cost": "15 gp"
+    },
+    {
+      "title": "Mummy Rot Antidote",
+      "description": "This pale gray potion is filled with drifting white dust that never settles. The liquid feels dry on the tongue and carries a faint scent of old incense and stone.",
+      "image": "potion_mummy_rot_antidote.webp",
+      "aquisition": "The antidote is made by grindingHoly Remainsinto a fine powder, then blending it into moonwater and steeping it with silver nettle under starlight.",
+      "effect": "When you drink this potion, itcures you of mummy rot, ending the disease and preventing its effects from progressing.",
+      "cost": "9 gp"
+    },
+    {
+      "title": "Muroosa Balm",
+      "description": "This thick, pale balm carries a soft herbal scent and leaves a cooling layer when rubbed onto the skin. It\u2019s commonly used in hot regions to prevent burns and protect against open flame.",
+      "image": "potion_muroosa_balm.webp",
+      "aquisition": "The balm is created by boiling crushedMuroosa Twigswith beeswax and sunpetal oil, then letting the mixture thicken into a smooth paste.",
+      "effect": "After spending 1 minute applying a quarter pint of Muroosa Balm to your skin, you gainresistance to fire damagefor1 hour.",
+      "cost": "65 sp"
+    },
+    {
+      "title": "Oil of Etherealness",
+      "description": "This cloudy gray oil clings to the inside of its vial, and faint beads of it form on the glass, only to vanish moments later. The air around it feels strangely thin and distant.",
+      "image": "potion_oil_of_etherealness.webp",
+      "aquisition": "The oil is crafted by blendingEctoplasmwith mistflower extract and moon-laced silver dust, then infusing the mixture with ghostlight over a full night.",
+      "effect": "Applied to a Medium or smaller creature and its gear (larger creatures require more vials), this oil grants the effect of theetherealnessspell for1 hour. Application takes 10 minutes.",
+      "cost": "20 gp"
+    },
+    {
+      "title": "Oil of Sharpness",
+      "description": "This thick, clear oil is laced with ultrafine silver shards that catch the light with every movement. It feels smooth to the touch, yet leaves behind a faint, razor-like shimmer on surfaces it coats.",
+      "image": "potion_oil_of_sharpness.webp",
+      "aquisition": "This oil is prepared by distilling sap from aSilverthornvine and blending it with powdered moonstone and quicksilver, then stabilizing the mixture in a runed glass vial.",
+      "effect": "This oil can coatone slashing or piercing weaponor up tofive pieces of slashing or piercing ammunition. Applying the oil takes1 minute.",
+      "cost": "60 gp"
+    },
+    {
+      "title": "Oil of Slipperiness",
+      "description": "Thick and pitch-black, this oil clings stubbornly to any surface but flows easily once poured. It has a faint shimmer and a slick, almost unnatural feel to the touch.",
+      "image": "potion_oil_of_slipperiness.webp",
+      "aquisition": "The oil is crafted by blendingAmphibian Salivawith ground soaproot and duskcap extract, stirred over low heat until smooth and glossy.",
+      "effect": "Applied to a Medium or smaller creature and its gear (larger creatures require more vials), the oil grants the effects of afreedom of movementspell for8 hours. Application takes 10 minutes.",
+      "cost": "4.80 gp"
+    },
+    {
+      "title": "Philter of Love",
+      "description": "This rose-colored potion sparkles faintly and fizzes like champagne. If you look closely, a single heart-shaped bubble floats near the surface, slowly drifting but never popping.",
+      "image": "potion_philter_of_love.webp",
+      "aquisition": "The philter is made by steeping aFairy Stoolin crushed roseapple juice and dew collected under moonlight, then fermenting the mixture for three nights in a sealed glass vial.",
+      "effect": "The next time you see a creature within10 minutesafter drinking this potion, you becomecharmedby that creature for1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while charmed.",
+      "cost": "1.5 gp"
+    },
+    {
+      "title": "Pomander of Warding",
+      "description": "This tightly bound ball of dried herbs, spices, and resin releases a strong, lingering scent when unwrapped. The aroma is sharp and clings to the air, often used in rituals of protection and warding.",
+      "image": "potion_pomander_of_warding.webp",
+      "aquisition": "The pomander is made by grinding driedHagfingerroot with cloves, myrrh, and cinnamon, then binding the mixture in waxed cloth with a silver-threaded cord.",
+      "effect": "Once unwrapped, the pomander fills a15-foot radiuswith a strong scent for24 hours. Undead creatures ofCR 2 or lowerthat enter this area must make aDC 15 Wisdom saving throwor beturned, as with the Turn Undead cleric feature.",
+      "cost": "6.50 gp"
+    },
+    {
+      "title": "Potion of Possibility",
+      "description": "This clear potion seems empty at first glance, but tiny gray motes drift within, occasionally pulsing with a soft glow. The liquid is cool and leaves a tingling sensation when touched, like brushing against potential itself.",
+      "image": "potion_possibility.webp",
+      "aquisition": "This potion is formed by distillingEctoplasmwith dreambark and fractured timeglass under the effects of a suspended chronoward.",
+      "effect": "When you drink this potion, you gaintwo Fragments of Possibility, which appear as small, floating gray beads that hover within 1 foot of you for8 hoursor until used.",
+      "cost": "100 gp"
+    },
+    {
+      "title": "Potion of Resistance",
+      "description": "This potion appears differently depending on its final ingredient, shifting in color and consistency. Each version carries a subtle scent and texture hinting at the type of energy it protects against.",
+      "image": "potion_resistance.webp",
+      "aquisition": "The base mixture is prepared with mineral water and powdered quartz. A chosen ingredient\u2014listed below\u2014is then added during the final stage to align the potion with a specific damage type.",
+      "effect": "When you drink this potion, you gainresistanceto one type of damage for1 hour. The damage type is determined by the ingredient used.",
+      "cost": "3 gp"
+    },
+    {
+      "title": "Soothing Salve",
+      "description": "This thick, green salve gives off a sharp, sour scent and clings to the skin with a sticky texture. Despite its smell, it brings a cooling relief when spread over wounds.",
+      "image": "potion_soothing_salve.webp",
+      "aquisition": "The salve is made by grinding freshGillyweedinto a paste, then mixing it with beeswax and marshroot over gentle heat until smooth.",
+      "effect": "When you expend hit dice to recover hit points while using this salve, you recover an additional3 hit pointsfor each hit die expended. This effect lasts for1 hourafter applied.",
+      "cost": "55 sp"
+    },
+    {
+      "title": "Soothsalts",
+      "description": "These small, red crystals are taken in lozenge-sized doses and melt slowly on the tongue. Regular users often bear a faint red stain around their lips.",
+      "image": "potion_soothsalts.webp",
+      "aquisition": "Soothsalts are prepared by crushing rawRed Saltinto fine powder, then compacting it with honeyroot resin and drying it into hardened lozenges.",
+      "effect": "A creature that consumes a dose of soothsalts gainsadvantage on all Intelligence checksfor1d4 hours.",
+      "cost": "65 sp"
+    },
+    {
+      "title": "Potion of Speed",
+      "description": "This vivid yellow potion is laced with twisting black streaks that swirl constantly, even when the bottle is still. A faint vibration hums through the glass, as though the potion is straining to move.",
+      "image": "potion_speed.webp",
+      "aquisition": "This potion is brewed by infusingLightning Mossinto quicksilver and stormroot extract, then shocking the mixture with controlled magical surges until stable.",
+      "effect": "When you drink this potion, you gain the effect of thehastespell for1 minute. This effect doesnot require concentration.",
+      "cost": "70 gp"
+    },
+    {
+      "title": "Potion of Stone Giant Strength",
+      "description": "This potion is icy blue and cold to the touch, with a frost-covered shard of giant nail slowly turning within. Tiny ice crystals form around the rim when opened.",
+      "image": "potion_giant_strength_frost.webp",
+      "aquisition": "Created by steeping aFingernail from a Stone Giantin glacial water with crushed frostbloom petals and silverleaf oil.",
+      "effect": "When you drink this potion, yourStrength score becomes 23for1 hour. This has no effect if your Strength is already 23 or higher.",
+      "cost": "50 gp"
+    },
+    {
+      "title": "Potion of Storm Giant Strength",
+      "description": "Electric blue and glowing with inner light, this potion crackles with tiny sparks. The sliver of giant nail within pulses like a storm cloud caught in glass.",
+      "image": "potion_giant_strength_storm.webp",
+      "aquisition": "This potion is crafted by submerging aFingernail from a Storm Giantin stormwater collected atop a mountain during lightning strikes, mixed with crushed storm pearl and skyroot resin.",
+      "effect": "When you drink this potion, yourStrength score becomes 29for1 hour. This has no effect if your Strength is already 29 or higher.",
+      "cost": "700 gp"
+    },
+    {
+      "title": "Potion of Healing (Superior)",
+      "description": "This thick, ruby-red potion glows with steady light, brighter and deeper than lesser healing brews. When swirled, it leaves streaks of light across the inside of the vial, as if the magic clings to the glass.",
+      "image": "potion_healing_superior.webp",
+      "aquisition": "This potion is made by carefully distilling the caps ofRed Amanita Mushroom\u2014three in total\u2014and blending their essence with crushed sunstone and a touch of phoenix ash.",
+      "effect": "When you drink this potion, you regain8d4 + 8 Hit Points.",
+      "cost": "11 gp"
+    },
+    {
+      "title": "Potion of Superior Mana",
+      "description": "This potion glows with a strong azure light, and motes of silver energy drift lazily within it. The air around the bottle seems faintly charged with arcane energy.",
+      "image": "potion_mana_superior.webp",
+      "aquisition": "This potion is made by infusingDragon's Blood(three drops) into refined essence of leyline and quick-cooled with starlight crystals.",
+      "effect": "You regain1d4 + 3 levels worth of spell slotswhen you drink this potion.",
+      "cost": "600 gp"
+    },
+    {
+      "title": "Potion of Healing (Supreme)",
+      "description": "This deep crimson potion radiates with a gentle inner light, pulsing slowly like a heartbeat. Its glow never fades, and the liquid moves as though stirred by unseen currents.",
+      "image": "potion_healing_supreme.webp",
+      "aquisition": "The potion is brewed using the concentrated extract ofRed Amanita Mushroom\u2014four full caps\u2014combined with essence of goldenroot and powdered celestial pearl under steady heat.",
+      "effect": "When you drink this potion, you regain10d4 + 20 Hit Points.",
+      "cost": "65 gp"
+    },
+    {
+      "title": "Potion of Swimming",
+      "description": "This potion holds three layers of color\u2014teal, light blue, and deep indigo\u2014stacked like the ocean\u2019s depths. No matter how much you shake it, the colors stay apart.",
+      "image": "potion_swimming.webp",
+      "aquisition": "The potion is brewed by suspending aWater Elemental Dropletin a cooled infusion of kelp extract and powdered river pearls, then left to settle undisturbed overnight.",
+      "effect": "When you drink this potion, you gain a swimming speed equal to your walking speed for1 hour. During this time, you haveadvantageon Strength (Athletics) checks you make to swim.",
+      "cost": "47.50 sp"
+    },
+    {
+      "title": "Tea of Refreshment",
+      "description": "This gentle herbal tea gives off a soothing floral aroma and is pleasantly warm to the touch. A faint shimmer dances across the surface when stirred.",
+      "image": "potion_tea_of_refreshment.webp",
+      "aquisition": "The tea is brewed by steepingMorning Dewwith dried elderblossom and wild mint leaves over low heat, served just before sunrise for best effect.",
+      "effect": "After drinking this tea, youremove one level of exhaustion.",
+      "cost": "2 gp"
+    },
+    {
+      "title": "potion_thessaltoxin_antidote.md",
+      "description": "",
+      "image": "",
+      "aquisition": "",
+      "effect": "",
+      "cost": ""
+    },
+    {
+      "title": "Tincture of Werewolf's Bane",
+      "description": "This deep violet tincture has a sharp, bitter scent and leaves a burning sensation on the tongue. The liquid clings to the glass like oil, and its color darkens slightly in moonlight.",
+      "image": "potion_werewolfs_bane.webp",
+      "aquisition": "This tincture is made by carefully steepingWolfsbanein silver-infused alcohol and shadowleaf extract, then storing it in obsidian vials to preserve its potency.",
+      "effect": "Anylycanthropethat drinks this tincture must make aConstitution saving throw(DC set by the GM). On a failed save, it takes3d10 necrotic damage, is forced into its humanoid form if not already, and cannot change form for24 hours.",
+      "cost": "30 gp"
+    },
+    {
+      "title": "Potion of Vitality",
+      "description": "This deep crimson potion pulses gently with a dull light, like a heartbeat. It is warm to the touch and fills the air with a soft golden glow when uncorked.",
+      "image": "potion_vitality.webp",
+      "aquisition": "This potion is carefully crafted by blending a single drop ofAngel Bloodwith sunblessed myrrh and blessed silverwort, then sealing the mixture in consecrated crystal under temple light.",
+      "effect": "When you drink this potion, itremoves all exhaustionyou are suffering andcures any disease or poisonaffecting you.",
+      "cost": "60 gp"
+    },
+    {
+      "title": "Potion of Water Breathing",
+      "description": "This cloudy green potion smells faintly of salt and seaweed. A soft, jellyfish-like bubble floats gently inside, pulsing as if alive.",
+      "image": "potion_water_breathing.webp",
+      "aquisition": "The potion is brewed by soaking freshGillyweedin brined kelp extract and crushed sea crystals, then sealed tightly until the fluid turns cloudy.",
+      "effect": "After drinking this potion, you canbreathe underwaterfor1 hour.",
+      "cost": "1.80 gp"
+    },
+    {
+      "title": "Willowshade Oil",
+      "description": "This thick, dark blue oil carries a cool, earthy scent and glistens faintly in the light. It clings to the skin and leaves a tingly numbness where applied.",
+      "image": "potion_willowshade_oil.webp",
+      "aquisition": "The oil is extracted by pressing ripe fruit from theMuroosa Twigsand filtering the liquid through charcoal and cold-root fiber.",
+      "effect": "A creature can use its action to apply this oil to another creature that has been petrified for less than 1 minute. Thepetrified condition endson that creature at the start of what would be its next turn.",
+      "cost": "85 sp"
+    }
+  ]
+}
