@@ -93,7 +93,6 @@ a {
 }
 
 .dropbtn {
-  top: 0.5rem;
   background: none;
   border: none;
   color: var(--color-text);
@@ -109,6 +108,7 @@ a {
 
 /* === Dropdown Menu === */
 .dropdown {
+  top: 0.6rem;
   position: relative;
   display: inline-block;
 }
