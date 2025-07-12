@@ -206,6 +206,26 @@ a {
   filter: invert(1);
 }
 
+/* === Central Body === */
+.central-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.central-box {
+  width: 100%;
+  max-width: 960px;
+  background-color: var(--color-header-bg-start);
+  color: var(--color-text);
+  padding: 30px;
+  border-radius: var(--radius-rounded);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+  font-family: var(--font-base);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 /* === Responsive === */
 @media (max-width: 768px) {
   .nav-links {
