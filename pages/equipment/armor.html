@@ -13,8 +13,167 @@
 
     <div class="central-wrapper">
       <div class="central-box">
-        <a>Armor</a>
+        <div id="armor-table-container"></div>
+        <h3 class="block-title">Cumbersome</h3>
+        <p>
+          While wearing this armor, you have disadvantage on Dexterity checks.
+        </p>
+
+        <h3 class="block-title">Damage Reduction (DR)</h3>
+        <p>
+          Each armor type has its own Damage Reduction value, representing the
+          equipment’s ability to mitigate damage received. This value is only
+          increased either via the armor receiving a magical +1 (or higher)
+          bonus, or when an ability or magical item explicitly says it does so.
+        </p>
+
+        <h3 class="block-title">Lightweight</h3>
+        <p>
+          You can wear this armor without having the necessary armor
+          proficiency, provided your biology allows. Constitution checks made to
+          maintain concentration while wearing lightweight armor you are not
+          proficient with are made with disadvantage.
+        </p>
+
+        <h3 class="block-title">Maximum Dexterity</h3>
+        <p>
+          The heavier the armor, the more it restricts how much of your
+          Dexterity modifier you can use to increase your AC. When calculating
+          your AC (10 + your Dexterity modifier), the bonus from your Dexterity
+          modifier cannot exceed this maximum. This only affects your AC, not
+          any other uses for your Dexterity modifier.
+        </p>
+
+        <h3 class="block-title">Strength Requirement</h3>
+        <p>
+          Some heavy armor requires a minimum Strength score to be used
+          properly. If your Strength score is less than this total, your
+          movement speed is reduced by 10 feet.
+        </p>
       </div>
     </div>
+
+    <script>
+      fetch("../../content/armor.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const container = document.getElementById("armor-table-container");
+
+          // Create the table and header row
+          const table = document.createElement("table");
+          const thead = document.createElement("thead");
+          const headerRow = document.createElement("tr");
+
+          const headers = [
+            "Armor Type",
+            "AC",
+            "DR",
+            "Max Dexterity",
+            "Special",
+            "Cost",
+            "Weight",
+          ];
+          headers.forEach((text) => {
+            const th = document.createElement("th");
+            th.textContent = text;
+            headerRow.appendChild(th);
+          });
+
+          thead.appendChild(headerRow);
+          table.appendChild(thead);
+
+          const tbody = document.createElement("tbody");
+
+          // Loop over each armor category
+          Object.entries(data).forEach(([category, armors]) => {
+            // Category row (e.g., "Light Armor")
+            const categoryRow = document.createElement("tr");
+            const categoryCell = document.createElement("td");
+            categoryCell.colSpan = headers.length;
+            categoryCell.textContent = category;
+            categoryCell.style.fontWeight = "bold";
+            tbody.appendChild(categoryRow);
+            categoryRow.appendChild(categoryCell);
+
+            // Armor rows
+            armors.forEach((armor) => {
+              const row = document.createElement("tr");
+
+              // Special column logic
+              let special = "—";
+              if (armor.cumbersome && armor.strength_requirement) {
+                special = `Cumbersome / Str ${armor.strength_requirement}`;
+              } else if (armor.cumbersome) {
+                special = "Cumbersome";
+              } else if (armor.lightweight) {
+                special = "Lightweight";
+              }
+
+              // Handle max dex formatting
+              const maxDex =
+                armor.max_dexterity === null
+                  ? "No Limit"
+                  : `Max ${armor.max_dexterity}`;
+
+              const costText =
+                armor.cost_silver <= 100
+                  ? `${armor.cost_silver} sp`
+                  : `${armor.cost_silver / 100} gp`;
+
+              const fields = [
+                `<a class="armor-link"><strong>${armor.name}</strong></a>`,
+                `${armor.AC} AC`,
+                `${armor.damage_reduction} DR`,
+                maxDex,
+                special,
+                costText,
+                `${armor.weight_lb} lb.`,
+              ];
+
+              fields.forEach((val) => {
+                const td = document.createElement("td");
+                td.innerHTML = val;
+                row.appendChild(td);
+              });
+
+              tbody.appendChild(row);
+            });
+          });
+
+          table.appendChild(tbody);
+          container.appendChild(table);
+
+          // Add click listener for column highlighting
+          table.addEventListener("click", function (e) {
+            const cell = e.target.closest("td, th");
+            if (!cell) return;
+
+            const columnIndex = cell.cellIndex;
+            if (columnIndex < 0) return;
+
+            // Remove previous highlights
+            table
+              .querySelectorAll("td, th")
+              .forEach((el) => el.classList.remove("highlight-col"));
+
+            // Highlight the clicked column
+            const rows = table.rows;
+            for (let i = 0; i < rows.length; i++) {
+              const col = rows[i].cells[columnIndex];
+              if (col) col.classList.add("highlight-col");
+            }
+            document.addEventListener("click", function (event) {
+              if (!table.contains(event.target)) {
+                table
+                  .querySelectorAll("td, th")
+                  .forEach((el) => el.classList.remove("highlight-col"));
+              }
+            });
+          });
+        })
+        .catch((err) => {
+          console.error("Failed to load armor.json:", err);
+        });
+    </script>
   </body>
 </html>

@@ -2,7 +2,7 @@
   "Light Armor": [
     {
       "name": "Padded",
-      "cost_silver": 500,
+      "cost_silver": 5,
       "AC": 11,
       "damage_reduction": 1,
       "max_dexterity": 4,
@@ -13,7 +13,7 @@
     },
     {
       "name": "Leather",
-      "cost_silver": 1000,
+      "cost_silver": 10,
       "AC": 11,
       "damage_reduction": 1,
       "max_dexterity": null,
@@ -24,7 +24,7 @@
     },
     {
       "name": "Studded Leather",
-      "cost_silver": 4500,
+      "cost_silver": 45,
       "AC": 12,
       "damage_reduction": 2,
       "max_dexterity": null,
@@ -35,7 +35,7 @@
     },
     {
       "name": "Exotic Leather",
-      "cost_silver": 60000,
+      "cost_silver": 600,
       "AC": 13,
       "damage_reduction": 3,
       "max_dexterity": null,
@@ -46,7 +46,7 @@
     },
     {
       "name": "Chain Shirt",
-      "cost_silver": 5500,
+      "cost_silver": 55,
       "AC": 13,
       "damage_reduction": 3,
       "max_dexterity": 4,
@@ -59,7 +59,7 @@
   "Medium Armor": [
     {
       "name": "Hide",
-      "cost_silver": 1000,
+      "cost_silver": 10,
       "AC": 12,
       "damage_reduction": 3,
       "max_dexterity": 4,
@@ -70,7 +70,7 @@
     },
     {
       "name": "Exotic Hide",
-      "cost_silver": 150000,
+      "cost_silver": 1500,
       "AC": 15,
       "damage_reduction": 5,
       "max_dexterity": 4,
@@ -81,7 +81,7 @@
     },
     {
       "name": "Scale Mail",
-      "cost_silver": 5000,
+      "cost_silver": 50,
       "AC": 14,
       "damage_reduction": 4,
       "max_dexterity": 4,
@@ -92,7 +92,7 @@
     },
     {
       "name": "Breastplate",
-      "cost_silver": 20000,
+      "cost_silver": 200,
       "AC": 14,
       "damage_reduction": 5,
       "max_dexterity": 2,
@@ -103,7 +103,7 @@
     },
     {
       "name": "Half Plate",
-      "cost_silver": 75000,
+      "cost_silver": 7500,
       "AC": 15,
       "damage_reduction": 6,
       "max_dexterity": 2,
@@ -116,7 +116,7 @@
   "Heavy Armor": [
     {
       "name": "Ring Mail",
-      "cost_silver": 3000,
+      "cost_silver": 30,
       "AC": 14,
       "damage_reduction": 5,
       "max_dexterity": 2,
@@ -127,7 +127,7 @@
     },
     {
       "name": "Chain Mail",
-      "cost_silver": 7500,
+      "cost_silver": 750,
       "AC": 15,
       "damage_reduction": 6,
       "max_dexterity": 1,
@@ -138,7 +138,7 @@
     },
     {
       "name": "Splint Mail",
-      "cost_silver": 20000,
+      "cost_silver": 2000,
       "AC": 16,
       "damage_reduction": 7,
       "max_dexterity": 1,
@@ -149,7 +149,7 @@
     },
     {
       "name": "Plate Mail",
-      "cost_silver": 100000,
+      "cost_silver": 10000,
       "AC": 17,
       "damage_reduction": 8,
       "max_dexterity": 1,

@@ -226,6 +226,80 @@ a {
   line-height: 1.6;
 }
 
+/* === Armor Table Styling === */
+#armor-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  font-family: var(--font-base);
+  font-size: 1rem;
+  text-align: left;
+}
+
+#armor-table-container th,
+#armor-table-container td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #333;
+}
+
+#armor-table-container th {
+  font-family: var(--font-bold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.95rem;
+  border-bottom: 2px solid #555;
+}
+
+#armor-table-container tr:nth-child(odd) td {
+  background-color: #111;
+}
+
+#armor-table-container tr:nth-child(even) td {
+  background-color: #1a1a1a;
+}
+
+/* Armor category headings (e.g., "Light Armor") */
+#armor-table-container tr td[colspan] {
+  background-color: #222;
+  color: var(--color-link-hover);
+  font-family: var(--font-bold);
+  font-size: 1.1rem;
+  padding-top: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-top: 2px solid #444;
+  border-bottom: 2px solid #444;
+  text-transform: uppercase;
+}
+
+td.highlight-col,
+th.highlight-col {
+  color: var(--color-link-hover) !important;
+}
+
+/* Optional: Slight weight for numeric cells */
+#armor-table-container td:nth-child(2),
+#armor-table-container td:nth-child(3),
+#armor-table-container td:nth-child(4),
+#armor-table-container td:nth-child(7) {
+  font-family: var(--font-base);
+}
+
+.armor-link {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color;
+}
+
+.armor-link:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+.block-title {
+  color: var(--color-link-hover);
+}
+
 /* === Responsive === */
 @media (max-width: 768px) {
   .nav-links {
