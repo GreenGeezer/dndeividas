@@ -13,7 +13,11 @@
     "ability": "Intelligence",
     "weight": "9 lb.",
     "utilize": ["Detect poisoned drink (DC 15)", "Identify alcohol (DC 10)"],
-    "craft": ["Antitoxin", "Alcohol"]
+    "craft": [
+      "Antitoxin",
+      "Alcohol",
+      "Tonic of Charisma (advantage on 1 Charisma check)"
+    ]
   },
   {
     "name": "Calligrapher’s Supplies",
@@ -48,7 +52,11 @@
     "cost": "15 GP",
     "ability": "Wisdom",
     "weight": "6 lb.",
-    "utilize": ["Draft a map of a small area (DC 15)"],
+    "utilize": [
+      "Draft a map of a small area (DC 15)",
+      "Mark secret routes or hidden paths (DC 20)",
+      "Predict travel hazards or difficult terrain (DC 15)"
+    ],
     "craft": ["Map"]
   },
   {
@@ -57,7 +65,8 @@
     "ability": "Dexterity",
     "weight": "5 lb.",
     "utilize": [
-      "Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10)"
+      "Modify footwear to give Advantage on the wearer’s next Acrobatics or Stealth check (DC 10)",
+      "Reinforce boots for rough terrain or climbing (DC 15)"
     ],
     "craft": ["Climber’s Kit"]
   },
@@ -68,7 +77,8 @@
     "weight": "8 lb.",
     "utilize": [
       "Improve food’s flavor (DC 10)",
-      "Detect spoiled or poisoned food (DC 15)"
+      "Detect spoiled, cursed or poisoned food (DC 15)",
+      "Prepare meals that grant advantage on the next Constitution saves (DC 15)"
     ],
     "craft": ["Rations"]
   },
@@ -78,7 +88,8 @@
     "ability": "Intelligence",
     "weight": "5 lb.",
     "utilize": [
-      "Discern what a glass object held in the past 24 hours (DC 15)"
+      "Discern what a glass object held in the past 24 hours (DC 15)",
+      "Create a lens to aid Investigation or Perception (DC 15)"
     ],
     "craft": ["Glass Bottle", "Magnifying Glass", "Spyglass", "Vial"]
   },
@@ -87,7 +98,10 @@
     "cost": "25 GP",
     "ability": "Intelligence",
     "weight": "2 lb.",
-    "utilize": ["Discern a gem’s value (DC 15)"],
+    "utilize": [
+      "Discern a gem’s value (DC 15)",
+      "Detect magick on jewelry (DC 20)"
+    ],
     "craft": ["Arcane Focus", "Holy Symbol"]
   },
   {
@@ -99,10 +113,7 @@
     "craft": [
       "Sling",
       "Whip",
-      "Exotic Armor",
-      "Hide Armor",
-      "Leather Armor",
-      "Studded Leather Armor",
+      "Medium Armor",
       "Backpack",
       "Crossbow Bolt Case",
       "Map or Scroll Case",
@@ -117,7 +128,11 @@
     "cost": "10 GP",
     "ability": "Strength",
     "weight": "8 lb.",
-    "utilize": ["Chisel a symbol or hole in stone (DC 10)"],
+    "utilize": [
+      "Chisel a symbol or hole in stone (DC 10)",
+      "Detect weak structural points (DC 15)",
+      "Find hidden doors or walls (DC 15)"
+    ],
     "craft": ["Block and Tackle"]
   },
   {
@@ -126,7 +141,7 @@
     "ability": "Wisdom",
     "weight": "5 lb.",
     "utilize": ["Paint a recognizable image of something you’ve seen (DC 10)"],
-    "craft": ["Druidic Focus", "Holy Symbol"]
+    "craft": ["Druidic Focus", "Holy Symbol", "Paintings", "Wanted Posters"]
   },
   {
     "name": "Potter’s Tools",
@@ -134,7 +149,8 @@
     "ability": "Intelligence",
     "weight": "3 lb.",
     "utilize": [
-      "Discern what a ceramic object held in the past 24 hours (DC 15)"
+      "Discern what a ceramic object held in the past 24 hours (DC 15)",
+      "Discern use history of a ceramic item (DC 15)"
     ],
     "craft": ["Jug", "Lamp"]
   },
@@ -146,7 +162,6 @@
     "utilize": ["Pry open a door or container (DC 20)"],
     "craft": [
       "Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip)",
-      "Medium armor (except Hide)",
       "Heavy armor",
       "Ball Bearings",
       "Bucket",
@@ -174,15 +189,13 @@
       "Musket",
       "Pistol",
       "Bell",
-      "Bullseye Lantern",
-      "Flask",
-      "Hooded Lantern",
-      "Hunter’s Trap",
+      "Lantern",
+      "Traps",
+      "Bombs",
+      "Grenades",
       "Lock",
       "Manacles",
-      "Mirror",
-      "Shovel",
-      "Signal Whistle"
+      "Shovel"
     ]
   },
   {
@@ -192,7 +205,7 @@
     "weight": "5 lb.",
     "utilize": ["Mend a tear in clothing (DC 10)", "Sew a Tiny design (DC 10)"],
     "craft": [
-      "Padded Armor",
+      "Light Armor",
       "Basket",
       "Bedroll",
       "Blanket",
@@ -244,9 +257,10 @@
     "weight": "5 lb.",
     "utilize": [
       "Mimic 10 or fewer words of someone else’s handwriting (DC 15)",
-      "Duplicate a wax seal (DC 20)"
+      "Duplicate a wax seal (DC 20)",
+      "Forge an official document convincingly (DC 20)"
     ],
-    "craft": ["Falsified Documents"]
+    "craft": ["Falsified Documents", "Blackmail Letters", "Permit of Passage"]
   },
   {
     "name": "Gaming Set",
@@ -255,7 +269,8 @@
     "weight": "—",
     "utilize": [
       "Discern whether someone is cheating (DC 10)",
-      "Win the game (DC 20)"
+      "Win the game (DC 20)",
+      "Establish a rapport or distraction in social encounters (DC 15)"
     ],
     "variants": [
       {
