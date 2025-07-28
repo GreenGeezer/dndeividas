@@ -34,17 +34,6 @@
       "weight_lb": 13
     },
     {
-      "name": "Exotic Leather",
-      "cost_silver": 600,
-      "AC": 13,
-      "damage_reduction": 3,
-      "max_dexterity": null,
-      "cumbersome": false,
-      "lightweight": false,
-      "strength_requirement": null,
-      "weight_lb": 11
-    },
-    {
       "name": "Chain Shirt",
       "cost_silver": 55,
       "AC": 13,
@@ -54,6 +43,17 @@
       "lightweight": false,
       "strength_requirement": null,
       "weight_lb": 20
+    },
+    {
+      "name": "Exotic Leather",
+      "cost_silver": 600,
+      "AC": 13,
+      "damage_reduction": 3,
+      "max_dexterity": null,
+      "cumbersome": false,
+      "lightweight": false,
+      "strength_requirement": null,
+      "weight_lb": 11
     }
   ],
   "Medium Armor": [
@@ -67,17 +67,6 @@
       "lightweight": false,
       "strength_requirement": null,
       "weight_lb": 12
-    },
-    {
-      "name": "Exotic Hide",
-      "cost_silver": 1500,
-      "AC": 15,
-      "damage_reduction": 5,
-      "max_dexterity": 4,
-      "cumbersome": false,
-      "lightweight": false,
-      "strength_requirement": null,
-      "weight_lb": 13
     },
     {
       "name": "Scale Mail",
@@ -100,6 +89,17 @@
       "lightweight": false,
       "strength_requirement": null,
       "weight_lb": 20
+    },
+    {
+      "name": "Exotic Hide",
+      "cost_silver": 1500,
+      "AC": 15,
+      "damage_reduction": 5,
+      "max_dexterity": 4,
+      "cumbersome": false,
+      "lightweight": false,
+      "strength_requirement": null,
+      "weight_lb": 13
     },
     {
       "name": "Half Plate",
