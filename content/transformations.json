@@ -1,0 +1,113 @@
+{
+  "name": "Giant",
+  "becoming": "Few mortals have ever transformed into giants or, more accurately, few mortals have survived the experience. Those who were able to transform had some ancient ancestry that included giants, completed one of a handful of arcane procedures, earned the blessing of a giant high priest, stumbled upon some ancient eldritch giant magic, or a combination of these. Becoming a giant isn’t just about growing in size—it also relies on tapping into the primordial prowess of the giants that allowed them to survive against the wilds when the world was new. Growing in strength as a giant often means setting aside planning and reason for instinct and action. Most giants don’t sit around a table plotting the downfall of their enemies; instead, they take the most direct route to their foes and pummel them into submission with their bare hands. Those who show loyalty to their clan, exhibit formidable physical strength, and display decisiveness in war and other contests grow in titanic power.",
+  "features": {
+    "prerequisites": {
+      "ability_scores": "Strength 13",
+      "acquisition": "Complete an arcane ritual, consume a giant’s heart stuffed with alchemical compounds and mashed caterpillars, earn the favor of a giant tribe and undergo a ceremony performed by one of their high priests to bestow the gifts of their titanic ancestors upon you, or accidentally stumble upon ancient giant magic."
+    },
+    "save_dc": "8 + your proficiency bonus + your Strength modifier",
+    "level_milestones": [
+      "Defeating a creature larger than you.",
+      "Intimidating a group of creatures smaller than you into running away or obeying you.",
+      "Overcoming a challenge with an extraordinary feat of strength or excessive violence.",
+      "Eating a creature the same size as you or larger.",
+      "Leading a tribe of giants into battle against another tribe of giants."
+    ]
+  },
+  "transformation_levels": [
+    {
+      "level": 1,
+      "boons": [
+        {
+          "name": "Giant Form",
+          "effect": "Your Strength score increases by 2 and your Constitution score increases by 1. An ability score cannot be increased beyond 16 in this way. You become a Giant in addition to any other creature types you are."
+        },
+        {
+          "name": "Growth Spurt",
+          "effect": "If your size is smaller than Large, it is now Large. In addition, your maximum hit points increase by 5 and increase by 5 again each time you gain a new Giant transformation level."
+        }
+      ],
+      "flaws": [
+        {
+          "name": "Big Appetite",
+          "effect": "You must eat one livestock animal or 2 gp (200 lbs) of food per day. You cannot gain the benefits of a long rest without enough food."
+        },
+        {
+          "name": "Heavy Soul",
+          "effect": "When revived, the material components cost twice as much as normal."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "boons": [
+        {
+          "name": "Foe Thrower",
+          "effect": "You can throw a grappled creature 10 feet, plus 10 more per size category it is smaller than you. If it hits or passes through another creature, it falls prone, and that creature must make a Dexterity save or take 2d6 + Strength modifier damage and fall prone. Damage increases by 1d6 per transformation level above 2"
+        },
+        {
+          "name": "Giant’s Strength",
+          "effect": "Strength increases by 2, to a max of 22. Abillity Score Increases can go up to 22."
+        },
+        {
+          "name": "Titanic Resolve",
+          "effect": "When you take weapon damage, you can use your reaction to gain temporary hit points equal to the damage taken. While you have these temp HP, you have resistance to piercing, bludgeoning, and slashing damage. You can use this a number of times equal to your Strength modifier (minimum 1), regaining all uses on a long rest."
+        }
+      ],
+      "flaws": [
+        {
+          "name": "Groundshaker",
+          "effect": "Loud and destructive footsteps. Advantage to track or detect you."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "boons": [
+        {
+          "name": "Ferocious Slam",
+          "effect": "Your fists become jagged natural weapons. You can make melee weapon attacks with them as a bonus action. On hit, they deal 2d6 + Strength modifier piercing damage. Once per turn when you deal damage with them, you can expend a Hit Die to regain HP equal to the die roll plus the damage dealt."
+        },
+        {
+          "name": "Mountainous Physique",
+          "effect": "Your base speed increases by 10 feet. You count as one size larger for shoving, grappling, carrying capacity, and pushing, dragging, or lifting weight."
+        },
+        {
+          "name": "Titanic Wrath",
+          "effect": "When you hit with a melee weapon attack, you can channel titan's wrath to make that attack and all melee attacks until your next turn deal +1d12 damage. Usable a number of times equal to your Strength modifier (minimum 1), recharges on a long rest."
+        }
+      ],
+      "flaws": [
+        {
+          "name": "Boot Quaker",
+          "effect": "You have disadvantage on Charisma checks against smaller creatures, except when trying to intimidate or frighten them."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "boons": [
+        {
+          "name": "Enormous Size",
+          "effect": "Your size becomes Huge if it isn’t already, your reach increases by 5 feet, and your maximum hit points increase by 20."
+        },
+        {
+          "name": "Greater Giant’s Strength",
+          "prerequisite": "Giant’s Strength",
+          "effect": "Your Strength increases by 2, to a maximum of 24. You can raise it to 24 using Ability Score Increases."
+        },
+        {
+          "name": "Swallow Whole",
+          "effect": "As an action, you can attempt to swallow a grappled creature within 5 feet that is smaller than you. It must make a Strength save; on a failure, it is swallowed, incapacitated, and takes 2d12 acid damage at the start of each of its turns. It has full cover and can attempt a Strength save at the end of its turn to escape. On a success, you vomit it into a space within 10 feet. You can only have one creature swallowed at a time and may vomit it out as a bonus action."
+        }
+      ],
+      "flaws": [
+        {
+          "name": "The Bigger You Are",
+          "effect": "Creatures at least two size categories smaller than you score critical hits against you on attack rolls of 19 or 20."
+        }
+      ]
+    }
+  ]
+}
