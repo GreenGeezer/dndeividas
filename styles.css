@@ -363,7 +363,7 @@ th.highlight-col {
   }
 }
 
-/* === Transformation Cards (Elden-style) === */
+/* === Transformation Cards === */
 .transformations-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -509,4 +509,294 @@ th.highlight-col {
   font-size: 0.85rem;
   color: var(--color-dehighlight);
   text-align: center;
+}
+
+/* === ADDITIONAL CSS FOR ENHANCED TRANSFORMATIONS === */
+/* Add this to the END of your existing styles.css - DO NOT replace anything */
+
+/* Toggle button for detailed view */
+.t-toggle-container {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.t-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 16px;
+  background: rgba(30, 30, 30, 0.9);
+  border: 1px solid var(--color-boder);
+  border-radius: 8px;
+  color: var(--color-text);
+  font-family: var(--font-bold);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.t-toggle-btn:hover {
+  background: rgba(40, 40, 40, 0.9);
+  border-color: var(--color-highlight);
+}
+
+.t-toggle-btn.active {
+  background: rgba(250, 204, 21, 0.1);
+  border-color: var(--color-highlight);
+  color: var(--color-highlight);
+}
+
+.t-toggle-arrow {
+  transition: transform 0.2s ease;
+  font-size: 1rem;
+}
+
+/* Detailed content area */
+.t-detailed-content {
+  border-top: 1px solid #222;
+  padding: 20px;
+  background: rgba(15, 15, 15, 0.9);
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 1000px;
+  }
+}
+
+/* Prerequisites section */
+.t-prereq {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: rgba(20, 20, 20, 0.9);
+  border: 1px solid #222;
+  border-radius: 10px;
+}
+
+.t-prereq-title {
+  font-family: var(--font-bold);
+  color: var(--color-highlight);
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.t-prereq-content {
+  font-size: 0.85rem;
+  color: var(--color-dehighlight);
+  line-height: 1.4;
+  font-family: var(--font-text);
+}
+
+/* Levels section */
+.t-levels {
+  margin-bottom: 16px;
+}
+
+.t-level-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(30, 30, 30, 0.9);
+  border: 1px solid var(--color-boder);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 2px;
+}
+
+.t-level-header:hover {
+  background: rgba(40, 40, 40, 0.9);
+}
+
+.t-level-header.active {
+  background: rgba(250, 204, 21, 0.1);
+  border-color: var(--color-highlight);
+}
+
+.t-level-title {
+  font-family: var(--font-bold);
+  color: var(--color-text);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.t-level-arrow {
+  color: var(--color-highlight);
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
+}
+
+.t-level-header.active .t-level-arrow {
+  transform: rotate(180deg);
+}
+
+.t-level-content {
+  display: none;
+  padding: 0 16px 16px;
+  background: rgba(15, 15, 15, 0.9);
+  border: 1px solid #222;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 8px;
+}
+
+.t-level-content.active {
+  display: block;
+}
+
+/* Boons and Flaws */
+.t-abilities {
+  display: grid;
+  gap: 12px;
+}
+
+.t-ability {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border-left: 3px solid;
+}
+
+.t-boon {
+  background: rgba(0, 100, 0, 0.1);
+  border-left-color: #22c55e;
+}
+
+.t-flaw {
+  background: rgba(100, 0, 0, 0.1);
+  border-left-color: #ef4444;
+}
+
+.t-ability-name {
+  font-family: var(--font-bold);
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: var(--color-text);
+}
+
+.t-boon .t-ability-name {
+  color: #22c55e;
+}
+
+.t-flaw .t-ability-name {
+  color: #ef4444;
+}
+
+.t-ability-effect {
+  font-size: 0.85rem;
+  color: var(--color-dehighlight);
+  line-height: 1.4;
+  font-family: var(--font-text);
+}
+
+/* Milestones section */
+.t-milestones {
+  margin-bottom: 16px;
+}
+
+.t-milestones-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(30, 30, 30, 0.9);
+  border: 1px solid var(--color-boder);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 2px;
+}
+
+.t-milestones-header:hover {
+  background: rgba(40, 40, 40, 0.9);
+}
+
+.t-milestones-header.active {
+  background: rgba(250, 204, 21, 0.1);
+  border-color: var(--color-highlight);
+}
+
+.t-milestones-title {
+  font-family: var(--font-bold);
+  color: var(--color-text);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.t-milestones-content {
+  display: none;
+  padding: 0 16px 16px;
+  background: rgba(15, 15, 15, 0.9);
+  border: 1px solid #222;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.t-milestones-content.active {
+  display: block;
+}
+
+.t-milestone {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.t-milestone:last-child {
+  border-bottom: none;
+}
+
+.t-milestone-bullet {
+  width: 6px;
+  height: 6px;
+  background: var(--color-highlight);
+  border-radius: 50%;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+
+.t-milestone-text {
+  font-size: 0.85rem;
+  color: var(--color-dehighlight);
+  line-height: 1.4;
+  font-family: var(--font-text);
+}
+
+/* Description */
+.t-description {
+  font-size: 0.85rem;
+  color: var(--color-dehighlight);
+  line-height: 1.5;
+  padding: 12px;
+  background: rgba(10, 10, 10, 0.8);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-family: var(--font-text);
+}
+
+/* Save DC badge */
+.t-save-dc {
+  display: inline-block;
+  background: rgba(250, 204, 21, 0.1);
+  border: 1px solid var(--color-highlight);
+  color: var(--color-highlight);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-family: var(--font-bold);
+  margin-bottom: 16px;
 }
