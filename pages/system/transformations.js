@@ -1,6 +1,6 @@
-// Enhanced Transformations JavaScript - Updated to work with your existing system
-// Replace your existing transformations.js with this
+// Enhanced Transformations JavaScript - Supports multiple transformations per file
 
+// You can list multiple JSON files here if you like.
 const transformationFiles = ["/content/transformations.json"];
 
 function truncate(str, len) {
@@ -14,28 +14,41 @@ function firstSentence(text) {
   return (m ? m[0] : text).trim();
 }
 
+// Accepts any of:
+//   { ...one transformation object... }
+//   [ {...}, {...} ]
+//   { transformations: [ {...}, {...} ] }
+function pickTransformations(json) {
+  if (!json) return [];
+  if (Array.isArray(json)) return json;
+  if (Array.isArray(json.transformations)) return json.transformations;
+  return [json];
+}
+
 function createDetailedView(data) {
   return `
     <div class="t-detailed-content" style="display: none;">
       <div class="t-description">${
         data.becoming || "No description available."
       }</div>
-      
+
       <div class="t-save-dc">Save DC: ${data.features?.save_dc || "—"}</div>
-      
+
       <div class="t-prereq">
         <div class="t-prereq-title">Prerequisites</div>
         <div class="t-prereq-content">
-          <strong>Ability Scores:</strong> ${
+          <strong>Ability Scores:</strong>
+          ${
             data.features?.prerequisites?.ability_scores || "None specified"
           }<br>
-          <strong>Acquisition:</strong> ${
+          <strong>Acquisition:</strong>
+          ${
             data.features?.prerequisites?.acquisition ||
             "No acquisition method specified."
           }
         </div>
       </div>
-      
+
       ${
         data.features?.level_milestones?.length
           ? `
@@ -60,7 +73,7 @@ function createDetailedView(data) {
       `
           : ""
       }
-      
+
       <div class="t-levels">
         ${(data.transformation_levels || [])
           .map(
@@ -108,7 +121,6 @@ function renderCard(data) {
   const card = document.createElement("article");
   card.className = "t-card";
 
-  // Keep your exact original structure
   const hasImage = !!data.image;
 
   card.innerHTML = `
@@ -138,8 +150,7 @@ function renderCard(data) {
         firstSentence(data.becoming || ""),
         120
       )}</div>
-      
-      <!-- Toggle button for detailed view -->
+
       <div class="t-toggle-container">
         <button class="t-toggle-btn" onclick="toggleDetails(this)">
           <span class="t-toggle-text">View Details</span>
@@ -147,8 +158,7 @@ function renderCard(data) {
         </button>
       </div>
     </div>
-    
-    <!-- Detailed content section (outside the t-panel) -->
+
     ${createDetailedView(data)}
   `;
 
@@ -190,7 +200,7 @@ function toggleMilestones(header) {
 }
 
 async function boot() {
-  const results = await Promise.all(
+  const payloads = await Promise.all(
     transformationFiles.map((path) =>
       fetch(path)
         .then((r) => r.json())
@@ -200,7 +210,9 @@ async function boot() {
         })
     )
   );
-  results.filter(Boolean).forEach(renderCard);
+
+  const all = payloads.filter(Boolean).flatMap(pickTransformations);
+  all.forEach(renderCard);
 }
 
 document.addEventListener("DOMContentLoaded", boot);

@@ -1,113 +1,216 @@
-{
-  "name": "Giant",
-  "becoming": "Few mortals have ever transformed into giants or, more accurately, few mortals have survived the experience. Those who were able to transform had some ancient ancestry that included giants, completed one of a handful of arcane procedures, earned the blessing of a giant high priest, stumbled upon some ancient eldritch giant magic, or a combination of these. Becoming a giant isn’t just about growing in size—it also relies on tapping into the primordial prowess of the giants that allowed them to survive against the wilds when the world was new. Growing in strength as a giant often means setting aside planning and reason for instinct and action. Most giants don’t sit around a table plotting the downfall of their enemies; instead, they take the most direct route to their foes and pummel them into submission with their bare hands. Those who show loyalty to their clan, exhibit formidable physical strength, and display decisiveness in war and other contests grow in titanic power.",
-  "features": {
-    "prerequisites": {
-      "ability_scores": "Strength 13",
-      "acquisition": "Complete an arcane ritual, consume a giant’s heart stuffed with alchemical compounds and mashed caterpillars, earn the favor of a giant tribe and undergo a ceremony performed by one of their high priests to bestow the gifts of their titanic ancestors upon you, or accidentally stumble upon ancient giant magic."
+[
+  {
+    "name": "Giant",
+    "becoming": "Few mortals have ever transformed into giants or, more accurately, few mortals have survived the experience. Those who were able to transform had some ancient ancestry that included giants, completed one of a handful of arcane procedures, earned the blessing of a giant high priest, stumbled upon some ancient eldritch giant magic, or a combination of these. Becoming a giant isn’t just about growing in size—it also relies on tapping into the primordial prowess of the giants that allowed them to survive against the wilds when the world was new. Growing in strength as a giant often means setting aside planning and reason for instinct and action. Most giants don’t sit around a table plotting the downfall of their enemies; instead, they take the most direct route to their foes and pummel them into submission with their bare hands. Those who show loyalty to their clan, exhibit formidable physical strength, and display decisiveness in war and other contests grow in titanic power.",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Strength 13",
+        "acquisition": "Complete an arcane ritual, consume a giant’s heart stuffed with alchemical compounds and mashed caterpillars, earn the favor of a giant tribe and undergo a ceremony performed by one of their high priests to bestow the gifts of their titanic ancestors upon you, or accidentally stumble upon ancient giant magic."
+      },
+      "save_dc": "8 + your proficiency bonus + your Strength modifier",
+      "level_milestones": [
+        "Defeating a creature larger than you.",
+        "Intimidating a group of creatures smaller than you into running away or obeying you.",
+        "Overcoming a challenge with an extraordinary feat of strength or excessive violence.",
+        "Eating a creature the same size as you or larger.",
+        "Leading a tribe of giants into battle against another tribe of giants."
+      ]
     },
-    "save_dc": "8 + your proficiency bonus + your Strength modifier",
-    "level_milestones": [
-      "Defeating a creature larger than you.",
-      "Intimidating a group of creatures smaller than you into running away or obeying you.",
-      "Overcoming a challenge with an extraordinary feat of strength or excessive violence.",
-      "Eating a creature the same size as you or larger.",
-      "Leading a tribe of giants into battle against another tribe of giants."
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [
+          {
+            "name": "Giant Form",
+            "effect": "Your Strength score increases by 2 and your Constitution score increases by 1. An ability score cannot be increased beyond 16 in this way. You become a Giant in addition to any other creature types you are."
+          },
+          {
+            "name": "Growth Spurt",
+            "effect": "If your size is smaller than Large, it is now Large. In addition, your maximum hit points increase by 5 and increase by 5 again each time you gain a new Giant transformation level."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Big Appetite",
+            "effect": "You must eat one livestock animal or 2 gp (200 lbs) of food per day. You cannot gain the benefits of a long rest without enough food."
+          },
+          {
+            "name": "Heavy Soul",
+            "effect": "When revived, the material components cost twice as much as normal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "boons": [
+          {
+            "name": "Foe Thrower",
+            "effect": "You can throw a grappled creature 10 feet, plus 10 more per size category it is smaller than you. If it hits or passes through another creature, it falls prone, and that creature must make a Dexterity save or take 2d6 + Strength modifier damage and fall prone. Damage increases by 1d6 per transformation level above 2"
+          },
+          {
+            "name": "Giant’s Strength",
+            "effect": "Strength increases by 2, to a max of 22. Abillity Score Increases can go up to 22."
+          },
+          {
+            "name": "Titanic Resolve",
+            "effect": "When you take weapon damage, you can use your reaction to gain temporary hit points equal to the damage taken. While you have these temp HP, you have resistance to piercing, bludgeoning, and slashing damage. You can use this a number of times equal to your Strength modifier (minimum 1), regaining all uses on a long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Groundshaker",
+            "effect": "Loud and destructive footsteps. Advantage to track or detect you."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "boons": [
+          {
+            "name": "Ferocious Slam",
+            "effect": "Your fists become jagged natural weapons. You can make melee weapon attacks with them as a bonus action. On hit, they deal 2d6 + Strength modifier piercing damage. Once per turn when you deal damage with them, you can expend a Hit Die to regain HP equal to the die roll plus the damage dealt."
+          },
+          {
+            "name": "Mountainous Physique",
+            "effect": "Your base speed increases by 10 feet. You count as one size larger for shoving, grappling, carrying capacity, and pushing, dragging, or lifting weight."
+          },
+          {
+            "name": "Titanic Wrath",
+            "effect": "When you hit with a melee weapon attack, you can channel titan's wrath to make that attack and all melee attacks until your next turn deal +1d12 damage. Usable a number of times equal to your Strength modifier (minimum 1), recharges on a long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Boot Quaker",
+            "effect": "You have disadvantage on Charisma checks against smaller creatures, except when trying to intimidate or frighten them."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "boons": [
+          {
+            "name": "Enormous Size",
+            "effect": "Your size becomes Huge if it isn’t already, your reach increases by 5 feet, and your maximum hit points increase by 20."
+          },
+          {
+            "name": "Greater Giant’s Strength",
+            "prerequisite": "Giant’s Strength",
+            "effect": "Your Strength increases by 2, to a maximum of 24. You can raise it to 24 using Ability Score Increases."
+          },
+          {
+            "name": "Swallow Whole",
+            "effect": "As an action, you can attempt to swallow a grappled creature within 5 feet that is smaller than you. It must make a Strength save; on a failure, it is swallowed, incapacitated, and takes 2d12 acid damage at the start of each of its turns. It has full cover and can attempt a Strength save at the end of its turn to escape. On a success, you vomit it into a space within 10 feet. You can only have one creature swallowed at a time and may vomit it out as a bonus action."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "The Bigger You Are",
+            "effect": "Creatures at least two size categories smaller than you score critical hits against you on attack rolls of 19 or 20."
+          }
+        ]
+      }
     ]
   },
-  "transformation_levels": [
-    {
-      "level": 1,
-      "boons": [
-        {
-          "name": "Giant Form",
-          "effect": "Your Strength score increases by 2 and your Constitution score increases by 1. An ability score cannot be increased beyond 16 in this way. You become a Giant in addition to any other creature types you are."
-        },
-        {
-          "name": "Growth Spurt",
-          "effect": "If your size is smaller than Large, it is now Large. In addition, your maximum hit points increase by 5 and increase by 5 again each time you gain a new Giant transformation level."
-        }
-      ],
-      "flaws": [
-        {
-          "name": "Big Appetite",
-          "effect": "You must eat one livestock animal or 2 gp (200 lbs) of food per day. You cannot gain the benefits of a long rest without enough food."
-        },
-        {
-          "name": "Heavy Soul",
-          "effect": "When revived, the material components cost twice as much as normal."
-        }
+  {
+    "name": "Fey",
+    "becoming": "Becoming a fey requires a direct connection to the faerie realms. Most mortals who become fey are stolen as children, transformed rapidly in the faerie realm. Others may strike a bargain with an archfey or swear fealty to a faerie queen. This path is dangerous, requiring wit and awareness to gain the favor of the fey kind.",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Charisma 13",
+        "acquisition": "Swear fealty to a fey court, be raised as a changeling, or have another plausible reason to have become a fey. Must have the GM’s approval for how you achieve this in-game."
+      },
+      "save_dc": "8 + your proficiency bonus + your Charisma modifier",
+      "level_milestones": [
+        "Striking a bargain with a greater fey.",
+        "Performing a great deed in the name of a faerie queen.",
+        "Establishing a new faerie ring or bridge to the fey realms.",
+        "Defeating a powerful agent from your rival court.",
+        "Earning a domain or title in the realm of faerie."
       ]
     },
-    {
-      "level": 2,
-      "boons": [
-        {
-          "name": "Foe Thrower",
-          "effect": "You can throw a grappled creature 10 feet, plus 10 more per size category it is smaller than you. If it hits or passes through another creature, it falls prone, and that creature must make a Dexterity save or take 2d6 + Strength modifier damage and fall prone. Damage increases by 1d6 per transformation level above 2"
-        },
-        {
-          "name": "Giant’s Strength",
-          "effect": "Strength increases by 2, to a max of 22. Abillity Score Increases can go up to 22."
-        },
-        {
-          "name": "Titanic Resolve",
-          "effect": "When you take weapon damage, you can use your reaction to gain temporary hit points equal to the damage taken. While you have these temp HP, you have resistance to piercing, bludgeoning, and slashing damage. You can use this a number of times equal to your Strength modifier (minimum 1), regaining all uses on a long rest."
-        }
-      ],
-      "flaws": [
-        {
-          "name": "Groundshaker",
-          "effect": "Loud and destructive footsteps. Advantage to track or detect you."
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "boons": [
-        {
-          "name": "Ferocious Slam",
-          "effect": "Your fists become jagged natural weapons. You can make melee weapon attacks with them as a bonus action. On hit, they deal 2d6 + Strength modifier piercing damage. Once per turn when you deal damage with them, you can expend a Hit Die to regain HP equal to the die roll plus the damage dealt."
-        },
-        {
-          "name": "Mountainous Physique",
-          "effect": "Your base speed increases by 10 feet. You count as one size larger for shoving, grappling, carrying capacity, and pushing, dragging, or lifting weight."
-        },
-        {
-          "name": "Titanic Wrath",
-          "effect": "When you hit with a melee weapon attack, you can channel titan's wrath to make that attack and all melee attacks until your next turn deal +1d12 damage. Usable a number of times equal to your Strength modifier (minimum 1), recharges on a long rest."
-        }
-      ],
-      "flaws": [
-        {
-          "name": "Boot Quaker",
-          "effect": "You have disadvantage on Charisma checks against smaller creatures, except when trying to intimidate or frighten them."
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "boons": [
-        {
-          "name": "Enormous Size",
-          "effect": "Your size becomes Huge if it isn’t already, your reach increases by 5 feet, and your maximum hit points increase by 20."
-        },
-        {
-          "name": "Greater Giant’s Strength",
-          "prerequisite": "Giant’s Strength",
-          "effect": "Your Strength increases by 2, to a maximum of 24. You can raise it to 24 using Ability Score Increases."
-        },
-        {
-          "name": "Swallow Whole",
-          "effect": "As an action, you can attempt to swallow a grappled creature within 5 feet that is smaller than you. It must make a Strength save; on a failure, it is swallowed, incapacitated, and takes 2d12 acid damage at the start of each of its turns. It has full cover and can attempt a Strength save at the end of its turn to escape. On a success, you vomit it into a space within 10 feet. You can only have one creature swallowed at a time and may vomit it out as a bonus action."
-        }
-      ],
-      "flaws": [
-        {
-          "name": "The Bigger You Are",
-          "effect": "Creatures at least two size categories smaller than you score critical hits against you on attack rolls of 19 or 20."
-        }
-      ]
-    }
-  ]
-}
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [
+          {
+            "name": "Fey Form",
+            "effect": "Your Charisma increases by 2 and your Dexterity increases by 1. An ability score cannot be raised above 16 in this way. You become a Fey in addition to any other types you are. You are immune to effects that only affect creatures of your former type of a specific CR. Choose a Fey Court (Summer or Winter), which shapes your transformation. <br><br><b>The Summer Court:</b> The summer court embodies the bounty and warmth of the growing season. The fey of summer tend towards joviality, fickleness, and vanity. Creatures of summer often hide their cruel intentions behind beautiful facades. <br><br><b>The Winter Court:</b> The winter court embodies the stillness and darkness of the coldest season. The fey of winter tend to be serious, cruel, and reflective. Creatures of winter are often terrifying to behold but very direct about their intentions."
+          },
+          {
+            "name": "Twilight Step",
+            "effect": "As a bonus action, you can teleport up to 30 feet to an unoccupied space. This ability gains an additional effect based on your Fey Court. Summer: after using Twilight Step, one creature of your choice within 5 feet takes damage equal to your Charisma modifier (minimum 1). Winter: after using Twilight Step, one creature of your choice within 5 feet takes cold damage equal to your Charisma modifier (minimum 1). Usable a number of times equal to your Charisma modifier (minimum 1), regaining uses on a long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Planar Binding",
+            "effect": "Your soul is bound to the faerie realms. You have disadvantage on death saving throws as the realm tries to pull you back. If you would die, your soul is taken to a plane of the GM’s choice, and you become an NPC. If you are in the faerie realm responsible for your transformation, this flaw has no effect."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "boons": [
+          {
+            "name": "Two-Faced",
+            "effect": "You can transform your face into a vision of beauty or horror. Any non-fey creature within 30 feet must make a Wisdom saving throw or be affected for 1 minute. Summer: on a failed save, the creature is charmed. Winter: on a failed save, the creature is frightened. The effect ends early if the creature is harmed by you or your allies. Once used, you cannot use this feature again until you finish a short or long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Queen’s Command",
+            "effect": "The fey court lends you its power, and in exchange you must pay regular tribute. Twice a year, you must provide tribute to your chosen court’s queen. If you fail, you are pulled into her realm for 100 years, or until you strike a bargain to return. Tribute may be treasures, secrets, captives, or other offerings determined by the GM."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "boons": [
+          {
+            "name": "Faerie Mantle",
+            "effect": "As an action, you can project an aura of majesty for 1 minute. Creatures of your choice within 30 feet must succeed on a Charisma saving throw or be blinded until the end of their turn. They may repeat the saving throw at the end of their turns. Once used, this ability cannot be used again until a long rest."
+          },
+          {
+            "name": "Made of Magic",
+            "effect": "You gain resistance to damage from spells. Additionally, you may use a reaction to gain advantage on a saving throw against a spell. Once used, you cannot use this feature again until a short or long rest."
+          },
+          {
+            "name": "Courtly Graces",
+            "effect": "Gain proficiency in two skills chosen by your Fey Court. If already proficient, you double your proficiency bonus. If you ever gain double proficiency again, you gain an additional +2 instead. Summer: proficiency in Performance and Persuasion, immunity to being charmed. Winter: proficiency in Deception and Intimidation, immunity to being frightened."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Bound by Words",
+            "effect": "Any oath or promise you make is magically binding. Breaking your word causes you to lose all boons until you surrender an additional tribute to your Fey Queen. This stacks with Queen’s Command."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "boons": [
+          {
+            "name": "Greater Magic Tricks",
+            "prerequisite": "Magic Tricks",
+            "effect": "You gain access to one 3rd-, 4th-, and 5th-level illusion or enchantment spell. Each can be cast once without a spell slot, regaining the ability after a long rest. You may replace a chosen spell with another of the same level after a long rest. In addition, you can cast the 1st- and 2nd-level spells from Magic Tricks twice per rest."
+          },
+          {
+            "name": "Misdirection",
+            "effect": "Light and magic twist around you, imposing disadvantage on all attack rolls against you. If you are hit by an attack, this effect ends until the end of your next turn. This only functions while conscious."
+          },
+          {
+            "name": "Twilight Glamour",
+            "effect": "As an action, you can become invisible for 1 minute. The invisibility ends early if you attack or cast a spell. You cannot use this again until a short or long rest. Only functions while conscious."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Seasonally Affected",
+            "effect": "You are weak to fire damage if aligned with Winter, or cold damage if aligned with Summer. If you are resistant, you instead take normal damage. If immune, you are resistant instead. In addition, whenever you take this damage type, your maximum HP is reduced by the same amount until a long rest."
+          }
+        ]
+      }
+    ]
+  }
+]
