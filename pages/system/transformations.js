@@ -14,6 +14,18 @@ function firstSentence(text) {
   return (m ? m[0] : text).trim();
 }
 
+// Helper function to generate image path from transformation name
+function getImagePath(transformationName) {
+  if (!transformationName) return null;
+
+  // Replace spaces with underscores and remove special characters that might cause issues
+  const imageName = transformationName
+    .replace(/\s+/g, "_")
+    .replace(/[^a-zA-Z0-9_-]/g, "");
+
+  return `../../images/transformations/${imageName}.png`;
+}
+
 // Accepts any of:
 //   { ...one transformation object... }
 //   [ {...}, {...} ]
@@ -121,14 +133,20 @@ function renderCard(data) {
   const card = document.createElement("article");
   card.className = "t-card";
 
-  const hasImage = !!data.image;
+  // Determine image source: use provided image or generate path from name
+  const imageSrc = data.image || getImagePath(data.name);
+  const hasImage = !!imageSrc;
 
   card.innerHTML = `
     <div class="t-head">${(data.name || "Unknown").toUpperCase()}</div>
     <div class="t-hero">
       ${
         hasImage
-          ? `<img alt="${data.name}" src="${data.image}">`
+          ? `<img alt="${
+              data.name
+            }" src="${imageSrc}" onerror="this.parentNode.innerHTML='<div class=\\"t-monogram\\">${(
+              data.name || "?"
+            ).slice(0, 0)}</div>`
           : `<div class="t-monogram">${(data.name || "?").slice(0, 1)}</div>`
       }
     </div>
