@@ -1,5 +1,336 @@
 [
   {
+    "name": "Aberrant Horror",
+    "becoming": "Each Aberrant Horror is defined by one key question: what happened to them? Some individuals make pacts with ancient entities for powers that have unforeseen effects. Others awaken after being defeated by an unnatural monster, surprised that they have been spared, only to feel something writhing in their stomach. Many tropes of body horror can be used as inspiration for an Aberrant Horror. <br><br> Once your origin has been determined, you can consider your motivations regarding the transformation. As their power grows and manifests, they may feel they have lost what makes them fundamentally themselves. Perhaps they take revenge on the entity responsible for their transformation, or perhaps they perceive their transformation as a gift.",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Constitution 13",
+        "acquisition": "You must have had an encounter with an Aberration, magical anomaly, or other plausible reason to have become an Aberrant Horror. Work with your GM to decide how this occurred in your backstory or in-game."
+      },
+      "save_dc": "8 + your proficiency bonus + your Constitution modifier",
+      "level_milestones": [
+        "Defeating a powerful Aberration and absorbing its power.",
+        "Undergoing a dangerous and costly experiment.",
+        "Surviving a magical mishap.",
+        "Acquiring the strength to give birth to a more powerful version of yourself, which then consumes your old self.",
+        "Fulfilling an eldritch prophecy written in the stars."
+      ]
+    },
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [
+          {
+            "name": "Aberrant Adaptations",
+            "effect": "Your body can twist and reshape itself as you will, changing body parts into dangerous weapons or useful tools, and regenerating after damage. This ability is represented through Adaptations.<br><br><b>Basic Adaptations</b><br>At 1st level, you gain the following adaptations:<br><br><b>Chitinous Shell.</b> As a bonus action, you can develop a hard, crustacean-like shell. When you use this adaptation and are not wearing heavy armor, you gain a +2 to AC. However, this reduces your speed by 10 feet. This adaptation lasts for 1 minute or until you are knocked unconscious. On your turn, you may use a bonus action to end this adaptation.<br><br><b>Eldritch Limbs.</b> You can transform one or both of your arms into a weapon of thick muscle, sharp claws, or hardened bone. When you make an attack, you can use this adaptation. If you do, you gain the following features:<br><ul><li>You can choose what type of damage your unarmed attacks will cause: Piercing, Bludgeoning, or Slashing. Your arm becomes a claw, tusk, or bone club, depending on the damage type chosen.</li><li>You may roll a d6 in place of normal damage for unarmed strikes.</li><li>You cannot hold any object in the affected arm. This includes, but is not limited to, weapons, shields, and spellcasting focuses. Any object you are holding merges into your adaptation or immediately drops to the ground. The GM may decide if they feel the object is too large to merge.</li></ul>This adaptation lasts until you are knocked unconscious. On your turn, you may use a bonus action to end this adaptation."
+          },
+          {
+            "name": "Aberrant Form",
+            "effect": "Your Constitution score increases by 2 and your Strength score increases by 1. An ability score cannot be increased beyond 16 this way.<br><br>You become an Aberration in addition to any other creature types you are. Spells and abilities that affect Aberrations of a specific CR have no effect on you."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Unstable Mutations",
+            "effect": "Your body becomes malleable and struggles to maintain any one physical shape. Upon completing a long rest, you must roll 1d100 on the Unstable Form table and apply the effects of the result, determined by your transformation level. These effects last until you complete another long rest. If you roll the same result on the table more than once in a row, roll again until a new result is rolled."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "boons": [
+          {
+            "name": "Efficient Killer",
+            "effect": "When you make an unarmed attack while you are benefiting from the Eldritch Limbs adaptation, you can gain one of the following effects depending on the type of damage you chose:<br><br><b>Piercing.</b> You can launch a razor-sharp barb from your arm. Make a ranged attack at a target within 30 feet. Upon a hit, the target takes piercing damage equal to 2d6 + your Strength modifier.<br><br><b>Bludgeoning.</b> You can manifest a long tentacle, tipped with a hardened bone club. Your unarmed attack deals an additional 1d6 bludgeoning damage. When you hit a creature with an unarmed attack, you can then attempt to damage another creature within 5 feet of the original target. If the original attack roll would hit the second creature, it takes bludgeoning damage equal to 1d6 + your Strength modifier.<br><br><b>Slashing.</b> Your arm forms a row of viciously hooked claws and talons. Your unarmed attack deals an additional 1d6 slashing damage, and the target must succeed at a Constitution saving throw. Upon a failed save, the target gains the bleeding condition for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself upon a success."
+          },
+          {
+            "name": "Other-Worldly Tendrils",
+            "effect": "Starting at 2nd level, you can use a bonus action to grow a long, tendril-like appendage out of your body that you are proficient with. On subsequent turns, immediately after taking the attack action, you may use a bonus action to have the tendril attack an enemy within 10 feet of you. If you do, make an unarmed melee attack using your Strength modifier. On a hit, the target takes bludgeoning damage equal to 1d4 + your Strength modifier.<br><br>The tendril lasts until you become unconscious. On your turn, you may use a bonus action to retract it. In addition, you gain the following Adaptations:<br><br><b>Toxic Spray.</b> A lamprey-like mouth opens at the end of a tendril and sprays a noxious toxin. When you attack a creature with one of your tendrils, you can choose to use this Adaptation and forgo dealing damage. If you do, instead of rolling to hit, the target must make a Constitution saving throw against your Transformation Save DC. On a failed save, they become poisoned. A creature that has failed this saving throw makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer affected by this Adaptation.<br><br><b>Constrict.</b> A tendril wraps tightly around the target. When you hit with a tendril attack, and the target is large or smaller, you can choose to use this Adaptation. If you do, the attack deals no damage and the target is grappled. Until the grapple is ended, the tendril cannot be used against other targets.<br><br><b>Hypnotic Trance.</b> A tendril flashes a myriad of coloured bioluminescent lights, attempting to disorient the target. When you attack a creature with one of your tendrils, you can choose to use this Adaptation and forgo dealing damage. If you do, instead of rolling to hit, the target must make a Wisdom saving throw against your Transformation Save DC. On a failed save, all attack rolls against the target have advantage, until the start of the affected creature's next turn. A creature that has failed this saving throw makes another Wisdom saving throw at the end of each of its turns. On a successful save, it is no longer affected by this Adaptation."
+          },
+          {
+            "name": "Situational Evolution",
+            "effect": "You can use an action to grow gills and flippers, thin hairs on your extremities to climb walls, or a layer of rapidly-regenerating flesh. You gain the following Adaptations:<br><br><b>Scopulae.</b> Your climbing speed becomes the same as your walking speed. You can climb vertical objects, while leaving one hand free.<br><br><b>Gills and Flippers.</b> Your swim speed becomes the same as your walking speed, and you can breathe underwater.<br><br><b>Regenerative Tissue.</b> At the beginning of your turn, you regain hit points equal to your Constitution modifier if you have no more than half your hit points left. If you take fire or acid damage, then this Adaptation has no effect at the beginning of your next turn.<br><br>These adaptations last until you become unconscious, use a different one of these Adaptations, or use a bonus action on your turn to end the Adaptation."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Hideous Appearance",
+            "effect": "Your appearance has grotesquely transformed. You may be a hulking mass of flesh, adorned with countless eyes, or a bone-and-tusk-covered natural weapon. Regardless of your true form, you’re horrific to behold. You can suspend this form and manifest the appearance of the humanoid you once were, but this is taxing and requires concentration. This form is not permanent, and moments of stress are likely to reveal your true nature. Your true form is revealed in the following situations:<br><ul><li>Concentrating on a spell.</li><li>Gaining the unconscious condition.</li><li>Entering hallowed ground.</li><li>Choosing to reveal yourself.</li></ul>In events of extreme emotional or physical stress, a GM may call for a Constitution saving throw with a DC of their choosing to see if you maintain your humanoid form.<br><br>Non-evil creatures that witness your true form become instantly hostile to you, unless the GM decides otherwise."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "boons": [
+          {
+            "name": "Wings",
+            "effect": "Beginning at 3rd level, you can grow large, twisted wings of mutated flesh. You gain the following Adaptation:<br><br><b>Wings.</b> As a bonus action, you can manifest a pair of distorted, fleshy wings. You gain a fly speed equal to your current speed. These wings recede after 10 minutes. You can reabsorb them as a bonus action on your turn, and they reabsorb automatically if you are knocked unconscious. You can manifest your wings while wearing medium or light armour if it is made to accommodate them. You cannot manifest your wings while wearing heavy armour.<br><br>Once you use this Adaptation, you cannot use it again until you complete a short rest."
+          },
+          {
+            "name": "Additional Tendrils",
+            "prerequisite": "Otherworldly Tendrils",
+            "effect": "You are able to grow an additional tendril. On subsequent turns, you may use a bonus action to attack with each tendril you have grown. The tendrils can all attack the same target or different ones. Make a separate attack roll for each tendril.<br><br>When you reach the 4th level of this transformation, the number of tendrils you can manifest is increased to three."
+          },
+          {
+            "name": "Enhanced Hypertrophy",
+            "effect": "You may roll a d8 in place of normal damage for unarmed strikes. The base damage dice for your adaptations, like Efficient Killer and Otherworldly Tendrils becomes one base die higher. For example, an adaptation that deals 2d6 damage would become 2d8 damage instead."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Unstable Existence",
+            "effect": "The nature of magic is beginning to unravel your material form. Whenever you roll a natural 1, 2 or 3 on a saving throw against a spell or magical ability, you reveal your Hideous Appearance."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "boons": [
+          {
+            "name": "Savage Predator",
+            "effect": "Beginning at 4th level, whenever you roll to hit a target and score a natural 20, you may deal an additional 6d6 damage. This damage is the same type as your weapon. In addition, each creature of your choice that is within 30 feet of you must succeed a Wisdom saving throw or become Frightened of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          },
+          {
+            "name": "Master of the Deep",
+            "prerequisite": "Additional Tendrils",
+            "effect": "On your turn as an action, you can rapidly grow and launch hundreds of tiny tendrils from your body. Each creature of your choice within 15 feet of you must succeed on a Dexterity saving throw. On a failed save, they suffer one of the following effects of your choice for 1 minute. You can choose different effect options for different creatures:<br><ul><li>Become poisoned.</li><li>Speed becomes 0.</li><li>Attacks against them have advantage.</li></ul>Once you use this feature, you cannot use it again until you complete a short or long rest."
+          },
+          {
+            "name": "Extremophilic Conditioning",
+            "effect": "Starting at 4th level, your body has learned to adapt to extreme conditions, allowing you to survive where most would perish. On your turn, as an action, you can use the following Adaptation:<br><br><b>Metamorphosis.</b> You rapidly change your body’s biophysical and chemical composition in reaction to your environment. Choose one of the following options:<br><ul><li>You are resistant to Bludgeoning, Piercing, and Slashing damage. When determining falling damage, you take 1 bludgeoning damage for each 10 feet fallen in place of normal damage (maximum of 20 bludgeoning damage).</li><li>You are resistant to Fire, Lightning, and Acid damage. You are immune to the effects of extreme hot climates.</li><li>You are resistant to Cold, Thunder, and Poison damage. You are immune to the effects of extreme cold climates.</li></ul>This adaptation lasts until you use this Adaptation again."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Entropic Abomination",
+            "effect": "The very essence of magic aggravates the unstable nature of your aberrant body.<br><br>Whenever you fail a saving throw to a spell or magical ability, roll on the Unstable Mutation table. If the result is less than your current unstable mutation effect, then replace it with the new result."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fey",
+    "becoming": "Becoming a fey requires a direct connection to the faerie realms. Most mortals who become fey are stolen as children, transformed rapidly in the faerie realm. Others may strike a bargain with an archfey or swear fealty to a faerie queen. This path is dangerous, requiring wit and awareness to gain the favor of the fey kind.",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Charisma 13",
+        "acquisition": "Swear fealty to a fey court, be raised as a changeling, or have another plausible reason to have become a fey. Must have the GM’s approval for how you achieve this in-game."
+      },
+      "save_dc": "8 + your proficiency bonus + your Charisma modifier",
+      "level_milestones": [
+        "Striking a bargain with a greater fey.",
+        "Performing a great deed in the name of a faerie queen.",
+        "Establishing a new faerie ring or bridge to the fey realms.",
+        "Defeating a powerful agent from your rival court.",
+        "Earning a domain or title in the realm of faerie."
+      ]
+    },
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [
+          {
+            "name": "Fey Form",
+            "effect": "Your Charisma increases by 2 and your Dexterity increases by 1. An ability score cannot be raised above 16 in this way. You become a Fey in addition to any other types you are. You are immune to effects that only affect creatures of your former type of a specific CR. Choose a Fey Court (Summer or Winter), which shapes your transformation. <br><br><b>The Summer Court:</b> The summer court embodies the bounty and warmth of the growing season. The fey of summer tend towards joviality, fickleness, and vanity. Creatures of summer often hide their cruel intentions behind beautiful facades. <br><br><b>The Winter Court:</b> The winter court embodies the stillness and darkness of the coldest season. The fey of winter tend to be serious, cruel, and reflective. Creatures of winter are often terrifying to behold but very direct about their intentions."
+          },
+          {
+            "name": "Twilight Step",
+            "effect": "As a bonus action, you can teleport up to 30 feet to an unoccupied space. This ability gains an additional effect based on your Fey Court. <br><br><b>Summer:</b> after using Twilight Step, one creature of your choice within 5 feet takes damage equal to your Charisma modifier (minimum 1).<br><br><b>Winter:</b> after using Twilight Step, one creature of your choice within 5 feet takes cold damage equal to your Charisma modifier (minimum 1). Usable a number of times equal to your Charisma modifier (minimum 1), regaining uses on a long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Planar Binding",
+            "effect": "Your soul is bound to the faerie realms. You have disadvantage on death saving throws as the realm tries to pull you back. If you would die, your soul is taken to a plane of the GM’s choice, and you become an NPC. If you are in the faerie realm responsible for your transformation, this flaw has no effect."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "boons": [
+          {
+            "name": "Two-Faced",
+            "effect": "You can transform your face into a vision of beauty or horror. Any non-fey creature within 30 feet must make a Wisdom saving throw or be affected for 1 minute. <br><br><b>Summer:</b> on a failed save, the creature is charmed. <br><br><b>Winter:</b> on a failed save, the creature is frightened. The effect ends early if the creature is harmed by you or your allies. <br><br> Once used, you cannot use this feature again until you finish a short or long rest."
+          },
+          {
+            "name": "Sprite Servant",
+            "effect": "A fey sprite binds itself to your service. The sprite is a floating ball of light, considered to be a Tiny creature which cannot be harmed or affected in any way. The sprite has the following characteristics:<br><br><ul><li>The sprite has a fly speed of 40 feet.</li><li>The sprite cannot speak verbally, but it can telepathically communicate with you as long as it is within a mile of you. The sprite understands all languages you do.</li><li>The sprite can become invisible at will. Otherwise, it sheds dim light in a 10-foot radius. As a bonus action, you can command the sprite to shine more brightly. When following this command, the sprite can shed bright light in a 20-foot radius and dim light for an additional 20 feet.</li></ul>"
+          },
+          {
+            "name": "Magic Tricks",
+            "effect": "Your transformation grants you innate power, which manifests as the ability to cast a small number of spells. You learn one illusion or enchantment cantrip.<br><br>In addition, choose one 1st-level and one 2nd-level illusion or enchantment spell. You can cast each of these spells once without expending a spell slot. You regain the ability to cast them in this way when you finish a short or long rest. Charisma is your spellcasting ability for these spells. When you finish a long rest you can replace your 1st or 2nd level spell with a spell of the same level which must also be an enchantment or illusion spell."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Queen’s Command",
+            "effect": "The fey court lends you its power, and in exchange you must pay regular tribute. Twice a year, you must provide tribute to your chosen court’s queen. If you fail, you are pulled into her realm for 100 years, or until you strike a bargain to return. Tribute may be treasures, secrets, captives, or other offerings determined by the GM."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "boons": [
+          {
+            "name": "Faerie Mantle",
+            "effect": "As an action, you can project an aura of majesty for 1 minute. Creatures of your choice within 30 feet must succeed on a Charisma saving throw or be blinded until the end of their turn. They may repeat the saving throw at the end of their turns. Once used, this ability cannot be used again until a long rest."
+          },
+          {
+            "name": "Made of Magic",
+            "effect": "You gain resistance to damage from spells. Additionally, you may use a reaction to gain advantage on a saving throw against a spell. Once used, you cannot use this feature again until a short or long rest."
+          },
+          {
+            "name": "Courtly Graces",
+            "effect": "You gain proficiency in two skills determined by your court. If you are already proficient in one or both of these skills, then your proficiency bonus is doubled for ability checks using that skill. If you have or ever gain double your proficiency bonus in one or both of these skills, you gain an additional +2 for that skill.<br><br>Additionally, your fealty to a fey court offers you protection from certain emotions associated with the court. You gain a benefit based on your court.<br><br><b>Summer:</b> You gain proficiency in Performance and Persuasion, and you are immune to being charmed.<br><br><b>Winter:</b> You gain proficiency in Deception and Intimidation, and you are immune to being frightened."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Bound by Words",
+            "effect": "The fey choose their words carefully for they are bound by them, and so too are you. When you give your word to a humanoid creature (such as by making a promise or pledge, entering into a contract, or coming to a verbal agreement) the commitment becomes magically enforced. If you fail to fulfill your part of the agreement, you lose the benefit of all of your fey transformation boons until you surrender an additional tithe to the summer or winter queen, as described in your Queen’s Command flaw. This tithe is in addition to those required by that flaw.<br><br>Importantly, you are bound by the letter of any agreement you make, not by the spirit. If you promise you will not lay a hand on the prince, for example, there would be no consequences if you kicked him (provided your hand didn’t touch him in the process)."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "boons": [
+          {
+            "name": "Greater Magic Tricks",
+            "prerequisite": "Magic Tricks",
+            "effect": "Choose an enchantment or illusion spell of 3rd, 4th, and 5th level. You can cast each of these spells once without expending a spell slot and regain the ability to cast them in this way when you finish a long rest. Charisma is your spellcasting ability for these spells. When you finish a long rest you can replace your 3rd-, 4th-, or 5th-level spell with a spell of the same level, which must also be an enchantment or illusion spell.<br><br>Additionally, you can cast the 1st and 2nd level spells from the Magic Tricks Boon twice per short or long rest."
+          },
+          {
+            "name": "Misdirection",
+            "effect": "Light and magic bend strangely around you, making you difficult to hit. All attack rolls against you have disadvantage. If you are hit by an attack, this trait is disrupted until the end of your next turn. This trait only works while you are conscious."
+          },
+          {
+            "name": "Twilight Glamour",
+            "effect": "As an action, you can become invisible. Anything you are wearing or carrying on your person is invisible as well. The invisibility ends if you choose to end it, if you attack, or if you cast a spell. Once your invisibility ends in this way, you cannot use this feature again for 1 minute. This trait only works while you are conscious."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Seasonally Affected",
+            "effect": "Your connection to the fey courts has granted you tremendous power but also an esoteric fragility: you gain a weakness towards cold damage if you are in the summer court, or fire damage if you are in the winter court.<br><br>If you were normally resistant to this damage type, it instead affects you normally. If you are normally immune to damage of that type, you are resistant instead. In addition, whenever you take damage of that type, your maximum hit points are reduced by an equal amount. When your maximum hit points are reduced by this effect, they return to normal after you finish a long rest."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fiend",
+    "becoming": "A mortal can become a Fiend in a variety of ways. Some forfeit their souls and become one upon death. Others undertake excruciating rituals to transform into one. However, your character becomes a Fiend constitutes their contract. Communicating with your GM about creating deals with mortals in their story is a great way to roleplay your influence within the game world. As a Fiend, you should consider what your character’s motivations are and which NPCs they can use to achieve their goals.",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Charisma 13",
+        "acquisition": "You must have made a pact with a Fiend, undergone an infernal ritual, or have another plausible reason to have become a Fiend. Work with your GM to determine how this happened."
+      },
+      "save_dc": "8 + your proficiency bonus + your Charisma modifier",
+      "level_milestones": [
+        "Defeating a greater rival Fiend and taking their place in the hierarchy.",
+        "Ensnaring a particularly powerful or influential soul with a contract.",
+        "Establishing a cult of worshipers who offer their strength to you.",
+        "Establishing a portal between the material plane and the Netherworld.",
+        "Killing or corrupting a Seraph."
+      ]
+    },
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [
+          {
+            "name": "Entropic Abomination",
+            "effect": "The very essence of magic aggravates the unstable nature of your aberrant body.<br><br>Whenever you fail a saving throw to a spell or magical ability, roll on the Unstable Mutation table. If the result is less than your current unstable mutation effect, then replace it with the new result."
+          },
+          {
+            "name": "Gifts of Damnation",
+            "effect": "You have acquired the ability to bind your first mortal to your will. You can create a contract to bind their soul to you, feeding on its power. However, you will not gain the benefits of this gift until you have bound a mortal with a contract.<br><br>To bind a mortal’s soul to you and grant them a Gift of Damnation, you must first create a contract for that gift. A contract requires magical ink and paper worth 50gp for each Transformation level you have acquired, and you must meet the prerequisites listed. In addition, you and the mortal must both sign the contract willingly, fully aware of the costs involved. Once signed, Netherworld entities give the benefits of the gift to you, and the mortal receives the named benefit within 7 days. You do not have to provide this benefit yourself. For example, upon signing a contract for a Gift of Unfettered Glory, you will receive the benefits listed under the gift. The mortal who signs will receive glory and no in-game mechanical bonuses, provided by the dubious powers of the Netherworld.<br><br>While you may have any number of contracts in your possession, you can only benefit from one at a time. Upon the completion of a long rest, you may swap the contract you are currently benefiting from for an alternate contract that you have bound a mortal to and signed.<br><br>On your turn, as an action, you can call upon the Netherworld to reveal to you the exact location of a creature that has signed one of your contracts, providing they are on the same plane of existence as you.<br><br>A contract you hold lasts for 7 years or until the mortal that signed it dies. At which point it bursts into flames and you cannot receive any benefits from it."
+          },
+          {
+            "name": "Fiendish Form",
+            "effect": "Your Charisma score increases by 2 and your Intelligence score increases by 1. An ability score cannot be increased beyond 16 this way. You become a Fiend in addition to any other creature types you are. Spells and abilities that affect Fiends of a specific CR have no effect on you."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Planar Binding",
+            "effect": "Your body and soul are bound to a fiendish plane of existence. You have disadvantage on death saving throws as the plane attempts to pull you back to it. If you would be killed, your soul has been dragged back to a plane of existence of the GM’s choice. This plane is your new home, and you become an NPC under the GM’s control.<br><br>If you are on the fiendish plane responsible for your transformation, this flaw has no effect."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "boons": [
+          {
+            "name": "Brand of the Chainer’s Gaze",
+            "effect": "As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that diminishes their resolve. The target must make a Wisdom saving throw, and on a failed save they are branded. Whenever a creature branded in this way makes a saving throw, they must roll 1d6 and subtract the result from their saving throw. A creature remains branded this way for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the remove curse spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+          },
+          {
+            "name": "Brand of the Tyrant’s Hellfire",
+            "effect": "As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that exudes hellfire. The target must make a Charisma saving throw, and on a failed save they are branded. Whenever you hit a creature branded in this way with an attack, you deal an additional 1d6 fire damage.<br><br>A creature remains branded for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the remove curse spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+          },
+          {
+            "name": "Brand of the Deceiver’s Guile",
+            "effect": "As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that twists their senses and perspective. The target must make an Intelligence saving throw, and on a failed save they are branded. Whenever a creature branded in this way attempts to attack you, they must roll 1d6 and subtract the result from their attack roll.<br><br>A creature remains branded this way for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the remove curse spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Hideous Appearance",
+            "effect": "Your appearance has grotesquely transformed. Your skin becomes red and leathery, and vicious horns, teeth and nails erupt through the surface of your skin. You can suppress this form and present the appearance of the humanoid you once were, but this is taxing and requires concentration. Moments of stress are likely to reveal your true nature. In the following situations your true form is revealed:<br><ul><li>Concentrating on a spell.</li><li>Gaining the unconscious condition.</li><li>Entering hallowed ground.</li><li>Choosing to reveal yourself.</li></ul>In events of extreme emotional or physical stress, a GM may call for a Constitution saving throw with a DC of their choosing to see if you maintain your humanoid form.<br><br>Non-evil creatures that witness your true form become instantly hostile to you, unless the GM decides otherwise."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "boons": [
+          {
+            "name": "Alluring Deceit",
+            "effect": "You gain mastery of deception and hollow promises. You gain proficiency in Deception and Persuasion. If you are already proficient in either of these skills, then your proficiency bonus is doubled for ability checks using that skill.<br><br>This ability has no effect on a skill if the proficiency bonus is already doubled.<br><br>Magic that would determine if you are telling the truth always indicates you are being truthful, and you cannot be magically compelled to tell the truth."
+          },
+          {
+            "name": "Infernal Resistance",
+            "effect": "You gain an imposing fortitude, drawing on Netherworld energy. If you would take magical damage from a spell, ability, or weapon, you can use your reaction and take half the amount of damage instead. You cannot use this feature against damage from silvered weapons."
+          },
+          {
+            "name": "Nether Blade",
+            "effect": "You can use a bonus action to summon a dreaded Nether Blade. The blade takes the form of a simple or martial weapon that deals slashing damage of your choice. Attacks made with the blade deal fire damage and gain the following features:<br><ul><li>Attacks you make with the blade deal an additional 2d6 fire damage.</li><li>The blade emits flames that create bright light in a 5 foot radius and dim light for an additional 5 feet.</li><li>You cannot be disarmed of the blade.</li></ul>You can unsummon the blade at any time by using an action. If you unwield the blade, it immediately unsummons."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "True Name",
+            "effect": "Your fiendish transformation is complete, and you are reborn. You must choose a new name for yourself, which becomes your true name. You receive a talisman of brimstone and brass with your true name inscribed in infernal on it. A creature within 10 feet of you that knows your true name, can use an action and speak your true name in an attempt to bind you to their will. If they do, you must make a DC 20 Wisdom saving throw. On a failed save, you become charmed by the creature, and must complete all commands they issue to you to the best of your ability. You remain charmed for 8 hours. If the creature that bound you dies, this effect ends."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "boons": [
+          {
+            "name": "Commanding Obedience",
+            "effect": "Whenever a hostile creature you can see within 30 feet of you fails a saving throw due to a spell of 1st level or higher that you control, you may command that creature to kneel. On that creature’s turn, it must face you, then kneel and end its turn. While kneeling, the creature is considered prone. If the creature is immune to the prone condition, then the creature just ends its turn."
+          },
+          {
+            "name": "Brimstone Pyrolysis",
+            "effect": "When you inflict fire damage against a hostile creature and reduce it to 0 hit points, you can immolate that creature and turn them into a Brimstone Statue.<br><br><b>Brimstone Statue.</b> A Brimstone Statue is the scorched remains of a corpse whose essence has burned out. A Brimstone Statue is the same size as the creature before it died, and uses the following statistics:<br><ul><li>Armour Class: 10</li><li>Hit Points: 10</li><li>Speed: 0</li><li>Damage Immunities: poison, psychic</li></ul>A Brimstone Statue that is reduced to 0 hit points falls apart and is destroyed. It does not detonate.<br><br><b>Detonate.</b> On your turn, as an action, you can detonate one or more Brimstone Statues that you have created. When a Brimstone Statue detonates, it is destroyed, and each creature other than you within 10 feet of the statue must make a Dexterity saving throw. A target takes 3d6 fire damage on a failed save, or half as much damage on a successful one."
+          },
+          {
+            "name": "Infernal Summoning",
+            "effect": "On your turn as an action, you can tear open a portal to the Netherworld and summon up to 4 Imps. These Imps are each summoned into their own unoccupied space within 30 feet of you.<br><br>The summoned Imps are friendly to you and your companions. They all act directly after you in the initiative order. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. The Imps disappear in a shower of ash and embers after 1 hour, or if they are reduced to 0 hit points. The GM has the Imps’ statistics.<br><br>Once you use this ability, you cannot use it again until you complete a long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Pull of the Netherworld",
+            "effect": "Your new native plane attempts to pull you to it, laying claim to your form. Whenever you roll a natural 1 on a saving throw against a magical spell or ability, you take 1d6 force damage per two character levels in addition to any other damage or effects you would suffer, as your native plane attempts to unbind you from the Material Plane. For example, a 6th level Fighter would take 3d6 force damage. This damage ignores resistances and immunities."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Giant",
     "becoming": "Few mortals have ever transformed into giants or, more accurately, few mortals have survived the experience. Those who were able to transform had some ancient ancestry that included giants, completed one of a handful of arcane procedures, earned the blessing of a giant high priest, stumbled upon some ancient eldritch giant magic, or a combination of these. Becoming a giant isn’t just about growing in size—it also relies on tapping into the primordial prowess of the giants that allowed them to survive against the wilds when the world was new. Growing in strength as a giant often means setting aside planning and reason for instinct and action. Most giants don’t sit around a table plotting the downfall of their enemies; instead, they take the most direct route to their foes and pummel them into submission with their bare hands. Those who show loyalty to their clan, exhibit formidable physical strength, and display decisiveness in war and other contests grow in titanic power.",
     "features": {
@@ -113,20 +444,20 @@
     ]
   },
   {
-    "name": "Fey",
-    "becoming": "Becoming a fey requires a direct connection to the faerie realms. Most mortals who become fey are stolen as children, transformed rapidly in the faerie realm. Others may strike a bargain with an archfey or swear fealty to a faerie queen. This path is dangerous, requiring wit and awareness to gain the favor of the fey kind.",
+    "name": "Lich",
+    "becoming": "Across the Multiverse there are many ways to become a Lich, each determining the type of Lich the mortal becomes. However, within Etharis there is only one type of Lich, as there is only one known method of ascending to Lichdom: The Ritual of Dread. The process of this ritual is a well-guarded secret, entrusted to only a handful of mortals at any one time. The process involves several despicable acts including murder, the brewing of a vile concoction, and even one’s own death. However, it is the process of tearing one’s soul from the body that is most despised, for this process involves the sacrifice of something truly dear to a mortal, and no substitute will be accepted. For some, it is the death of a cherished loved one. For others it is a family legacy. Regardless of the sacrifice, unless the Dreadscape spirits deem it worthy, Lichdom will not be granted.",
     "features": {
       "prerequisites": {
-        "ability_scores": "Charisma 13",
-        "acquisition": "Swear fealty to a fey court, be raised as a changeling, or have another plausible reason to have become a fey. Must have the GM’s approval for how you achieve this in-game."
+        "ability_scores": "Intelligence 16",
+        "acquisition": "You must have the ability to cast 7th-level spells and must complete the Ritual of Dread. This ritual is partially described but intentionally vague so it can be tailored to your setting and campaign. Work with your GM to determine how this occurs."
       },
-      "save_dc": "8 + your proficiency bonus + your Charisma modifier",
+      "save_dc": "8 + your proficiency bonus + your Intelligence modifier",
       "level_milestones": [
-        "Striking a bargain with a greater fey.",
-        "Performing a great deed in the name of a faerie queen.",
-        "Establishing a new faerie ring or bridge to the fey realms.",
-        "Defeating a powerful agent from your rival court.",
-        "Earning a domain or title in the realm of faerie."
+        "Discover ancient and dark arcane knowledge.",
+        "Consume the soul of an exceptionally powerful spellcaster.",
+        "Build a monument to your power to serve as a giant arcane focus.",
+        "Create an army of undead.",
+        "Kill a god."
       ]
     },
     "transformation_levels": [
@@ -134,18 +465,18 @@
         "level": 1,
         "boons": [
           {
-            "name": "Fey Form",
-            "effect": "Your Charisma increases by 2 and your Dexterity increases by 1. An ability score cannot be raised above 16 in this way. You become a Fey in addition to any other types you are. You are immune to effects that only affect creatures of your former type of a specific CR. Choose a Fey Court (Summer or Winter), which shapes your transformation. <br><br><b>The Summer Court:</b> The summer court embodies the bounty and warmth of the growing season. The fey of summer tend towards joviality, fickleness, and vanity. Creatures of summer often hide their cruel intentions behind beautiful facades. <br><br><b>The Winter Court:</b> The winter court embodies the stillness and darkness of the coldest season. The fey of winter tend to be serious, cruel, and reflective. Creatures of winter are often terrifying to behold but very direct about their intentions."
+            "name": "Harvester of Souls",
+            "effect": "You have gained the ability to tear the soul out of creatures you kill and consume it for its invigorating effects. Whenever you reduce a creature to 0 hit points, if you are on the same plane of existence as your phylactery, its soul is captured and your phylactery becomes charged.<br><br>On your turn, as an action, you can consume any number of charge levels from your phylactery to regain a single spell slot. When you regain a spell slot in this way, the spell slot’s level is equal to one third of the charge you consumed, rounded down."
           },
           {
-            "name": "Twilight Step",
-            "effect": "As a bonus action, you can teleport up to 30 feet to an unoccupied space. This ability gains an additional effect based on your Fey Court. Summer: after using Twilight Step, one creature of your choice within 5 feet takes damage equal to your Charisma modifier (minimum 1). Winter: after using Twilight Step, one creature of your choice within 5 feet takes cold damage equal to your Charisma modifier (minimum 1). Usable a number of times equal to your Charisma modifier (minimum 1), regaining uses on a long rest."
+            "name": "Undead Form",
+            "effect": "Your Intelligence score increases by 4 and your Wisdom score increases by 2. An ability score cannot be increased beyond 22 this way. You become an Undead in addition to any other creature types you are. Spells and abilities that state effects or conditions specifically regarding Undead of a specific CR have no effect on you.<br><br>If a spell or ability other than your own would cause you to gain Hit Points, you gain that many temporary Hit Points instead. If you are reduced to 0 hit points and fall unconscious as a result, any healing you receive will stabilize you and leave you on 1 hit point and unconscious. You stop aging. You are immune to any effect that would age you, and you cannot die from old age. You do not require air, food, drink or sleep."
           }
         ],
         "flaws": [
           {
-            "name": "Planar Binding",
-            "effect": "Your soul is bound to the faerie realms. You have disadvantage on death saving throws as the realm tries to pull you back. If you would die, your soul is taken to a plane of the GM’s choice, and you become an NPC. If you are in the faerie realm responsible for your transformation, this flaw has no effect."
+            "name": "Phylactery",
+            "effect": "You have successfully torn your soul from your body and trapped it in a suitable object. The object must be a trinket or item no larger than 1 square foot in size. This item becomes your phylactery.<br><br><b>Phylactery.</b> A phylactery is an enchanted vessel containing a Lich’s soul. Additionally, a phylactery is a conduit for the Lich to feed on captured souls.<br><br>A phylactery has the following statistics:<ul><li>Armour Class: 18</li><li>Hit Points: 90</li><li>Speed: 0</li><li>Damage Immunities: poison, psychic; bludgeoning, piercing, and slashing from non-magical sources.</li><li>Damage Resistances: necrotic, cold, thunder, lightning, force, fire.</li></ul>While a soul is stored in your phylactery, the phylactery is considered charged. Its charge level is equal to the CR of all the creatures whose soul you have captured. To store a new soul in your Phylactery, add the CR of the creature you killed to your Phylactery’s charge level. The souls of creatures with a CR of less than 1/4 are not great enough to charge your phylactery. Your Phylactery’s charge level cannot exceed 27.<br><br>If your phylactery is reduced to 0 hit points, your soul is lost; you crumble to dust and are killed outright.<br><br>If you are killed and you control a charged phylactery on the same plane of existence, your phylactery’s charge is consumed and your body is reconstructed within 5 feet of your phylactery 7 days later. If you are killed and your Phylactery does not have a level of charge, you are reanimated 7 days later as a Demilich under the GM’s control.<br><br>This ability cannot be used when you kill a construct, undead, or any creature without a soul. The following are the effects caused when you use this ability:<br><b>Fire.</b> The target is vaporised into a cloud of ash and smoke. The space the creature died in, and each space within 5 feet of it, are considered heavily obscured for 1 minute. Winds of moderate or greater speeds (at least 10 miles per hour) also disperse the cloud.<br><b>Necrotic.</b> As the soul of your enemy leaves their body, you are able to siphon off part of their life force. You regain hit points equal to your Intelligence modifier (minimum of 1), plus your character level.<br><b>Poison.</b> Target a creature within 10 feet of the killed creature. That creature must succeed on a Constitution saving throw or gain the poisoned condition for 1 minute."
           }
         ]
       },
@@ -153,14 +484,22 @@
         "level": 2,
         "boons": [
           {
-            "name": "Two-Faced",
-            "effect": "You can transform your face into a vision of beauty or horror. Any non-fey creature within 30 feet must make a Wisdom saving throw or be affected for 1 minute. Summer: on a failed save, the creature is charmed. Winter: on a failed save, the creature is frightened. The effect ends early if the creature is harmed by you or your allies. Once used, you cannot use this feature again until you finish a short or long rest."
+            "name": "Puppet Master",
+            "effect": "Undead creatures of CR 1 or less that you animate with spells or abilities become permanently under your control. In addition, other creatures cannot gain control of undead creatures you raised."
+          },
+          {
+            "name": "Lichdom of the Arcane",
+            "effect": "Whenever you kill any creature with a spell, you may apply an additional effect depending on the damage dealt. Any effects with range are centred on or measured from the killed target, and if required, use your Transformation save DC."
+          },
+          {
+            "name": "Rift to the Dreadscapes",
+            "effect": "You gain the ability to open a rift to the Dreadscapes. As an action on your turn, you can choose a point within 5 feet of you to open the rift. Once opened, the rift stretches out from that point to a 20-foot-radius sphere. When a creature other than you enters the rift’s area for the first time on its turn, or starts its turn there, it must make a Constitution saving throw against your Transformation DC. On a failed save, the creature suffers 10d10 necrotic damage, or half as much on a successful save. Undead creatures are immune to damage from this ability. The rift remains open for 1 minute, but closes if you become unconscious. Once you use this ability, you cannot use it again until you complete a long rest."
           }
         ],
         "flaws": [
           {
-            "name": "Queen’s Command",
-            "effect": "The fey court lends you its power, and in exchange you must pay regular tribute. Twice a year, you must provide tribute to your chosen court’s queen. If you fail, you are pulled into her realm for 100 years, or until you strike a bargain to return. Tribute may be treasures, secrets, captives, or other offerings determined by the GM."
+            "name": "Rift to the Dreadscapes",
+            "effect": "You gain the ability to open a rift to the Dreadscapes. As an action on your turn, you can choose a point within 5 feet of you to open the rift. Once opened, the rift stretches out from that point to a 20-foot-radius sphere. When a creature other than you enters the rift’s area for the first time on its turn, or starts its turn there, it must make a Constitution saving throw against your Transformation DC. On a failed save, the creature suffers 10d10 necrotic damage, or half as much on a successful save. Undead creatures are immune to damage from this ability. The rift remains open for 1 minute, but closes if you become unconscious. Once you use this ability, you cannot use it again until you complete a long rest."
           }
         ]
       },
@@ -168,22 +507,22 @@
         "level": 3,
         "boons": [
           {
-            "name": "Faerie Mantle",
-            "effect": "As an action, you can project an aura of majesty for 1 minute. Creatures of your choice within 30 feet must succeed on a Charisma saving throw or be blinded until the end of their turn. They may repeat the saving throw at the end of their turns. Once used, this ability cannot be used again until a long rest."
+            "name": "Relentless Undead",
+            "effect": "Whenever an undead creature you control is reduced to 0 hit points, it may immediately move up to its full speed and make an attack action before dying. This feature has no effect if the creature has been reduced to 0 hit points by radiant damage."
           },
           {
-            "name": "Made of Magic",
-            "effect": "You gain resistance to damage from spells. Additionally, you may use a reaction to gain advantage on a saving throw against a spell. Once used, you cannot use this feature again until a short or long rest."
+            "name": "Arcane Supremacy",
+            "effect": "You become an exemplar of arcane power. When you cast a concentration spell, if you are already concentrating on one concentration spell, you do not lose concentration of that spell; instead you gain one level of exhaustion. If you are already concentrating on more than one spell, this feature has no effect. If you cast a third concentration spell during this time, you lose concentration on one of the two spells. Once you use this feature you cannot use it again until you complete a long rest."
           },
           {
-            "name": "Courtly Graces",
-            "effect": "Gain proficiency in two skills chosen by your Fey Court. If already proficient, you double your proficiency bonus. If you ever gain double proficiency again, you gain an additional +2 instead. Summer: proficiency in Performance and Persuasion, immunity to being charmed. Winter: proficiency in Deception and Intimidation, immunity to being frightened."
+            "name": "Staff of the Dreadscapes",
+            "effect": "Starting at 3rd level, you can use an action to summon a deathly staff made of blackened bone and twisted rootwood. The staff is the same as a quarterstaff, with the following features:<ul><li>Necrotic damage dealt by you ignores resistance to necrotic damage.</li><li>Your Spell Save DC and Transformation DC are both increased by 2.</li><li>Food and non-creature plants the staff touches wither and decay.</li></ul>You can unsummon the staff at any time with the use of an action. If you un-wield the staff, it immediately unsummons."
           }
         ],
         "flaws": [
           {
-            "name": "Bound by Words",
-            "effect": "Any oath or promise you make is magically binding. Breaking your word causes you to lose all boons until you surrender an additional tribute to your Fey Queen. This stacks with Queen’s Command."
+            "name": "Necromantic Dystrophy",
+            "effect": "Your body has become dependent on consuming souls, otherwise it becomes withered and frail. If you go more than 24 hours without converting 4 CR worth of souls from your Phylactery into spell slots you gain the following effects:<ul><li>You cannot use the dash, dodge, or disengage actions. You cannot use these actions as bonus actions.</li><li>You cannot use your reaction to make opportunity attacks.</li><li>You cannot disguise your hideous form feature.</li></ul>Upon converting the required amount of souls into spell slots, you are no longer affected by the aforementioned effects."
           }
         ]
       },
@@ -191,25 +530,410 @@
         "level": 4,
         "boons": [
           {
-            "name": "Greater Magic Tricks",
-            "prerequisite": "Magic Tricks",
-            "effect": "You gain access to one 3rd-, 4th-, and 5th-level illusion or enchantment spell. Each can be cast once without a spell slot, regaining the ability after a long rest. You may replace a chosen spell with another of the same level after a long rest. In addition, you can cast the 1st- and 2nd-level spells from Magic Tricks twice per rest."
+            "name": "Lord of Undeath",
+            "effect": "Whenever you reduce a humanoid to 0 hit points, you can choose to reanimate it. If you do, the creature rises at the beginning of its next turn as a zombie permanently under your control, following verbal commands to the best of its ability."
           },
           {
-            "name": "Misdirection",
-            "effect": "Light and magic twist around you, imposing disadvantage on all attack rolls against you. If you are hit by an attack, this effect ends until the end of your next turn. This only functions while conscious."
+            "name": "Arcane Omniscience",
+            "effect": "You have mastered the arcane arts. You know every spell from the wizard’s spell list and can prepare a number of these equal to your Intelligence modifier. Spells prepared this way do not count towards the maximum number of spells you can prepare. Upon completing a short rest, you can change one or more of these prepared spells for another spell from the wizard’s spell list."
           },
           {
-            "name": "Twilight Glamour",
-            "effect": "As an action, you can become invisible for 1 minute. The invisibility ends early if you attack or cast a spell. You cannot use this again until a short or long rest. Only functions while conscious."
+            "name": "Deathly Being",
+            "effect": "You become immune to poison damage, as well as bludgeoning, piercing, and slashing damage from non-magical attacks. In addition, you cannot become charmed, poisoned, paralysed, or frightened."
           }
         ],
         "flaws": [
           {
-            "name": "Seasonally Affected",
-            "effect": "You are weak to fire damage if aligned with Winter, or cold damage if aligned with Summer. If you are resistant, you instead take normal damage. If immune, you are resistant instead. In addition, whenever you take this damage type, your maximum HP is reduced by the same amount until a long rest."
+            "name": "Weight of Ages",
+            "effect": "The weight of time is degrading for your Lich form and only the consumption of many souls can stay its effects. If you go more than 24 hours without converting 8 CR worth of soul from your Phylactery into spell slots you gain the following effects:<ul><li>You cannot use the attack action.</li><li>If you move on your turn, you cannot use a bonus action or reaction until your next turn.</li><li>If you use a bonus action on your turn, your speed becomes 0 until your next turn.</li></ul>Upon converting the required amount of souls into spell slots, you are no longer affected by the aforementioned effects."
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Lycanthrope",
+    "becoming": "In Etharis, there are two documented methods of contracting the Lycanthropic curse. The first is being bitten by a Lycanthrope and not curing the curse before it takes hold. The second is to complete a druidic ritual known as the Lunar Sacrament. Once you have become a Lycanthrope, consider how your character feels about the curse. Do they wish to cure it before it progresses too far? Do they wish to understand it and make peace with the beast that resides within?",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Strength 13",
+        "acquisition": "You must have contracted the Curse of Lycanthropy, usually by being bitten by a Lycanthrope and surviving, or by completing the Lunar Sacrament and being imbued with Lycanthropy. Work with your GM to decide how this occurs."
+      },
+      "save_dc": "8 + your proficiency bonus + your Strength modifier",
+      "level_milestones": [
+        "Establishing a pack of other Lycanthropes.",
+        "Killing an Alpha Lycanthrope.",
+        "Gaining control of your animalistic urges.",
+        "Unleashing the beast within and losing your humanity."
+      ]
+    },
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [
+          {
+            "name": "Hybrid Transformation",
+            "effect": "As an action, you may transform into a monstrous hybrid: half-beast, half-sentient. While in your hybrid form, the following rules apply:<ul><li>You can’t cast spells or concentrate on spells. Your ability to speak is reduced to short, basic, guttural responses.</li><li>Your stats remain the same as your humanoid stats.</li><li>Any armour you are wearing merges into your Hybrid Form or immediately drops to the ground. The GM may decide if they feel the armour is too large to merge.</li><li>While transformed and not wearing any armour or using a shield, your AC equals 10 + your Constitution modifier + your Dexterity modifier.</li><li>While transformed you can use weapons and equipment as normal, unless specified elsewhere.</li><li>You roll a d6 in place of the normal damage for your unarmed strikes. Attacks using your claws deal slashing damage instead of bludgeoning damage.</li><li>When making the attack action you may substitute one attack to make an unarmed bite attack. If the attack hits, you deal piercing damage equal to 1d8 + your Strength modifier. If you make a bite attack, you cannot make another until the beginning of your next turn.</li><li>If you made the attack action, as a bonus action you may make an unarmed claw attack or bite attack, provided you have not already used your bonus action.</li></ul>Your hybrid form lasts for a number of hours equal to your Constitution modifier (minimum of 1) and ends early if you are knocked unconscious or reduced to 0 hit points. You can end your Hybrid Form by using an action on your turn."
+          },
+          {
+            "name": "Shapechanger’s Form",
+            "effect": "Your Strength score increases by 2 and your Constitution score increases by 1. An ability score cannot be increased beyond 16 this way.<br><br>You become a Shapechanger in addition to any other creature types you are. Spells and abilities that affect Shapechangers of a specific CR have no effect on you."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Lust for the Hunt",
+            "effect": "The savage nature of your curse sometimes causes you to lose control. These ferocious tendencies are a constant struggle between you as a humanoid and the beast within. When you are in your hybrid form, you must succeed at a DC 10 Wisdom saving throw at the beginning of each turn or lose control. If you are in the light of a full moon, you automatically fail this saving throw. If you fail this saving throw, you are subjected to the following until you succeed:<ul><li>You must move toward the closest non-player creature you can see, smell or hear, prioritising helpless creatures. If you end your movement and no non-player creature is within 5 feet of you, then you must use your action to dash toward one.</li><li>If there is a non-player creature within 5 feet of you and you have not used your action, you must make a melee attack against it, prioritising helpless creatures.</li><li>If you made a melee attack against a creature, and that creature is still alive, then you must use your bonus action to make an unarmed claw or bite attack against the same creature.</li></ul>Additionally, if you are subjected to the light of a full moon you must succeed at a DC 20 Wisdom saving throw or automatically turn into your hybrid form and cannot transform back until dawn. If you succeed in this saving throw, you are immune to its effects for 24 hours."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "boons": [
+          {
+            "name": "Iron Pelt",
+            "effect": "While in hybrid form, you have resistance to bludgeoning, piercing, and slashing damage from non-silvered, non-magical sources."
+          },
+          {
+            "name": "Hunter’s Howl",
+            "effect": "While in your hybrid form, you can use a bonus action to let out a loud howl and mark a creature within 60 feet as your prey. A creature remains marked this way for 1 hour, or until it dies. While a creature is marked as your prey, you gain the following benefits:<ul><li>Whenever you hit the marked creature with a melee attack, you deal an additional 1d6 damage. This damage is the same type as the attack.</li><li>You have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to track your prey.</li></ul>You may use this feature a number of times equal to your Strength modifier (minimum of 1). You regain all expended uses of this feature upon a short or long rest."
+          },
+          {
+            "name": "Kindred Form",
+            "effect": "You gain the ability to transform into the animal form representative of your Lycanthropy type, known as your Kindred Form. You follow the same rules as the Hybrid Transformation feature and any feature that specifies the hybrid transformation, unless specified otherwise. You can only transform into the kindred form representative of your Lycanthropy. Each Kindred Form gains the following rules:<ul><li>You cannot speak.</li><li>You cannot take any actions requiring hands, except your Transformation capabilities.</li><li>You can only use unarmed claw and bite attacks.</li><li>You automatically succeed at all saving throws relating to the Lust for the Hunt flaw.</li></ul>Other than being larger, you are indistinguishable from a regular animal of your Kindred Form."
+          },
+          {
+            "name": "Kindred Form - Bear",
+            "effect": "Your kindred form takes the shape of a large bear. While in your kindred form, you gain the additional features:<br><br>- You can speak to and understand other bears.<br>- When you make any saving throw, you can add your Constitution modifier to the result.<br>- Your hit point maximum increases by 15 hit points."
+          },
+          {
+            "name": "Kindred Form - Wolf",
+            "effect": "Your kindred form takes the shape of a ferocious dire wolf. While in your kindred form, you gain the additional features:<br><br>- You can speak to and understand other wolves.<br>- When making an attack against a creature, if an ally is within 5 feet of that creature and not incapacitated, you have advantage on that attack roll.<br>- Your speed increases by 20 feet, to a maximum of 60."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Silver Sensitivity",
+            "effect": "You have developed a debilitating sensitivity to silver. While in your Hybrid or Kindred form, you have vulnerability to silvered weapons. In addition, you cannot have resistance to attacks made with a silvered weapon."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "boons": [
+          {
+            "name": "Titanic Vigor",
+            "effect": "Your hit point maximum increases by an amount equal to twice your character level, and it increases by 2 every time you gain a character level.<br><br>Additionally, when in your hybrid form, you gain 5 temporary hit points at the start of your turn."
+          },
+          {
+            "name": "Predatory Leap",
+            "effect": "Your jump distance is doubled.<br><br>In addition, in hybrid form, if you jumped more than 5 feet and land within 5 feet of a creature, you can immediately take the attack action to attack that creature. On a hit, the target must make a Strength saving throw or become prone on a failed save. You can decide to automatically grapple the target if they fail their save."
+          },
+          {
+            "name": "Bestial Savagery",
+            "effect": "You have embraced the animalistic side of your transformation. While in your Hybrid Form, you gain the following benefits:<br><br>- Your unarmed attacks deal 1d8 slashing damage and are considered magic attacks.<br>- Your AC increases by 1.<br>- You are immune to the charmed and frightened conditions."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Fraying Memories",
+            "effect": "You have begun to suffer the effects of sharing a mind with two personalities. Memories of less practical significance have been lost to new tones of midnight hunts. You have disadvantage on Intelligence ability and skill checks recalling information or knowledge."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "boons": [
+          {
+            "name": "Unstoppable Rage",
+            "effect": "You have become a visage of unkillable carnage and slaughter even other Lycanthropes fear. When you are reduced to 0 hit points and you are not killed outright, you are not knocked unconscious. You can take your future turns as though you were not at 0 hit points and are affected by all spells, abilities and features as normal. While you have 0 hit points, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you."
+          },
+          {
+            "name": "Savage Instincts",
+            "effect": "You have developed an unrelenting thirst for bloodshed and carnage. While in your hybrid form, if you hit a creature with an unarmed attack, and it is missing any of its hitpoints, the base damage die is increased to 1d12."
+          },
+          {
+            "name": "Kindred Affinity",
+            "prerequisite": "Kindred Form Transformation feature",
+            "effect": "You have reached true harmony with your Kindred Form, achieving a state of peace most Lycanthropes never find. You gain the following benefits while in your Kindred Form:<br><br>- You can speak.<br>- You can cast spells without needing to provide their verbal or somatic components. Additionally, you can cast spells without needing to provide material components, provided they do not have a gold cost.<br>- Friendly creatures within 20 feet of you have advantage on Wisdom ability checks and saving throws."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Predatory Nature",
+            "effect": "You have begun to realise the true cost of your transformation. The beast within has gained more control of your body than you have. While you can control it at times you know it cannot be contained forever, and when it breaks free, it will delight in any slaughter it can find. You gain the following features:<br><br>- If you can see, hear or smell a helpless creature, you gain disadvantage on all Wisdom saving throws.<br>- At the beginning of your turn, if you can see, hear or smell a hostile or helpless non-player creature, you must succeed a DC 10 Wisdom saving throw or be transformed into your Hybrid Form. If you succeed this saving throw, you become immune to this effect until dawn.<br>- Whenever you kill a creature and you are in your Hybrid Form, you cannot transform back into your humanoid form until dawn the next day. Although you can transform into your Kindred Form."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Primordial",
+    "becoming": "There are several ways for a mortal to consume a primordial spark, but continuing to become an elemental takes concentrated effort. A mortal might be born with an elemental spark, gifted one, or they could gain one by consuming the power of an elemental. Once acquired, one must spend a great deal of time contemplating and understanding the spark to unlock its full potential. The process of attaining elemental mastery is dangerous. The slightest slip in control can cause devastation on a massive scale. Such facts are why isolated individuals like druids, monks, or rangers are most likely to see the transformation through to its end.",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Constitution 13 or higher",
+        "acquisition": "Through ritual, defeating a greater Elemental being, or by some other means, you must consume a Primordial Spark."
+      },
+      "save_dc": "8 + your proficiency bonus + your Constitution modifier",
+      "level_milestones": [
+        "Defeat and absorb the power of a greater elemental",
+        "Claim an elemental node",
+        "Make an alliance with a being from one of the elemental planes",
+        "Use your powers to defeat an encroaching civilization",
+        "Free an imprisoned or indentured elemental creature"
+      ]
+    },
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 2,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 3,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 4,
+        "boons": [],
+        "flaws": []
+      }
+    ]
+  },
+  {
+    "name": "Seraph",
+    "becoming": "To be chosen by an Arch Seraph is to become a vessel for the principles they uphold. This is a charge not to be taken lightly, and those who display righteousness with the intention of becoming a Seraph are usually overlooked for this reason. When becoming a Seraph, consider why your character was chosen. Do you display hidden merit? Are you devoted to a cause they will value?",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Wisdom 13",
+        "acquisition": "You must have been exalted by an Arch Seraph, divine cosmic energies, or have another plausible reason to have become a Seraph. Work with your GM to decide how this occurs."
+      },
+      "save_dc": "8 + your proficiency bonus + your Wisdom modifier",
+      "level_milestones": [
+        "Defeating a powerful force of darkness.",
+        "Create a hallowed landmark for pilgrims.",
+        "Establish a parish of worshipers who uphold your virtue.",
+        "Establish a portal between the Material Plane and the Empyrium.",
+        "Redeem a soul that was considered beyond redemption."
+      ]
+    },
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [
+          {
+            "name": "Celestial Form",
+            "effect": "Your Wisdom score increases by 2 and your Constitution score increases by 1. An ability score cannot be increased beyond 16 this way. You become a Celestial in addition to any other creature types you are. Spells and abilities that affect Celestials of a specific CR have no effect on you."
+          },
+          {
+            "name": "Angelic Wings",
+            "effect": "You have manifested feathered wings. You have a flying speed equal to your normal speed. You cannot wear armour or clothing that has not been modified to accommodate your wings."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Planar Binding",
+            "effect": "Your body and soul are bound to a divine plane of existence. You have disadvantage on death saving throws as the plane attempts to pull you back to it. If you would be killed, your soul has been taken back to a plane of existence of the GM’s choice. This plane is your new home, and you become an NPC under the GM’s control. If you are on the divine plane responsible for your transformation, this flaw has no effect."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "boons": [
+          {
+            "name": "Divine Retribution",
+            "effect": "When you or an allied creature you can see within 30 feet takes the attack action, you can use your reaction to imbue them with holy zeal. Immediately after the target completes the attack action, they can make an additional attack as a bonus action. On a hit, the hit target takes an additional 1d8 radiant damage. You may use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+          },
+          {
+            "name": "Divine Clemency",
+            "effect": "When you or a creature you can see within 60 feet takes damage, you can use your reaction to cast a spell of 1st level or higher. This spell must target the damaged creature and restore hit points to it. You may use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+          },
+          {
+            "name": "Divine Expedition",
+            "effect": "At the beginning of another creature’s turn, you can use your reaction to move yourself up to your speed or allow an ally that you can see, within 60 feet, to move up to their speed. Movement made this way does not cause attacks of opportunity. You may use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Divine Appearance",
+            "effect": "Your appearance has radically transformed. Your body radiates a divine glow, while your wings are prominent and powerful appendages. You can contain this form and present the appearance of the humanoid you once were, but this is taxing and requires concentration. Moments of stress are likely to reveal your true nature. In the following situations, your true form is revealed: Concentrating on a spell. Gaining the unconscious condition. Entering desecrated ground. Choosing to reveal yourself. In events of extreme emotional or physical stress, a GM may call for a Constitution saving throw with a DC of their choosing to see if you maintain your humanoid form. Evil humanoid creatures that witness or hear about your true form become instantly hostile to you and are compelled by malice to destroy you, unless the GM decides otherwise. If the creature is scared of you or decides that you are too powerful to fight, it will attempt to harm you in another way, but will not give up on destroying you."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "boons": [
+          {
+            "name": "Radiant Strike",
+            "effect": "Whenever you hit a target with a melee attack, you deal an additional 1d6 radiant damage to the target. This damage increases to 2d6 if the target is a Fiend, Fey, or Undead."
+          },
+          {
+            "name": "Cleanse Affliction",
+            "effect": "When you cast a spell that restores hit points to an ally, you can also remove one condition being inflicted on them by a spell or ability."
+          },
+          {
+            "name": "Bow of Celestial Judgement",
+            "effect": "You can use a bonus action to summon a powerful bow made of divine light. The bow is the same as a longbow, except attacks made with it deal radiant damage and have the following features:<br><br>• The bow does not use ammunition. Instead, when the wielder draws the bowstring, an ethereal arrow of radiant light forms.<br>• Attacks with the bow deal an additional 1d8 radiant damage. Against fiends, fey and undead, the bow deals an additional 2d8 radiant damage instead.<br>• The bow’s radiant form emits bright light in a 5-foot radius and dim light for an additional 5 feet.<br><br>You can unsummon the bow at any time with the use of an action. If you unwield the bow, it immediately unsummons."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Beacon to Darkness",
+            "effect": "You have become a Seraph of noted virtue and divinity. This has made you a target for all that is dark in the world. Whenever you or an ally within 30 feet commits an act of greater evil, such as murdering a helpless innocent, a small amount of darkness attaches itself to you, and you gain 1 corruption point (to a maximum of 5). Whether the act constitutes greater evil is determined by the GM. Whenever you make an attack roll against an evil creature, or make a saving throw against a spell or ability from an evil creature, subtract the number of corruption points you have from the roll. Whenever you complete a short or long rest, and have prayed for at least 1 hour, you can reduce the number of corruption points you have by 1."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "boons": [
+          {
+            "name": "Aura of Holy Purge",
+            "effect": "You emit an aura of righteous fervour. This aura radiates up to 20 feet from you while you are conscious. When you or an ally within range of your aura hits a hostile creature, they can choose for that hit to be a critical hit instead. Once a creature has benefited from this feature, they cannot benefit from it again until they have completed a long rest."
+          },
+          {
+            "name": "Aura of Merciful Blessing",
+            "effect": "You emit an aura of invigoration and fortitude. This aura radiates up to 20 feet from you while you are conscious. When you or an ally within range of your aura is reduced to 0 hit points, they are reduced to 1 hit point instead. Once a creature has benefited from this feature, they cannot benefit again until they have completed a long rest."
+          },
+          {
+            "name": "Aura of Empyreal Valor",
+            "effect": "You emit an aura of swiftness and bravery. This aura radiates up to 20 feet from you while you are conscious. When you or an ally within range of your aura makes a Dexterity ability check to determine initiative, they can add +5 to the result. In addition, on that creature’s turn they gain advantage on attack rolls against any creature that hasn’t taken a turn in the combat yet. Once a creature has benefited from this feature, they cannot benefit again until they have completed a long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Pull of the Empyrean",
+            "effect": "Your new native plane attempts to draw you to it, laying claim to your form. Whenever you roll a natural 1 for a saving throw against a magical spell or ability, you take 1d6 force damage per 2 class levels in addition to any other damage or effects you would suffer, as your native plane attempts to unbind you from the material plane. For example, a 6th level Fighter would take 3d6 force damage. This damage ignores resistances and immunities."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Specter",
+    "becoming": "Methods of becoming a specter vary, and few find their way willingly. Contact with the forces of death is the most common—a would-be hero is corrupted by the force they wanted to fight. Sinister rituals can also infuse a body with the powers of unmaking. Alongside beings and magic of death stand entities that exist in a reality undetermined from the material world as mortals understand it. These others and their minions, manifestations of otherworldly chaos, can infuse a person with that chaos, making the victim’s ultimate home a dream of cosmic horror.",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Dexterity 13 or higher",
+        "acquisition": "You must have contact with the world of the dead, either through an encounter with an undead or aberrant being, through the afterlife, or through a ritual that infuses you with death’s energy. Alternatively, you may have contact with a force that causes your material form to slip out of existence."
+      },
+      "save_dc": "8 + your proficiency bonus + your Dexterity modifier",
+      "level_milestones": [
+        "Defeat a powerful, ghostly undead and absorb its power, or defeat an aberration of similar might.",
+        "Use a ritual that infuses your body with the forces of death or primordial chaos.",
+        "Survive a near-death experience caused by a ghostly undead creature or aberration.",
+        "Kill a significant foe with necrotic or psychic damage, or by using necromancy magic.",
+        "Infuse other willing people with the power that corrupts you.",
+        "Deal with ghosts, spirits, or beings of other realities as a conduit between them and mortals.",
+        "Open a gate or path to places of the dead or the dreams of the Aether Kindred."
+      ]
+    },
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 2,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 3,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 4,
+        "boons": [],
+        "flaws": []
+      }
+    ]
+  },
+  {
+    "name": "Vampire",
+    "becoming": "Vampires are spawned into the world when a mortal contracts the Sanguine Curse, dies, and is reborn undead. There are a variety of ways to contract the curse. A Vampire may have offered their blood to a loyal servant, powerful ally, or loved one they wished to elevate. More commonly, a Vampire may have bitten you, and you survived the Vampire’s attack long enough to contract the Sanguine Curse before perishing and being reborn. Other methods include ancient and dark magic, as well as powerful but cursed magical artifacts. Regardless of how you have become a Vampire, you should discuss with your GM what type of Vampire you would like to become, and how it can be implemented in the campaign.",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Dexterity 13",
+        "acquisition": "You must have contracted the Sanguine Curse, whether by being bitten by a Vampire, offered their blood, completing the Sanguine Ritual, or by another plausible method. Work with your GM to determine how this occurred."
+      },
+      "save_dc": "8 + your proficiency bonus + your Dexterity or Charisma modifier",
+      "level_milestones": [
+        "Establish a coven of vampire spawn.",
+        "Drink the blood of a legendary monster.",
+        "Learn the great secrets of vampirism from a Vampire Lord.",
+        "Learn to embrace your Hideous Form and lose the ability to conceal it.",
+        "Discover the lost crypts of an ancient vampire and consume its essence."
+      ]
+    },
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 2,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 3,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 4,
+        "boons": [],
+        "flaws": []
+      }
+    ]
+  },
+  {
+    "name": "Wyrm",
+    "becoming": "Becoming a Wyrm requires communing with Gormadraug by displaying an aptitude for pyrrhic victory in the name of revenge, or absorbing a portion of his essence from either coldfire or his physical remains. The Prismatic Wyrm’s enemies are many and have made efforts to scour his likeness from the face of Etharis, so obtaining such a relic is a difficult task even for the most seasoned adventurer. For those who seek the power of dragons and coldfire, however, there is no greater prize. Every step along the path of growing in power brings a Wyrm closer to the image of Gormadraug. Inevitably, the powers granted by this transformation draw a Wyrm into conflict with Gormadraug’s enemies, such as the Arch Seraphs or other primordials, and their minions. As a creature fueled by hatred, destroying the Prismatic Wyrm’s enemies is the quickest way to gain more of his strength.",
+    "features": {
+      "prerequisites": {
+        "ability_scores": "Constitution 13",
+        "acquisition": "Find one of Gormadraug’s eggs hidden in the frozen wastes and imbibe its yolk raw, walk into an inferno of coldfire while shouting a fervent prayer to the Prismatic Wyrm, catch the attention of Gormadraug’s sleeping consciousness by committing an act of revenge at great personal cost, or another method determined with your GM."
+      },
+      "save_dc": "8 + your proficiency bonus + your Constitution modifier",
+      "level_milestones": [
+        "Striking terror into the hearts of mortals such that they are compliant to your whims.",
+        "Thwarting the plans of one of the other primordials.",
+        "Dealing a grievous injury or setback to one of the other primordials.",
+        "Initiating or spreading a massive outbreak of coldfire.",
+        "Making contact with Gormadraug’s sleeping consciousness."
+      ]
+    },
+    "transformation_levels": [
+      {
+        "level": 1,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 2,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 3,
+        "boons": [],
+        "flaws": []
+      },
+      {
+        "level": 4,
+        "boons": [],
+        "flaws": []
       }
     ]
   }
