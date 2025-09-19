@@ -50,6 +50,10 @@
           {
             "name": "Situational Evolution",
             "effect": "You can use an action to grow gills and flippers, thin hairs on your extremities to climb walls, or a layer of rapidly-regenerating flesh. You gain the following Adaptations:<br><br><b>Scopulae.</b> Your climbing speed becomes the same as your walking speed. You can climb vertical objects, while leaving one hand free.<br><br><b>Gills and Flippers.</b> Your swim speed becomes the same as your walking speed, and you can breathe underwater.<br><br><b>Regenerative Tissue.</b> At the beginning of your turn, you regain hit points equal to your Constitution modifier if you have no more than half your hit points left. If you take fire or acid damage, then this Adaptation has no effect at the beginning of your next turn.<br><br>These adaptations last until you become unconscious, use a different one of these Adaptations, or use a bonus action on your turn to end the Adaptation."
+          },
+          {
+            "name": "Unearthly Senses",
+            "effect": "Starting at 2nd level, you may use a bonus action to enhance your body’s sensory organs, or grow entirely new ones. While this effect is active, you may choose one of the following Adaptations:\n- Keen Senses: You gain advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell.\n- Darkvision: You gain darkvision up to 60 ft, or 120 ft if you already possess darkvision.\n- Third Eye: You can see invisible creatures and objects as if they were visible.\nThese Adaptations last until you become unconscious, use a different one, or end it as a bonus action. At Transformation Level 4, you may choose two of the listed Adaptations instead of one."
           }
         ],
         "flaws": [
@@ -74,6 +78,10 @@
           {
             "name": "Enhanced Hypertrophy",
             "effect": "You may roll a d8 in place of normal damage for unarmed strikes. The base damage dice for your adaptations, like Efficient Killer and Otherworldly Tendrils becomes one base die higher. For example, an adaptation that deals 2d6 damage would become 2d8 damage instead."
+          },
+          {
+            "name": "Shifting Form",
+            "effect": "Your body has begun to lose its cohesion, softening and shifting like thick jelly. You take no extra damage from critical hits due to the shuffling of your internal organs. Whenever you make a melee or ranged attack using your Eldritch Limbs, you deal an additional 1d6 acid damage. You gain resistance to acid damage."
           }
         ],
         "flaws": [
@@ -98,6 +106,10 @@
           {
             "name": "Extremophilic Conditioning",
             "effect": "Starting at 4th level, your body has learned to adapt to extreme conditions, allowing you to survive where most would perish. On your turn, as an action, you can use the following Adaptation:<br><br><b>Metamorphosis.</b> You rapidly change your body’s biophysical and chemical composition in reaction to your environment. Choose one of the following options:<br><ul><li>You are resistant to Bludgeoning, Piercing, and Slashing damage. When determining falling damage, you take 1 bludgeoning damage for each 10 feet fallen in place of normal damage (maximum of 20 bludgeoning damage).</li><li>You are resistant to Fire, Lightning, and Acid damage. You are immune to the effects of extreme hot climates.</li><li>You are resistant to Cold, Thunder, and Poison damage. You are immune to the effects of extreme cold climates.</li></ul>This adaptation lasts until you use this Adaptation again."
+          },
+          {
+            "name": "Amorphous Flesh",
+            "effect": "Prerequisite: Shifting Form. Your body has dissolved further into a corrosive slurry of flesh and bone similar to an ooze. You are able to move through gaps as narrow as 1 inch wide, and you are immune to the grappled, prone, and restrained conditions. Additionally, whenever you take 10 or more points of bludgeoning, piercing, or slashing damage, you may choose to split into two bodies, each one size smaller, with half of your hit points. Each form may act independently, sharing only one bonus action and one reaction per turn. You may reform into a single body as an action when within 5 ft of each other, regaining hit points equal to your other form’s total. The second body lasts for one hour before dissolving."
           }
         ],
         "flaws": [
@@ -273,6 +285,10 @@
           {
             "name": "Brand of the Deceiver’s Guile",
             "effect": "As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that twists their senses and perspective. The target must make an Intelligence saving throw, and on a failed save they are branded. Whenever a creature branded in this way attempts to attack you, they must roll 1d6 and subtract the result from their attack roll.<br><br>A creature remains branded this way for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the remove curse spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+          },
+          {
+            "name": "Brand of the Slaver’s Leash",
+            "effect": "As an action, a flaming whip appears in your hand and lashes out at a creature you can see within 10 feet of you. That creature must make a Dexterity saving throw against your Transformation Save DC. On a failed save, the creature takes 2d4 fire damage and is inflicted with a searing brand. While branded in this way, the creature is tied to you with a wreathing leash of flame and cannot move more than 10 feet away from you. On your turn, you may use a bonus action to drag the creature up to 10 feet in any direction. You may also use your reaction to prevent any event that would take the creature out of range. Spells like misty step or attempts by allies to drag them out fail, though teleportation spells that affect multiple people still function for others. The brand lasts for 1 minute and ends if the creature is knocked unconscious, enters hallowed ground, is targeted by remove curse, or moves more than 10 feet away from you at the end of its turn."
           }
         ],
         "flaws": [
@@ -296,6 +312,10 @@
           {
             "name": "Nether Blade",
             "effect": "You can use a bonus action to summon a dreaded Nether Blade. The blade takes the form of a simple or martial weapon that deals slashing damage of your choice. Attacks made with the blade deal fire damage and gain the following features:<br><ul><li>Attacks you make with the blade deal an additional 2d6 fire damage.</li><li>The blade emits flames that create bright light in a 5 foot radius and dim light for an additional 5 feet.</li><li>You cannot be disarmed of the blade.</li></ul>You can unsummon the blade at any time by using an action. If you unwield the blade, it immediately unsummons."
+          },
+          {
+            "name": "Infernal Sub-Contractor",
+            "effect": "Your mastery of infernal laws allows you to utilize the benefits of two Gifts of Damnation simultaneously. In addition, you may change gifts on a short rest instead of a long rest."
           }
         ],
         "flaws": [
@@ -319,6 +339,10 @@
           {
             "name": "Infernal Summoning",
             "effect": "On your turn as an action, you can tear open a portal to the Netherworld and summon up to 4 Imps. These Imps are each summoned into their own unoccupied space within 30 feet of you.<br><br>The summoned Imps are friendly to you and your companions. They all act directly after you in the initiative order. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. The Imps disappear in a shower of ash and embers after 1 hour, or if they are reduced to 0 hit points. The GM has the Imps’ statistics.<br><br>Once you use this ability, you cannot use it again until you complete a long rest."
+          },
+          {
+            "name": "Loophole",
+            "effect": "You gain insight into summoning spells and how to interfere with them. Whenever you encounter a summoned creature, you are immediately aware it was summoned. As an action, you may wrest control of a summoning spell away from the caster. The spellcaster must make a Wisdom saving throw against your Transformation Save DC. On a failure, you gain control over the spell and any remaining creatures as if you had cast it, including concentration for the remaining duration. You may use this ability a number of times equal to your Charisma modifier (minimum 1), regaining all uses after a long rest."
           }
         ],
         "flaws": [
@@ -332,7 +356,7 @@
   },
   {
     "name": "Giant",
-    "becoming": "Few mortals have ever transformed into giants or, more accurately, few mortals have survived the experience. Those who were able to transform had some ancient ancestry that included giants, completed one of a handful of arcane procedures, earned the blessing of a giant high priest, stumbled upon some ancient eldritch giant magic, or a combination of these. Becoming a giant isn’t just about growing in size—it also relies on tapping into the primordial prowess of the giants that allowed them to survive against the wilds when the world was new. Growing in strength as a giant often means setting aside planning and reason for instinct and action. Most giants don’t sit around a table plotting the downfall of their enemies; instead, they take the most direct route to their foes and pummel them into submission with their bare hands. Those who show loyalty to their clan, exhibit formidable physical strength, and display decisiveness in war and other contests grow in titanic power.",
+    "becoming": "Few mortals have ever transformed into giants or, more accurately, few mortals have survived the experience. Those who were able to transform had some ancient ancestry that included giants, completed one of a handful of arcane procedures, earned the blessing of a giant high priest, stumbled upon some ancient eldritch giant magic, or a combination of these. Becoming a giant isn’t just about growing in size—it also relies on tapping into the primordial prowess of the giants that allowed them to survive against the wilds when the world was new. <br><br>Growing in strength as a giant often means setting aside planning and reason for instinct and action. Most giants don’t sit around a table plotting the downfall of their enemies; instead, they take the most direct route to their foes and pummel them into submission with their bare hands. Those who show loyalty to their clan, exhibit formidable physical strength, and display decisiveness in war and other contests grow in titanic power.",
     "features": {
       "prerequisites": {
         "ability_scores": "Strength 13",
@@ -353,21 +377,21 @@
         "boons": [
           {
             "name": "Giant Form",
-            "effect": "Your Strength score increases by 2 and your Constitution score increases by 1. An ability score cannot be increased beyond 16 in this way. You become a Giant in addition to any other creature types you are."
+            "effect": "Your Strength score increases by 2 and your Constitution score increases by 1. An ability score cannot be increased beyond 16 in this way. You become a Giant in addition to any other creature types you are. Spells and abilities that affect giants of a specific CR have no effect on you."
           },
           {
             "name": "Growth Spurt",
-            "effect": "If your size is smaller than Large, it is now Large. In addition, your maximum hit points increase by 5 and increase by 5 again each time you gain a new Giant transformation level."
+            "effect": "Your body swells as muscles grow and bones elongate, a painful transformation that ends in a towering stature. If your size is smaller than Large, it is now Large. In addition, your maximum hit points increase by 5 and increase by 5 again each time you gain a new Giant transformation level. Your new larger size does not change your weapon damage."
           }
         ],
         "flaws": [
           {
             "name": "Big Appetite",
-            "effect": "You must eat one livestock animal or 2 gp (200 lbs) of food per day. You cannot gain the benefits of a long rest without enough food."
+            "effect": "As your body has grown, so has your appetite. While you once subsisted on a few pounds of food a day, you now must eat one livestock animal a day to feel nourished. You must eat at least 2 gp, or about 200 lbs., of food each day. You cannot gain the benefits of a long rest on a day where you have not eaten enough food."
           },
           {
             "name": "Heavy Soul",
-            "effect": "When revived, the material components cost twice as much as normal."
+            "effect": "Your gigantic size extends to your soul as well, making it heavy and burdensome to call back from the beyond. When a creature attempts to return you to life using revivify, raise dead, or a similar spell or effect, it must provide material components worth twice as much as the spell specifies."
           }
         ]
       },
@@ -376,21 +400,21 @@
         "boons": [
           {
             "name": "Foe Thrower",
-            "effect": "You can throw a grappled creature 10 feet, plus 10 more per size category it is smaller than you. If it hits or passes through another creature, it falls prone, and that creature must make a Dexterity save or take 2d6 + Strength modifier damage and fall prone. Damage increases by 1d6 per transformation level above 2"
+            "effect": "When you are grappling a creature, you can use your bonus action to hurl the creature up to 10 feet. If the creature is smaller than you, this distance is increased by 10 feet for each size category it is smaller than you. For example, if you are Large and the target is Medium, you hurl it up to 20 feet. If the creature lands in an unoccupied space, it must succeed on a Dexterity saving throw or fall prone. If the creature lands in a space occupied by another creature or would pass through a space occupied by another creature as part of being thrown, the thrown creature immediately falls prone and the other creature must succeed on a Dexterity saving throw or take 2d6 + your Strength modifier damage and be knocked prone. Increase the damage by 1d6 for each transformation level above 2."
           },
           {
             "name": "Giant’s Strength",
-            "effect": "Strength increases by 2, to a max of 22. Abillity Score Increases can go up to 22."
+            "effect": "Your Strength score increases by 2, to a maximum of 22. In addition, when you raise your Strength score using an Ability Score Increase feature, you can increase it to a maximum of 22."
           },
           {
             "name": "Titanic Resolve",
-            "effect": "When you take weapon damage, you can use your reaction to gain temporary hit points equal to the damage taken. While you have these temp HP, you have resistance to piercing, bludgeoning, and slashing damage. You can use this a number of times equal to your Strength modifier (minimum 1), regaining all uses on a long rest."
+            "effect": "When you take damage from a weapon attack, you can use your reaction to shrug off the worst of the harm. When you do, you gain temporary hit points equal to the damage taken from the triggering attack. While you have any temporary hit points granted by this boon, you have resistance to piercing, bludgeoning, and slashing damage. You can use this boon a number of times equal to your Strength modifier (minimum once), regaining all expended uses upon completing a long rest."
           }
         ],
         "flaws": [
           {
             "name": "Groundshaker",
-            "effect": "Loud and destructive footsteps. Advantage to track or detect you."
+            "effect": "Your steps sound like falling trees and no matter how careful you are, you almost always leave destructive signs of your passing. Creatures have advantage on ability checks made to notice you and follow your trail."
           }
         ]
       },
@@ -399,21 +423,21 @@
         "boons": [
           {
             "name": "Ferocious Slam",
-            "effect": "Your fists become jagged natural weapons. You can make melee weapon attacks with them as a bonus action. On hit, they deal 2d6 + Strength modifier piercing damage. Once per turn when you deal damage with them, you can expend a Hit Die to regain HP equal to the die roll plus the damage dealt."
+            "effect": "Your hands sprout jagged growths, visibly pushing through the skin of your knuckles. You can use your fists to make melee weapon attacks as a bonus action. When you hit with your fists, the strike deals 2d6 + your Strength modifier piercing damage instead of the bludgeoning damage normal for an unarmed strike. Once per turn, when you deal damage with your fists, you can immediately expend and roll a Hit Die to magically regain hit points equal to the result of the roll + the damage you dealt with your fists."
           },
           {
             "name": "Mountainous Physique",
-            "effect": "Your base speed increases by 10 feet. You count as one size larger for shoving, grappling, carrying capacity, and pushing, dragging, or lifting weight."
+            "effect": "You leverage your towering physique for greater feats of athleticism. Your base walking speed increases by 10 feet. In addition, you count as one size larger than you are for the purposes of determining what size creatures you can shove or grapple, your carrying capacity, and the weight you can push, drag, or lift."
           },
           {
             "name": "Titanic Wrath",
-            "effect": "When you hit with a melee weapon attack, you can channel titan's wrath to make that attack and all melee attacks until your next turn deal +1d12 damage. Usable a number of times equal to your Strength modifier (minimum 1), recharges on a long rest."
+            "effect": "When you hit a creature or object with a melee weapon attack, you can channel the wrath of the titans to wreak havoc on your foes. When you do that attack, and all melee weapon attacks you make until the start of your next turn, deal an additional 1d12 damage. You can use this a number of times equal to your Strength modifier (minimum once), regaining all expended uses upon completing a long rest."
           }
         ],
         "flaws": [
           {
             "name": "Boot Quaker",
-            "effect": "You have disadvantage on Charisma checks against smaller creatures, except when trying to intimidate or frighten them."
+            "effect": "No matter what your intentions truly are, you can’t help but provoke feelings of fear in smaller creatures. You have disadvantage on Charisma ability checks made against creatures smaller than you, unless you are attempting to intimidate or frighten."
           }
         ]
       },
@@ -422,22 +446,21 @@
         "boons": [
           {
             "name": "Enormous Size",
-            "effect": "Your size becomes Huge if it isn’t already, your reach increases by 5 feet, and your maximum hit points increase by 20."
+            "effect": "You go through another excruciating transformation of flesh and bone that concludes with you nearly doubling in size again. If your size is less than Huge, it is now Huge, and your reach increases by 5 feet. In addition, your maximum hit points increase by 20."
           },
           {
             "name": "Greater Giant’s Strength",
-            "prerequisite": "Giant’s Strength",
-            "effect": "Your Strength increases by 2, to a maximum of 24. You can raise it to 24 using Ability Score Increases."
+            "effect": "Your Strength score increases by 2, to a maximum of 24. In addition, when you raise your Strength score using an Ability Score Increase feature, you can increase it to a maximum of 24."
           },
           {
             "name": "Swallow Whole",
-            "effect": "As an action, you can attempt to swallow a grappled creature within 5 feet that is smaller than you. It must make a Strength save; on a failure, it is swallowed, incapacitated, and takes 2d12 acid damage at the start of each of its turns. It has full cover and can attempt a Strength save at the end of its turn to escape. On a success, you vomit it into a space within 10 feet. You can only have one creature swallowed at a time and may vomit it out as a bonus action."
+            "effect": "You can use an action to attempt to ingest a creature within 5 feet that is smaller than you that you have grappled. When you do, the creature must make a Strength saving throw. On a failed saving throw, you swallow the creature whole. A swallowed creature is incapacitated and takes 13 (2d12) acid damage at the start of each of its turns, and it has full cover from all creatures. At the end of a swallowed creature’s turn, it can make a Strength saving throw. On a success, you vomit the creature up into an unoccupied space of its choice within 10 feet of you. You can only have one creature swallowed at a time. You can vomit up a creature you have swallowed into an unoccupied space of your choice within 10 feet as a bonus action on your turn."
           }
         ],
         "flaws": [
           {
             "name": "The Bigger You Are",
-            "effect": "Creatures at least two size categories smaller than you score critical hits against you on attack rolls of 19 or 20."
+            "effect": "Your prodigious size leaves you vulnerable to creatures whose size makes them nearly beneath your notice. Creatures who are at least two size categories smaller than you (Small if you are Large, for example) score critical hits on a roll of 19 or 20 on attack rolls against you."
           }
         ]
       }
@@ -494,6 +517,11 @@
           {
             "name": "Rift to the Dreadscapes",
             "effect": "You gain the ability to open a rift to the Dreadscapes. As an action on your turn, you can choose a point within 5 feet of you to open the rift. Once opened, the rift stretches out from that point to a 20-foot-radius sphere. When a creature other than you enters the rift’s area for the first time on its turn, or starts its turn there, it must make a Constitution saving throw against your Transformation DC. On a failed save, the creature suffers 10d10 necrotic damage, or half as much on a successful save. Undead creatures are immune to damage from this ability. The rift remains open for 1 minute, but closes if you become unconscious. Once you use this ability, you cannot use it again until you complete a long rest."
+          },
+          {
+            "name": "Phylactery Bond",
+            "level": 2,
+            "effect": "You share an especially strong bond with your phylactery and gain benefits from keeping it on your person. You may choose to craft your phylactery into an amulet, a ring, a brooch, or some other form of jewelry. When you finish a short or long rest and you are wearing your phylactery, you may choose a damage type other than radiant damage. As long as you wear your phylactery, you have immunity to that damage type. In addition, your phylactery is more resilient than normal. Your phylactery’s AC becomes 20 and its hit points increase to 120. Your phylactery’s nature is hidden from casual observation, and an observer must make an Intelligence (Arcana) check against your Transformation Save DC in order to identify your phylactery."
           }
         ],
         "flaws": [
@@ -517,6 +545,11 @@
           {
             "name": "Staff of the Dreadscapes",
             "effect": "Starting at 3rd level, you can use an action to summon a deathly staff made of blackened bone and twisted rootwood. The staff is the same as a quarterstaff, with the following features:<ul><li>Necrotic damage dealt by you ignores resistance to necrotic damage.</li><li>Your Spell Save DC and Transformation DC are both increased by 2.</li><li>Food and non-creature plants the staff touches wither and decay.</li></ul>You can unsummon the staff at any time with the use of an action. If you un-wield the staff, it immediately unsummons."
+          },
+          {
+            "name": "Enhanced Phylactery",
+            "level": 3,
+            "effect": "Your bond with your phylactery strengthens, granting additional benefits: • If you aren’t wearing armor, your base Armor Class is 15 + your Dexterity modifier. Your phylactery’s AC is increased by 2. • Your spell save DC and spell attack bonus each increase by 2. • You and your phylactery have advantage on saving throws against spells and other magical effects."
           }
         ],
         "flaws": [
@@ -540,6 +573,11 @@
           {
             "name": "Deathly Being",
             "effect": "You become immune to poison damage, as well as bludgeoning, piercing, and slashing damage from non-magical attacks. In addition, you cannot become charmed, poisoned, paralysed, or frightened."
+          },
+          {
+            "name": "Soul Reflection",
+            "level": 4,
+            "effect": "You have learned to utilize your bond with your phylactery to its greatest effect. While wearing your phylactery, whenever you are targeted by a spell, if you are the only target, you can use your reaction and spend charges from your phylactery equal to the spell’s level. If you do so, the spell reflects and instead targets an appropriate target of your choice within range of the spell as if you cast it. For the purpose of using this feature, cantrips are considered 1st-level spells."
           }
         ],
         "flaws": [
@@ -609,6 +647,10 @@
           {
             "name": "Kindred Form - Wolf",
             "effect": "Your kindred form takes the shape of a ferocious dire wolf. While in your kindred form, you gain the additional features:<br><br>- You can speak to and understand other wolves.<br>- When making an attack against a creature, if an ally is within 5 feet of that creature and not incapacitated, you have advantage on that attack roll.<br>- Your speed increases by 20 feet, to a maximum of 60."
+          },
+          {
+            "name": "Heart of the Wild",
+            "effect": "The spirits of nature speak to you through your bestial side, offering you guidance and knowledge. You may now cast and concentrate on spells in hybrid form. Additionally, you can speak, read, and write Sylvan, and you have advantage on Wisdom and Charisma checks to interact with fey and beasts."
           }
         ],
         "flaws": [
@@ -632,6 +674,11 @@
           {
             "name": "Bestial Savagery",
             "effect": "You have embraced the animalistic side of your transformation. While in your Hybrid Form, you gain the following benefits:<br><br>- Your unarmed attacks deal 1d8 slashing damage and are considered magic attacks.<br>- Your AC increases by 1.<br>- You are immune to the charmed and frightened conditions."
+          },
+          {
+            "name": "Call the Pack",
+            "prerequisite": "Hunter’s Howl",
+            "effect": "When you use your Hunter’s Howl ability, up to three allies you designate within 60 feet of the target also gain the benefits. Your Hunter’s Howl also grants those allies advantage on attack rolls against the target if another affected ally is within 5 feet of the creature and not incapacitated. Additionally, when a hostile creature afflicted by your Hunter’s Howl dies, you regain hit points equal to twice your Strength modifier."
           }
         ],
         "flaws": [
@@ -656,6 +703,11 @@
             "name": "Kindred Affinity",
             "prerequisite": "Kindred Form Transformation feature",
             "effect": "You have reached true harmony with your Kindred Form, achieving a state of peace most Lycanthropes never find. You gain the following benefits while in your Kindred Form:<br><br>- You can speak.<br>- You can cast spells without needing to provide their verbal or somatic components. Additionally, you can cast spells without needing to provide material components, provided they do not have a gold cost.<br>- Friendly creatures within 20 feet of you have advantage on Wisdom ability checks and saving throws."
+          },
+          {
+            "name": "Blood Frenzy",
+            "prerequisite": "Bestial Savagery",
+            "effect": "Your bite attack damage increases to 2d8. If you hit a creature with a bite attack, you can force the creature to make a Strength saving throw against your Transformation Save DC or be grappled. While the target is grappled in this way, you have advantage on attack rolls against them and deal additional damage with your natural weapons equal to your Strength modifier."
           }
         ],
         "flaws": [
@@ -687,23 +739,91 @@
     "transformation_levels": [
       {
         "level": 1,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Elemental Form",
+            "effect": "Your Constitution increases by 2 and your Wisdom score increases by 1. An ability score cannot be increased beyond 16 in this way. You become an Elemental in addition to any other creature types you are. Spells and abilities that affect Elementals of a specific CR do not affect you."
+          },
+          {
+            "name": "Primordial Affinity",
+            "effect": "While able to control all elements, your Primordial birth was sparked by one particular element; your Primordial Affinity. Your body is infused with malleable elemental energy. You must choose an element below and gain all the benefits of that element:\n\nAir. You have resistance to lightning damage. In addition, you can channel the air currents around you to guide a ranged attack. Once on each of your turns, when you make a ranged weapon or ranged spell attack, you can make that attack with advantage.\n\nEarth. You have resistance to poison damage. In addition, whenever you gain temporary hit points, you gain that many plus your proficiency bonus instead.\n\nFire. You have resistance to fire damage. In addition, whenever you deal fire damage, you can add your Constitution modifier to the damage dealt.\n\nWater. You have resistance to cold damage. In addition, whenever a creature regains hit points due to a spell or feature you control, you can imbue them with healing elemental energy. The creature regains additional 1d6 hit points. Only one creature who regains hit points from the spell or feature can benefit from this."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Planar Binding",
+            "effect": "Your body and soul are bound to a primordial plane of existence. You have disadvantage on death saving throws as the plane attempts to pull you back to it. If you would be killed, your soul is taken back to a plane of existence of the GM’s choice. This plane is your new home, and you become an NPC under the GM’s control. If you are on the primordial plane responsible for your transformation, this flaw has no effect."
+          }
+        ]
       },
       {
         "level": 2,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Dual Nature",
+            "effect": "You can choose to add a second elemental source from the Primordial Affinity Boon to add to your form. When you do so, you gain the associated benefits of your new element."
+          },
+          {
+            "name": "Elemental Surge",
+            "effect": "You can channel pure elemental energy into a concentrated bolt of an element of your choice. On your turn, as an action you can choose one of the below choices:\n\nLightning Strike. You can make a special ranged attack targeting a creature within 60 feet. You are proficient with this attack, which uses your Constitution modifier. On a hit, this attack deals 3d8 + your Constitution modifier lightning damage. You can then use a bonus action to target another creature within 30 feet of the first target with the same attack. Increase the damage by 1d8 for each transformation level above 2.\n\nEarth Shard. You can force a creature within 30 feet to make a Constitution saving throw. On a failed save, the creature takes bludgeoning damage equal to 3d6 + your Constitution modifier, or half as much on a successful save. Increase the damage by 1d6 for each transformation level above 2. You also gain temporary hit points equal to half the damage dealt.\n\nFlame Wave. Each creature in a 15-foot cone originating in your square must make a Dexterity saving throw. On a failed save, creatures in the area take fire damage equal to 2d8 + your Constitution modifier. Increase the damage by 1d8 for each transformation level above 2.\n\nAquatic Rejuvenation. Choose a creature you can see within 60 feet of you. The creature regains a number of hit points equal to 2d8 + your Constitution modifier. Increase the amount of hit points regained by 1d8 for each transformation level above 2.\n\nYou can use these features a number of times equal to your Constitution modifier, regaining all expended uses upon completing a long rest."
+          },
+          {
+            "name": "Call the Four",
+            "effect": "You can use your action to summon or repel elemental forces around you, causing one of the following effects of your choice: • You create a 15-foot radius globe of breathable air around you. Creatures can pass freely in or out of the globe, but other elemental forces like water or fire cannot. Alternatively, you can choose to banish all air from inside the globe. This globe lasts for 10 minutes, and you must concentrate on it (as per concentrating to maintain a spell). • You can conjure up to 50 pounds of loose earth at a point within 30 feet of you. Alternatively, you can shape the earth and stone within 15 feet of you. If affecting dirt or stone on the ground, you can cause it to become difficult terrain. • All flammable objects not worn or wielded within 30 feet of you to burst into flame for 1 minute. Alternatively, all nonmagical flames within 30 feet of you are immediately extinguished. • You can conjure up to 10 gallons of water at a point within 30 feet of you or cause the water to fall like rain in a 30-foot area for 1 minute. Alternatively, you can choose to repel water within 15 feet of you. This ability has no effect on living creatures but repels mist, rain and creates pockets of air if submerged in water."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Elemental Appearance",
+            "effect": "Your appearance has grotesquely transformed. Your eyes might be smoldering embers, water could continuously pour from your mouth or nose, your extremities may crumble like sand, or patches of your skin might fade to transparency. Regardless of your true form, you are horrific to behold. You can suspend this form and manifest the appearance of the humanoid you once were, but this is taxing and requires concentration. This form is not permanent, and moments of stress are likely to reveal your true nature. Your true form is revealed in the following situations: • Concentrating on a spell. • Gaining the unconscious condition. • Choosing to reveal yourself. • In events of extreme emotional or physical stress, a GM may call for a Constitution saving throw with a DC of their choosing to see if you maintain your humanoid form. Non-chaotic creatures that witness your true form become hostile to you, unless the GM decides otherwise."
+          }
+        ]
       },
       {
         "level": 3,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Primeval Body",
+            "effect": "Your transformation to an elemental form has changed your body entirely. You no longer need to sleep, breathe, or eat. You also gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+          },
+          {
+            "name": "Aura of Awakening",
+            "effect": "You emit an aura of power that awakens the elemental forces in your companions. When you first gain this feature, choose one of the options below. You may change the aura you emit upon completing a long rest. • Light as Air. Whenever you or a friendly creature within 10 feet of you makes a Dexterity saving throw, the creature gains a bonus equal to your Constitution modifier. You must be conscious to grant this bonus. • Forged in Fire. While you are conscious, whenever you or a friendly creature within 10 feet of you deals damage with a melee weapon attack, they deal additional fire damage equal to your Constitution modifier. You must be conscious to grant this bonus. • Heart of Stone. At the beginning of your turn, you and each creature of your choice within 10 feet of you gain temporary hit points equal to your Constitution modifier. While a creature has temporary hit points gained in this manner and are not incapacitated, they cannot be moved or knocked prone, unless they choose to be. You must be conscious to grant this bonus. • Spring of Life. Each unconscious, non-sleeping creature of your choice within 10 feet of you regains 1 hit point at the beginning of their turn. You must be conscious to grant this bonus."
+          },
+          {
+            "name": "Master of Many",
+            "effect": "You can choose to add a third elemental source to your form. When you do so, you gain the associated benefits of your new element from Primordial Affinity in addition to your current source benefits."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Force of Nature",
+            "effect": "You are losing your connection to societal norms. The needs of civilization, community, and morals pale in comparison to the elemental chaos roiling within you. Whenever you complete a long rest, if you are within civilization, you do not regain any hit dice or lose any levels of exhaustion. In these circumstances, the GM decides if a location is considered civilized or not. Alternatively, the GM can decide that a park or grove within a city is sufficient."
+          }
+        ]
       },
       {
         "level": 4,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Potent Aura",
+            "effect": "Creatures of your choice within 10 feet of you gain resistance to lightning, fire, poison, and cold damage."
+          },
+          {
+            "name": "Energy Flow",
+            "effect": "As a bonus action, you can burst into a shower of elemental material then materialize somewhere else. You magically teleport up to 30 feet to an unoccupied space you can see, along with any equipment you are wearing or carrying. Moving in this way does not provoke opportunity attacks. After teleporting, you can choose one of the following: Swift Assault: Immediately make a weapon attack. If ranged, no disadvantage if hostile creature is within 5 feet. Spark Storm: Each creature within 10 feet must make a Dexterity saving throw or take 2d6 fire damage. Boulderous Hide: Gain resistance to a damage type until the start of your next turn. Sea Mother’s Tether: A thin tether of water links you to a creature within 30 feet for 1 minute. While tethered, if the linked creature would take damage, you can choose to take that damage instead. This damage cannot be reduced or prevented in any way. You can use this ability a number of times equal to your Constitution modifier, regaining all uses at the end of a long rest."
+          },
+          {
+            "name": "Elemental Mastery",
+            "effect": "You gain the fourth elemental source to your form. You gain the associated benefits of your new element from Primordial Affinity. Additionally, you can summon the four elements to wreath you in power. When a creature hits you with a melee attack, you can use your reaction to force it to make a Dexterity saving throw, taking 8d6 damage of your choice from cold, fire, lightning, or bludgeoning, or half as much on success. Until the end of your following turn, your Primordial Affinity feature has one of the following additions: Air: Advantage on all ranged weapon and ranged spell attacks. Earth: Gain temporary hit points equal to your character level at the beginning of your turn. Fire: Each creature of your choice within 5 feet of you takes 2d6 fire damage at the beginning of your turn. Water: Whenever a creature regains hit points due to a spell or feature you control, they regain an additional number of hit points equal to your character level. You can use this feature a number of times equal to your Constitution modifier, regaining all uses upon completing a long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Pull of Chaos",
+            "effect": "Your new native plane attempts to pull you to it, laying claim to your form. Whenever you roll a natural 1 on a saving throw against a magical spell or ability, you take 1d6 force damage per two character levels in addition to any other effects. Your native plane attempts to unbind you from the Material Plane. For example, a 6th-level character would take 3d6 force damage. This damage ignores resistances and immunities."
+          }
+        ]
       }
     ]
   },
@@ -758,6 +878,10 @@
           {
             "name": "Divine Expedition",
             "effect": "At the beginning of another creature’s turn, you can use your reaction to move yourself up to your speed or allow an ally that you can see, within 60 feet, to move up to their speed. Movement made this way does not cause attacks of opportunity. You may use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+          },
+          {
+            "name": "Divine Protection",
+            "effect": "When you or an allied creature you can see within 30 feet is targeted by an attack, you can use your reaction to shield them with holy light. The target gains a +4 bonus to AC against the attack. You may use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
           }
         ],
         "flaws": [
@@ -781,6 +905,10 @@
           {
             "name": "Bow of Celestial Judgement",
             "effect": "You can use a bonus action to summon a powerful bow made of divine light. The bow is the same as a longbow, except attacks made with it deal radiant damage and have the following features:<br><br>• The bow does not use ammunition. Instead, when the wielder draws the bowstring, an ethereal arrow of radiant light forms.<br>• Attacks with the bow deal an additional 1d8 radiant damage. Against fiends, fey and undead, the bow deals an additional 2d8 radiant damage instead.<br>• The bow’s radiant form emits bright light in a 5-foot radius and dim light for an additional 5 feet.<br><br>You can unsummon the bow at any time with the use of an action. If you unwield the bow, it immediately unsummons."
+          },
+          {
+            "name": "Holy Bulwark",
+            "effect": "You may use your action to steel yourself against the tactics of your most hated adversaries, gaining one of the following benefits:\n- Stand Against the Infernal: You gain resistance to fire damage.\n- Cleanse the Undead: You gain resistance to necrotic damage.\n- Ignore Fey Trickery: You are immune to the charmed and frightened conditions.\nThis effect lasts until you use this feature again."
           }
         ],
         "flaws": [
@@ -804,6 +932,10 @@
           {
             "name": "Aura of Empyreal Valor",
             "effect": "You emit an aura of swiftness and bravery. This aura radiates up to 20 feet from you while you are conscious. When you or an ally within range of your aura makes a Dexterity ability check to determine initiative, they can add +5 to the result. In addition, on that creature’s turn they gain advantage on attack rolls against any creature that hasn’t taken a turn in the combat yet. Once a creature has benefited from this feature, they cannot benefit again until they have completed a long rest."
+          },
+          {
+            "name": "Aura of Celestial Resilience",
+            "effect": "You emit an aura of stalwart conviction. This aura radiates up to 20 feet from you while you are conscious. When you or an ally within range of your aura fails a saving throw, they can choose to succeed instead. Once a creature has benefited from this feature, they cannot benefit from it again until they have completed a long rest."
           }
         ],
         "flaws": [
@@ -837,23 +969,91 @@
     "transformation_levels": [
       {
         "level": 1,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Spectral Presence",
+            "effect": "Your Dexterity increases by 2 and your Charisma increases by 1. No ability score can increase above 16 in this way. If your transformation is due to contact with the afterlife, you become Undead in addition to any other creature types you are. If your transformation is due to an abnormality with reality, you become an Aberration in addition to any other creature types you are. Spells that affect Humanoids still affect you. However, you’re immune to effects that only affect a creature of your new type of a specific CR. Also, you cease aging and cannot be aged magically."
+          },
+          {
+            "name": "Spectral Movement",
+            "effect": "Your walking speed increases by 10 feet. In addition, you can move through other creatures and solid objects as if they were difficult terrain and you can move through difficult terrain as if it were normal. If you end your turn inside a creature or object, you’re shunted back to where you entered and take 1d6 force damage per 10 feet (rounded up) you travel in this way. Objects that have been in your possession less than 1 minute cannot move through creatures and objects with you. As a final benefit of this boon, due to your incorporeal nature, during your turn you have resistance to all nonmagical bludgeoning, slashing, and piercing damage from sources you can see."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Close to Death",
+            "effect": "Your body and soul have a tenuous grasp on existence. You have disadvantage on death saving throws as the pull of a peaceful death calls out to you. If you would be killed, the GM chooses whether you are permanently unable to be restored by magic or you transform into an incorporeal undead or aberration under the GM’s control. If you are on the Ethereal Plane, this flaw has no effect."
+          }
+        ]
       },
       {
         "level": 2,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Ethereal Phasing",
+            "effect": "You can cast the blink spell without expending a spell slot. Once you cast the spell using this boon a number of times equal to your Transformation level, you can’t do so again until you finish a long rest."
+          },
+          {
+            "name": "Spectral Flight",
+            "effect": "You gain a fly speed equal to your walking speed."
+          },
+          {
+            "name": "Horrifying Visage",
+            "effect": "As an action, you can force each creature of your choice within 30 feet of and able to see you to make a Wisdom saving throw. Targets that fail the saving throw are frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, with disadvantage if you are within line of sight, ending the effect on itself on a success. You can use this boon a number of times equal to your transformation level. You regain all uses when you finish a long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Haunting Appearance",
+            "effect": "Your true form is ghostly and haunting, whether due to your connection to death or your tenuous ties to material reality. Although your appearance isn’t necessarily scary, your spectral form seems unnatural to normal creatures who might believe you to be a ghost or other sort of spirit. You can manifest as the humanoid you once were, but doing so requires concentration on your part. Moments of stress, such as the following, reveal your hideous appearance: Using concentration, as if on or a spell; Becoming unconscious; Entering hallowed ground; Choosing to reveal your hideous appearance. In events of extreme emotional or physical stress, the GM can call for a Constitution saving throw with a DC of their choosing to see if you reveal your hideous appearance. When you reveal your hideous appearance, how viewers react is up to the GM. They might treat you as a ghost or another monster in disguise. Hostility and fear are likely reactions in these cases."
+          }
+        ]
       },
       {
         "level": 3,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Spectral Body",
+            "effect": "Your body fades further into the immaterial, giving you certain benefits and abilities: You are immune to disease, exhaustion, and poison. When you take damage other than force, you can use a reaction to gain resistance to the triggering damage and reveal your Hideous Appearance. You no longer require air, food, water, or sleep."
+          },
+          {
+            "name": "Life Drain",
+            "effect": "Your touch disrupts the life force of other beings. As an action, you can choose a creature within 5 feet to make a Constitution saving throw. On a failure, the creature takes 8d8 necrotic damage, and you gain half as many temporary hit points. If this damage causes the creature to drop to 0 hit points, the creature automatically dies and you regain an expended use of this boon. You can use this boon a number of times equal to your Transformation level. You regain all expended uses when you finish a long rest."
+          },
+          {
+            "name": "Haunting Jaunt",
+            "effect": "You can use a bonus action to choose an unoccupied space within 120 feet then fly in a direct line from your current space to that chosen space. This movement does not provoke opportunity attacks. Each creature you pass through as part of this movement must succeed on a Constitution saving throw or take 3d6 + your Dexterity modifier of psychic damage and be frightened of you until the end of your next turn. Once you use this boon, you must finish a short or long rest before you can use it again."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Untethered Mind",
+            "effect": "Your mind starts to follow your body in its dissolution. Less significant memories of your existence before your specter transformation start to fade like they’re dreams you’ve awakened from. The GM can claim you can’t recall something from your living past when it’s dramatic or might disadvantage you. Also, you have disadvantage whenever you attempt an Intelligence check to recall information. This lack of connection to your previous self can cause personality changes. You might forget old grudges or traumas, which can change your personality traits or alignment for the better. It’s more likely that you cling to any vestige of your old self, amplifying their importance, nursing resentments and gloomy thoughts. You might come to hate those who have a normal existence, taking a turn toward evil."
+          }
+        ]
       },
       {
         "level": 4,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Call of Unmaking",
+            "effect": "As a bonus action, you reveal your Hideous Appearance and give a mournful wail or otherwise set up a wracking vibration. This sound has no effect on constructs and undead. All other creatures of your choice within 30 feet of you must make a Constitution saving throw. Creatures that can’t hear you have advantage on the saving throw. On a failed save, the creature bears the mark of unmaking for the next minute. While bearing this mark, a creature takes an additional 1d6 necrotic damage each time it takes damage. Once you use this boon, you can’t use it again until you finish a long rest."
+          },
+          {
+            "name": "Possession",
+            "effect": "As an action, you reveal your Hideous Appearance and enter the space of a humanoid or beast and force that creature to make a Charisma saving throw. If the target fails, you disappear, and the target is incapacitated and loses control of its body. You control the body without depriving the target of awareness. While possessing a target, you can’t be targeted by any attack, spell, or other effect. You retain your alignment, Intelligence, Wisdom, Charisma, and any immunity to being charmed and frightened. Otherwise, you use the possessed target’s statistics but don’t gain access to the target’s knowledge, class features, and proficiencies. The possession lasts until the possessed target drops to 0 hit points, you end it as a bonus action, or until you are forced out by an effect that ends possession. When the possession ends, you reappear in an unoccupied space within 5 feet of the body. You can use this boon again only after you finish a short or long rest."
+          },
+          {
+            "name": "Ethereal Denizen",
+            "effect": "You can sense invisible creatures and objects, and those in the nearby Ethereal Plane, as if you are always under the effect of the see invisibility spell. Additionally, you can use an action to cast the etherealness spell without expending a spell slot. Once you cast the spell using this boon, you can’t do so again until you finish a short or long rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Untethered Mind",
+            "effect": "Your mind starts to follow your body in its dissolution. Less significant memories of your existence before your specter transformation start to fade like they’re dreams you’ve awakened from. The GM can claim you can’t recall something from your living past when it’s dramatic or might disadvantage you. Also, you have disadvantage whenever you attempt an Intelligence check to recall information. This lack of connection to your previous self can cause personality changes. You might forget old grudges or traumas, which can change your personality traits or alignment for the better. It’s more likely that you cling to any vestige of your old self, amplifying their importance, nursing resentments and gloomy thoughts. You might come to hate those who have a normal existence, taking a turn toward evil."
+          }
+        ]
       }
     ]
   },
@@ -877,23 +1077,105 @@
     "transformation_levels": [
       {
         "level": 1,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Blood Fury",
+            "effect": "You have become possessed by the thirst that grips all Vampires. In combat, this thirst drives you into an insatiable frenzy of bloodshed. Whenever you deal combat damage with an unarmed strike or a melee/ranged weapon to a target that can bleed, and is not undead or a construct, you gain one Fury Point. You may only have a maximum of 4 Fury Points at any time. Upon completing a short or long rest, the number of Fury Points you have is reset to 0. These points are used by certain abilities that you can learn through your transformation levels.<br><br><b>Blood Fury Abilities</b><br>You can spend Fury Points (FP) to use the following abilities:<br><br><i>Fanged Bite (1FP)</i>: On your turn, immediately after you take the attack action, you can use your bonus action to make a special unarmed bite attack. You can use your Dexterity modifier instead of Strength to hit with this attack. This attack deals piercing damage equal to 1d4 + your Strength or Dexterity modifier. The target must then succeed at a Constitution saving throw or take 2d6 necrotic damage. You regain hit points equal to the necrotic damage dealt this way. This attack generates 1 Fury Point as normal. If this attack reduces a humanoid creature of size Medium or smaller to 0 hit points, you gain 3 Fury Points instead.<br><br><i>Calculated Strike (1FP)</i>: When you hit with a melee weapon attack, you may use this ability before damage is dealt. If you do so, you may add 1d6 of the same damage as your weapon to the damage result. If this ability is used, no Fury Points are generated for this attack.<br><br><i>Vampiric Mist (2FP)</i>: As a bonus action, you can disappear in a puff of shadowy mist and teleport up to 30 feet to an unoccupied space you can see.<br><br><i>Unearthly Reflexes (1FP)</i>: After you have rolled a Dexterity saving throw, but before the GM has determined the result, you can use your reaction and take half damage on a failed save, and no damage on a successful one.<br><br><i>Deathly Horror (3FP)</i>: As a bonus action, you can emit a ghastly distortion of your true form. A creature of your choice within 30 feet of you must succeed on a Wisdom saving throw or become Frightened of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to this ability for 24 hours."
+          },
+          {
+            "name": "Undead Form",
+            "effect": "Your Dexterity score increases by 2 and your Charisma score increases by 1. An ability score cannot be increased beyond 16 this way. In addition, your creature type changes to undead. Spells and abilities that state effects or conditions specifically regarding Undead of a specific CR have no effect on you. If a spell or ability other than your own would cause you to gain Hit Points, you gain that many temporary Hit Points instead. If you are reduced to 0 hit points and fall unconscious as a result, any healing you receive will stabilize you and leave you on 1 hit point and unconscious. Furthermore, you cannot die from old age and you do not require air, food or drink."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "The Sanguine Curse",
+            "effect": "The sanguine curse has taken a hold on you. As a result you gain the following features:\n• You cannot enter a residence you do not own without an invitation from one of the occupants. If you enter a residence involuntarily such as by being dragged into one, you take 1d10 psychic damage at the start of your turn while you are inside it.\n• You gain Darkvision (60 ft.) if you do not already have it.\n• While in sunlight, you have disadvantage on attack rolls and ability checks.\n• You must feed every 7 days."
+          }
+        ]
       },
       {
         "level": 2,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Dread Knight Combat Training",
+            "effect": "You become trained in the martial ways of the Dread Knights. As a bonus action, you may enter, exit, or change combat stances. While in a combat stance, you gain the features of that stance.\n\nOffensive. While in this stance, you deal an additional amount of damage with your melee weapon equal to the number of Fury Points you currently possess (minimum of 1).\n\nDefensive. While in this stance, you gain a bonus to your AC equal to half the number of Fury Points you currently possess (minimum of 1).\n\nAccuracy. While in this stance, you gain a bonus to hit with your weapon attacks equal to half the number of Fury Points you currently possess (minimum of 1).\n\nAdditionally you may use Dexterity instead of Strength for the attack and damage rolls of any melee weapon with the slashing damage type."
+          },
+          {
+            "name": "Sanguine Magic",
+            "effect": "Your curse corrupts the magic you cast. Whenever you deal non-necrotic damage with a spell or cantrip, you can choose to deal necrotic damage instead. Whenever you deal damage with a spell or cantrip, you gain one Fury Point (max 1 per turn). Additionally, you gain the following Blood Fury abilities: Cast in Blood (1 FP): The next time you cast a damage-dealing cantrip, add your Charisma modifier to the damage. Sanguine Spellbinding (3 FP): The next time a creature makes a Cha, Int, or Wis saving throw against your spell, it has disadvantage. If the spell affects multiple creatures, you choose which creature is affected."
+          },
+          {
+            "name": "Shapechanger",
+            "effect": "You can use an action to polymorph into a Tiny bat or back. In bat form: Walking speed 5 ft, flying speed 30 ft. Sunlight hypersensitivity reduced to sensitivity (disadvantage on attack rolls/ability checks in sunlight, but no damage). Cannot speak; objects/armor merge or drop. Revert if unconscious. You can also turn into mist: Cannot act, speak, or manipulate objects. Weightless, flying speed 20 ft, can hover, enter hostile spaces. Can pass through air-sized gaps, but not liquid or running water. Advantage on Str, Dex, Con saves. Immune to all non-magical damage except sunlight. Objects/armor merge or drop. Revert if unconscious."
+          },
+          {
+            "name": "Night Stalker",
+            "effect": "You gain proficiency in Stealth. If you already have proficiency in Stealth, then your proficiency bonus is doubled when making Stealth ability checks. You can attempt to hide even when only lightly obscured, including dim light. You also gain a climb speed equal to your walking speed, allowing you to climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Hideous Appearance",
+            "effect": "Your body alters: pale skin, fangs, burns from sun, no reflection. You can hide your appearance but stress may reveal it. Revealed when: Concentrating on a spell. Gaining the unconscious condition. Entering hallowed ground. Taking sunlight or free-flowing water damage. Choosing to reveal. On extreme stress, GM may call for Con save to maintain humanoid form."
+          }
+        ]
       },
       {
         "level": 3,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Cruel Riposte",
+            "effect": "Whenever a creature within 5 feet of you makes an attack against you, you may use your reaction to make a melee weapon attack against the attacking creature. You may use this feature a number of times equal to your Dexterity modifier (minimum of 1). You regain all expended uses of this feature when you complete a long rest."
+          },
+          {
+            "name": "Creatures of the Night",
+            "effect": "Once per long rest, you can magically call to your aid 2d4 swarms of bats or 2d4 swarms of rats. When outdoors, you can summon 2d4 wolves instead of swarms of rats. These creatures arrive at the end of your next turn at a destination of the GM’s choice within 30 feet of you, and they are under your control. They act directly after you in the initiative order and remain for 1 hour, until you die, or until you dismiss them with a bonus action. You cannot use this ability if you are exposed to direct sunlight."
+          },
+          {
+            "name": "Captivating Glance",
+            "effect": "You gain proficiency in Deception and Persuasion. If you are already proficient in one of these skills, then your proficiency bonus is doubled for ability checks using that skill. If you have or ever gain double proficiency in one or both of these skills, you gain +2 for that skill instead.<br><br>Additionally, your thoughts cannot be read by any means."
+          },
+          {
+            "name": "Improved Shapechanger",
+            "effect": "You may also take on the form of a dire wolf when using your Shapechanger ability. In dire wolf form, your movement speed changes to 50 feet, and if you have sunlight hypersensitivity it becomes sunlight sensitivity (you have disadvantage on attack rolls and ability checks in sunlight but take no damage). While in dire wolf form, you cannot speak. Any object you are holding or wearing merges into your wolf form or drops to the ground, as the GM decides. If you become unconscious, you revert back to your vampiric form. Additionally, your Fanged Bite ability changes based on form: in bat form it deals 1 piercing damage, in dire wolf form it deals 2d6 piercing damage."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Greater Sanguine Curse",
+            "effect": "Your curse has taken a stronger hold on you. As a result you gain the following features:<br>• You take 1d10 acid damage if you end your turn in running water.<br>• You gain superior Darkvision (120 ft.) if you do not already have it.<br>• You take 1d10 radiant damage when you start your turn in sunlight.<br>• You must feed every 3 days."
+          }
+        ]
       },
       {
         "level": 4,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Grim Executioner",
+            "prerequisite": "Dread Knight Combat Training",
+            "effect": "You have mastered the martial techniques of the Dread Knight. Whenever you roll a critical hit with a melee or ranged weapon, and the target has 50 or fewer hit points, you kill the target outright. If your target has more than 50 hit points, you deal an extra 6d6 damage. This damage is of the same type as your weapon."
+          },
+          {
+            "name": "Beguiler’s Entrancement",
+            "prerequisite": "Captivating Glance",
+            "effect": "Once per long rest, you gain the ability to manipulate the mind of a humanoid with your sanguine magic. You can use an action to make an incapacitated humanoid charmed by you for 24 hours or until you target a different humanoid with this ability. If you use this ability on the same target for 30 unbroken days, the target becomes permanently charmed by you.<br><br>You may use this ability on another humanoid once you have permanently charmed the previous humanoid. You can have a maximum number of enthralled humanoids equal to your Charisma Modifier (minimum of 1). If the number of enthralled humanoids exceeds your Charisma modifier for any reason, you lose connection to all of them.<br><br>This charm effect can be removed with the remove curse spell, or any other spell or ability with similar effects."
+          },
+          {
+            "name": "Regenerate",
+            "effect": "You regain 10 hit points at the start of your turn if you have at least 1 hit point remaining, and are not in sunlight or over running water.<br><br>If you take radiant damage or damage from holy water, this ability does not function at the start of your next turn."
+          },
+          {
+            "name": "Innate Sangromancy",
+            "effect": "You know all Sangromancy Spells. When casting a spell using Sangromancy, you may use FP instead of spending hit dice. Treat these FP as 1d12 hit dice. When you cast a spell in this way you do not generate FP from Sanguine Magic and you may choose a single effect to apply by spending additional FP: Beguiling Spell (2 FP) – Charm the target until the end of your next turn. Shadow Spell (2 FP) – Target is unable to perceive you until the end of your next turn. Withering Spell (3 FP) – Add 1d8 necrotic damage per spell level; target cannot take reactions until the end of your next turn. Vampiric Spell (3 FP) – Heal for half the necrotic damage dealt."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Stake to Heart",
+            "effect": "Whenever you’re attacked by a creature with a wooden or silvered weapon, if they score a natural 20 to hit, and you have 50 hit points or less, they manage to lodge their weapon into your heart and you become paralyzed for 1 hour or until the weapon is removed, whichever is greater."
+          }
+        ]
       }
     ]
   },
@@ -917,23 +1199,91 @@
     "transformation_levels": [
       {
         "level": 1,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Wyrm Form",
+            "effect": "Your Constitution score increases by 2 and your Charisma score increases by 1. An ability score cannot be increased beyond 16 in this way.<br><br>You gain the Dragon creature type in addition to any other creature types you are. Spells and abilities that affect dragons of a specific CR have no effect on you."
+          },
+          {
+            "name": "Glittering Scales",
+            "effect": "You are covered in glittering dark scales that shimmer with a rainbow hue in the light, and your body has partially transformed into a sinuous draconic shape. You gain the following benefits:<br>• While you are not wearing armor, your AC equals 13 + your Constitution modifier.<br>• You have resistance to cold damage.<br>• Your teeth sharpen, your hands turn to claws, and you have grown a tail. You can use any one of these to make unarmed strikes. If you use your tail, your reach is increased by 5 feet. When you hit with one of these natural weapons, the strike deals 1d6 + your Strength or Dexterity modifier damage, instead of the normal damage for an unarmed strike. If you use your teeth, the damage is piercing; if you use your claws, the damage is slashing; and if you use your tail, the damage is bludgeoning."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Somnolent Curse",
+            "effect": "You share Gormadraug’s curse: easily set to sleep but rarely refreshed by the slumber. Your current hit points are considered half of what they are for the purpose of the sleep spell. When you finish a long rest with one or more levels of exhaustion, you gain a level of exhaustion as normal but gain no other benefits of having finished a long rest."
+          }
+        ]
       },
       {
         "level": 2,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Coldfire Breath",
+            "effect": "You can use your bonus action to exhale a blast of coldfire in a 15-foot cone. When you do, each creature within the cone must succeed on a Dexterity saving throw or take 3d6 cold damage. In addition, terrain within the cone is now burning with coldfire for 1 minute. Each time a creature starts its turn in, or moves through, a space with coldfire in it, the creature takes 3d6 cold damage. Increase the damage for both initial and lingering effects by 1d6 for each transformation level above 2.<br><br>You can use this boon a number of times equal to your Constitution modifier (minimum once), regaining all expended uses after finishing a long rest."
+          },
+          {
+            "name": "Draconic Wings",
+            "effect": "A pair of leathery wings emerge from your back. While you are not wearing armor, or are wearing armor suited for your wings, you have a flying speed of 30 feet."
+          },
+          {
+            "name": "Make Lair",
+            "effect": "You have learned how to twist the natural geomantic energies of a place to your liking, giving you the ability to create a lair. To do this, you must remain in the same 100-foot-square area for at least 8 hours a day for 7 days. At the end of this time, the area is your lair until you use this boon again to make a new lair. You gain the following benefits in your lair:<br>• You cannot be surprised, and have advantage on Wisdom (Perception) checks.<br>• You can store treasure and gold in your lair. When you finish a long rest in your lair, you gain a number of temporary hit points equal to the gp value of the treasure and gold in your lair, up to a maximum of half your maximum hit points.<br>• Your lair is filled with snowflakes glowing in blue flame. During combat, on initiative count 20, you can choose any 10-foot-square area in your lair. Each creature within that area must succeed on a Constitution saving throw or take 3d6 cold damage and have its movement speed halved until the end of its next turn."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Hateful Heart",
+            "effect": "The hate of Gormadraug against those who have wronged him also flows through you. Celestials and elementals, other than those composed of coldfire or otherwise allied with Gormadraug, count as hated enemies. You have disadvantage on ability checks and attack rolls while you can see a hated enemy within 60 feet, unless you are making an attack roll or other roll to harm one of those particular hated enemies."
+          }
+        ]
       },
       {
         "level": 3,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Frightful Presence",
+            "effect": "As an action, you can let out a courage-wilting roar. Each creature of your choice within 60 feet must succeed on a Wisdom saving throw or become frightened of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature succeeds at one of these saving throws, or the minute of being frightened passes, that creature cannot be frightened by this boon again for the next 24 hours."
+          },
+          {
+            "name": "Prismatic Scales",
+            "effect": "The glittering scales multiply across your body as it swells and distends, your shape becoming even more draconic and even less humanoid. With each passing day you more closely resemble the Prismatic Wyrm himself. While active, you gain the following benefits: If you are smaller than Large, your size increases to Large. The damage from your bite, claw, and tail increases to 2d6 + your Strength or Dexterity modifier. You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+          },
+          {
+            "name": "Wing Buffet",
+            "effect": "Your wings have grown stronger. The flying speed granted by your wings increases to 40 feet. In addition, you can use your bonus action to flap your wings, causing a tremendous, localized wind. When you do, each creature within 10 feet of you must succeed on a Strength saving throw or be knocked prone or pushed 10 feet (your choice)."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Tundral Temperature",
+            "effect": "You are uncomfortable in hot climates. While you are in hot climates, you must rest for twice as long to gain the benefit of a short or long rest. In addition, you exude frigid cold, causing vapor to rise around you while in hot climates. You have disadvantage on Dexterity (Stealth) and Wisdom (Perception) checks made in areas where the temperature is above freezing."
+          }
+        ]
       },
       {
         "level": 4,
-        "boons": [],
-        "flaws": []
+        "boons": [
+          {
+            "name": "Indestructible Heart",
+            "effect": "Like Gormadraug, your heart is made of indestructible magical ice. No matter how you die, even if you are disintegrated, your heart remains. While you are dead, each day that passes your body regenerates around your indestructible heart, until a number of days have passed equal to your maximum hit points. On that day, you return to life in the location of your heart with five levels of exhaustion. A creature can delay your regeneration by keeping your indestructible heart soaked in fresh blood. This requires at least one pint of blood that must have been taken from a creature with an Intelligence greater than 3. After 24 hours, the blood loses its potency and unless it is refreshed with new blood your heart restarts the regeneration process. At your GM’s discretion, they may specify a legendary quest needed to overcome your heart’s indestructible nature, allowing it to be permanently destroyed."
+          },
+          {
+            "name": "Legendary Resistance",
+            "effect": "When you fail a saving throw, you can use your reaction to succeed on the saving throw instead. When you do, you must succeed on a DC 15 Constitution saving throw or gain a level of exhaustion. You can use this reaction a number of times equal to your Constitution modifier (minimum once), regaining all expended uses upon completing a long rest."
+          },
+          {
+            "name": "Primordial Coldfire Breath",
+            "effect": "When you use your Coldfire Breath Transformation Boon, you can choose to increase the size to a 30-foot cone or increase the initial and lingering cold damage dealt to 6d6. If you expend two uses of your Coldfire Breath instead of one, you can choose both. Finally, you regain one use of your Coldfire Breath when you finish a short rest."
+          }
+        ],
+        "flaws": [
+          {
+            "name": "Rising Rage",
+            "effect": "The desire for revenge has poisoned your heart as surely as it did the Prismatic Wyrm’s. When a creature deals damage to you, you consider that creature a hated enemy for the next 10 days. While that hated enemy exists, you are distracted and have disadvantage on all ability checks that are not made directly against a hated enemy."
+          }
+        ]
       }
     ]
   }
