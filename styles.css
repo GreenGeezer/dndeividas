@@ -1,400 +1,318 @@
-/* === Global Variables === */
+/* === Fonts === */
 @font-face {
   font-family: "Optimus";
   src: url("fonts/OptimusPrinceps.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
-
 @font-face {
   font-family: "OptimusBold";
   src: url("fonts/OptimusPrincepsSemiBold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
-
 @font-face {
   font-family: "Merriweather";
   src: url("fonts/MerriweatherSans-VariableFont_wght.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
-
 @font-face {
   font-family: "MerriweatherItalic";
   src: url("fonts/MerriweatherSans-Italic-VariableFont_wght.ttf")
     format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
+/* === Variables === */
 :root {
-  --color-bg: #0b0b0b;
-  --color-header-bg-start: #1a1a1a;
-  --color-header-bg-end: #000000;
-  --color-boder: #444;
-  --color-text: #ffffffca;
-  --color-link: #dddddd;
-  --color-highlight: #facc15;
-  --color-dehighlight: #aaa;
-  --color-dropdown-bg: #1a1a1a;
-  --color-dropdown-hover: #2a2a2a;
-
+  --bg: #0b0b0b;
+  --header-start: #1a1a1a;
+  --header-end: #000000;
+  --border: #444;
+  --text: #ffffffca;
+  --link: #dddddd;
+  --highlight: #facc15;
+  --muted: #aaa;
+  --dropdown: #1a1a1a;
+  --dropdown-hover: #2a2a2a;
   --font-base: "Optimus";
   --font-bold: "OptimusBold";
   --font-text: "Merriweather";
-  --radius-rounded: 4px;
-  --radius-pill: 9999px;
-  --transition-speed: 0.3s;
+  --radius: 4px;
+  --speed: 0.3s;
 }
 
-/* === Base Reset === */
-header .dropbtn,
-header a {
-  font-family: var(--font-base);
-  font-size: 20px;
+/* === Base === */
+* {
+  box-sizing: border-box;
 }
-
 body {
   margin: 0;
-  padding: 0;
   font-family: var(--font-base);
-  background-color: var(--color-bg);
-  color: var(--color-text);
+  background: var(--bg);
+  color: var(--text);
+  -webkit-text-size-adjust: 100%;
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
-
 p {
   letter-spacing: 0.015rem;
+  font-family: var(--font-text);
 }
 
 /* === Header === */
 .header {
-  background: linear-gradient(
-    to right,
-    var(--color-header-bg-start),
-    var(--color-header-bg-end)
-  );
+  background: linear-gradient(to right, var(--header-start), var(--header-end));
   padding: 1rem 2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   position: relative;
   z-index: 1000;
 }
-
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-/* === Left: Logo + Navigation === */
 .nav-left {
   display: flex;
   align-items: center;
 }
-
 .logo-image {
   height: 90px;
   margin-right: 1.5rem;
-  transition: transform 330ms ease-in-out, filter 330ms ease-in-out;
+  transition: transform 330ms, filter 330ms;
 }
-
 .home-logo:hover .logo-image {
   transform: scale(1.05);
-  filter: drop-shadow(0 0 10px rgba(250, 206, 28, 0.981));
+  filter: drop-shadow(0 0 10px rgba(250, 206, 28, 0.98));
 }
 
-/* === Navigation Links === */
 .nav-links {
   display: flex;
   gap: 1.5rem;
 }
-
 .dropbtn {
   background: none;
   border: none;
-  color: var(--color-text);
+  color: var(--text);
   cursor: pointer;
-  position: relative;
   font-weight: bold;
-  transition: color var(--transition-speed);
+  font-family: var(--font-base);
+  font-size: 20px;
+  transition: color var(--speed);
+  touch-action: manipulation;
 }
-
 .dropbtn:hover {
-  color: var(--color-highlight);
+  color: var(--highlight);
 }
 
-/* === Dropdown Menu === */
 .dropdown {
-  top: 0.6rem;
   position: relative;
-  display: inline-block;
+  top: 0.6rem;
 }
-
 .dropdown:hover .dropdown-content {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
   pointer-events: auto;
 }
-
 .dropdown-content {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: var(--color-dropdown-bg);
+  background: var(--dropdown);
   min-width: 200px;
-  border-radius: var(--radius-rounded);
+  border-radius: var(--radius);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
-  margin-top: 0;
-  padding-top: 0;
-  padding: 0.5rem 0 0.5rem 0;
+  padding: 0.5rem 0;
   z-index: 1000;
-
-  /* Smooth fade/slide */
   opacity: 0;
   visibility: hidden;
   transform: translateY(-5px);
-  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+  transition: opacity 0.25s, transform 0.25s, visibility 0.25s;
   pointer-events: none;
 }
-
-/* Dropdown Arrow */
 .dropdown-arrow {
-  pointer-events: none;
   width: 0;
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-bottom: 8px solid var(--color-dropdown-bg);
+  border-bottom: 8px solid var(--dropdown);
   position: absolute;
   top: -8px;
   left: 20px;
 }
-
-/* Dropdown Links */
 .dropdown-content a {
   display: block;
   padding: 0.75rem 1rem;
-  color: var(--color-link);
+  color: var(--link);
   font-size: 0.95rem;
-  transition: background var(--transition-speed), color var(--transition-speed);
+  transition: background var(--speed), color var(--speed);
+  touch-action: manipulation;
 }
-
 .dropdown-content a:hover {
-  background-color: var(--color-dropdown-hover);
-  color: var(--color-highlight);
+  background: var(--dropdown-hover);
+  color: var(--highlight);
 }
 
-/* === Search Bar === */
 .search-container {
-  position: relative;
   display: flex;
   align-items: center;
-  background-color: var(--color-dropdown-bg);
-  border: 1px solid var(--color-dropdown-bg);
-  border-radius: var(--radius-rounded);
+  background: var(--dropdown);
+  border: 1px solid var(--dropdown);
+  border-radius: var(--radius);
   padding: 6px 8px;
   width: 20%;
-  transition: border 0.2s ease;
+  transition: border 0.2s;
 }
-
 .search-container:focus-within {
-  border: 1px solid var(--color-text);
+  border-color: var(--text);
 }
-
 .search-container input {
-  background: transparent;
+  background: none;
   border: none;
-  color: var(--color-text);
+  color: var(--text);
   padding-left: 8px;
   outline: none;
   flex: 1;
   font-size: 14px;
 }
-
 .search-icon {
   width: 16px;
   height: 16px;
   filter: invert(0.5);
-  transition: filter 0.2s ease;
+  transition: filter 0.2s;
 }
-
 .search-container:focus-within .search-icon {
   filter: invert(1);
 }
 
-/* === Central Body === */
+/* === Content === */
 .central-wrapper {
   display: flex;
   justify-content: center;
   padding: 40px 20px;
 }
-
 .central-box {
   width: 100%;
   max-width: 960px;
-  background-color: var(--color-header-bg-start);
-  color: var(--color-text);
+  background: var(--header-start);
+  color: var(--text);
   padding: 30px;
-  border-radius: var(--radius-rounded);
+  border-radius: var(--radius);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
   font-family: var(--font-base);
   font-size: 1rem;
   line-height: 1.6;
 }
+.central-box p,
+.central-box ul {
+  font-family: var(--font-text);
+}
 
-/* === Table Styling === */
+/* === Tables === */
+#table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 #table-container table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 2rem;
   font-family: var(--font-base);
-  font-size: 1rem;
   text-align: left;
 }
-
 #table-container th,
 #table-container td {
   padding: 0.75rem 1rem;
   border-bottom: 1px solid #333;
 }
-
 #table-container th {
   font-family: var(--font-bold);
   font-size: 1.25rem !important;
   text-transform: uppercase;
-  font-size: 0.95rem;
   border-bottom: 2px solid #555;
 }
-
 #table-container tr:nth-child(odd) td {
-  background-color: var(--color-header-bg-start);
+  background: var(--header-start);
 }
-
 #table-container tr:nth-child(even) td {
-  background-color: var(--color-header-bg-end);
+  background: var(--header-end);
 }
-
-/* Armor category headings (e.g., "Light Armor") */
 #table-container tr td[colspan] {
-  color: var(--color-highlight);
+  color: var(--highlight);
   font-family: var(--font-bold);
-  font-size: 1rem;
-  padding-top: 1.25rem;
-  padding-bottom: 0.75rem;
-  border-top: 2px solid var(--color-boder);
-  border-bottom: 2px solid var(--color-boder);
+  padding: 1.25rem 1rem 0.75rem;
+  border-top: 2px solid var(--border);
+  border-bottom: 2px solid var(--border);
   text-transform: uppercase;
 }
-
-td.highlight-col,
-th.highlight-col {
-  color: var(--color-highlight) !important;
-}
-
 #table-container td {
   font-family: var(--font-text);
 }
-
-.central-box p {
-  font-family: var(--font-text);
+.highlight-col {
+  color: var(--highlight) !important;
 }
 
-.central-box ul {
-  font-family: var(--font-text);
-}
-
+/* === Utility Classes === */
 .highlight-text {
-  color: var(--color-highlight);
+  color: var(--highlight);
 }
-
 .dehighlight-text {
-  color: var(--color-dehighlight);
+  color: var(--muted);
 }
-
 .block-title {
-  color: var(--color-highlight);
+  color: var(--highlight);
 }
-
 .summary-rules {
-  border-left: 4px solid var(--color-highlight);
+  border-left: 4px solid var(--highlight);
   padding: 1rem 1.5rem;
   margin-bottom: 2rem;
   font-family: var(--font-text);
 }
-
 .lang-group-block {
   margin-top: 2rem;
   padding-top: 1.25rem;
-  border-top: 2px solid #444;
+  border-top: 2px solid var(--border);
 }
-
 .lang-group-block h2 {
-  color: var(--color-highlight);
+  color: var(--highlight);
   font-family: var(--font-bold);
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
-
 .lang-group-block p {
   margin: 0.25rem 0;
   font-family: var(--font-text);
 }
-
 .lang-group-label {
-  color: #aaa;
+  color: var(--muted);
   font-style: italic;
   font-family: var(--font-text);
-}
-
-/* === Responsive === */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none; /* Could be replaced with hamburger menu */
-  }
-
-  .search-container input {
-    width: 120px;
-  }
 }
 
 /* === Transformation Cards === */
 .transformations-row {
   display: flex;
   flex-direction: column;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
-  align-items: stretch;
 }
-
 .t-card {
-  position: relative;
-  background: linear-gradient(180deg, #111 0%, #0b0b0b 70%);
-  border: 1px solid var(--color-boder);
+  background: linear-gradient(180deg, #111 0%, var(--bg) 70%);
+  border: 1px solid var(--border);
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.6);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 .t-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.8);
 }
 
-/* Title bar */
 .t-head {
   padding: 14px 20px 10px;
   text-align: center;
   font-family: var(--font-bold);
-  color: var(--color-link);
+  color: var(--link);
   letter-spacing: 0.08em;
   font-size: 1.05rem;
-  position: relative;
 }
 .t-head:after {
   content: "";
@@ -405,13 +323,12 @@ th.highlight-col {
   background: linear-gradient(
     90deg,
     transparent,
-    var(--color-highlight),
+    var(--highlight),
     transparent
   );
   opacity: 0.7;
 }
 
-/* Image / monogram area */
 .t-hero {
   height: 260px;
   display: flex;
@@ -424,35 +341,30 @@ th.highlight-col {
     ),
     url("/images/noise.png");
   background-blend-mode: screen;
-  position: relative;
   overflow: hidden;
 }
-
 .t-hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center -100px;
   filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.9));
-  position: relative;
   z-index: 1;
 }
-
 .t-monogram {
   width: 120px;
   height: 120px;
-  border: 1px solid var(--color-boder);
+  border: 1px solid var(--border);
   border-radius: 50%;
   display: grid;
   place-items: center;
   font-family: var(--font-bold);
   font-size: 2.2rem;
-  color: var(--color-highlight);
+  color: var(--highlight);
   background: rgba(0, 0, 0, 0.35);
   box-shadow: inset 0 0 40px rgba(250, 204, 21, 0.06);
 }
 
-/* Stat panel */
 .t-panel {
   background: rgba(20, 20, 20, 0.9);
   border-top: 1px solid #222;
@@ -466,9 +378,8 @@ th.highlight-col {
   border: 1px solid #2a2a2a;
   border-radius: 10px;
   margin-bottom: 10px;
-  color: var(--color-text);
+  color: var(--text);
 }
-
 .t-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -483,13 +394,12 @@ th.highlight-col {
   border-radius: 8px;
 }
 .t-cell .k {
-  color: var(--color-dehighlight);
+  color: var(--muted);
   font-size: 0.85rem;
 }
 .t-cell .v {
-  color: var(--color-text);
+  color: var(--text);
 }
-
 .t-badges {
   display: flex;
   flex-wrap: wrap;
@@ -503,31 +413,25 @@ th.highlight-col {
   padding: 4px 8px;
   border-radius: 999px;
   background: #0e0e0e;
-  color: var(--color-highlight);
+  color: var(--highlight);
   white-space: nowrap;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
-/* small text line */
 .t-line {
   margin-top: 10px;
   font-family: var(--font-text);
   font-size: 0.85rem;
-  color: var(--color-dehighlight);
+  color: var(--muted);
   text-align: center;
 }
 
-/* === ADDITIONAL CSS FOR ENHANCED TRANSFORMATIONS === */
-/* Add this to the END of your existing styles.css - DO NOT replace anything */
-
-/* Toggle button for detailed view */
+/* === Enhanced Transformations === */
 .t-toggle-container {
   margin-top: 12px;
   text-align: center;
 }
-
 .t-toggle-btn {
   display: flex;
   align-items: center;
@@ -536,39 +440,34 @@ th.highlight-col {
   width: 100%;
   padding: 8px 16px;
   background: rgba(30, 30, 30, 0.9);
-  border: 1px solid var(--color-boder);
+  border: 1px solid var(--border);
   border-radius: 8px;
-  color: var(--color-text);
+  color: var(--text);
   font-family: var(--font-bold);
   font-size: 0.85rem;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s;
+  touch-action: manipulation;
 }
-
 .t-toggle-btn:hover {
   background: rgba(40, 40, 40, 0.9);
-  border-color: var(--color-highlight);
+  border-color: var(--highlight);
 }
-
 .t-toggle-btn.active {
   background: rgba(250, 204, 21, 0.1);
-  border-color: var(--color-highlight);
-  color: var(--color-highlight);
+  border-color: var(--highlight);
+  color: var(--highlight);
 }
-
 .t-toggle-arrow {
-  transition: transform 0.2s ease;
-  font-size: 1rem;
+  transition: transform 0.2s;
 }
 
-/* Detailed content area */
 .t-detailed-content {
   border-top: 1px solid #222;
   padding: 20px;
   background: rgba(15, 15, 15, 0.9);
-  animation: slideDown 0.3s ease-out;
+  animation: slideDown 0.3s;
 }
-
 @keyframes slideDown {
   from {
     opacity: 0;
@@ -580,7 +479,6 @@ th.highlight-col {
   }
 }
 
-/* Prerequisites section */
 .t-prereq {
   margin-bottom: 16px;
   padding: 12px;
@@ -588,68 +486,59 @@ th.highlight-col {
   border: 1px solid #222;
   border-radius: 10px;
 }
-
 .t-prereq-title {
   font-family: var(--font-bold);
-  color: var(--color-highlight);
+  color: var(--highlight);
   font-size: 0.9rem;
   margin-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-
 .t-prereq-content {
   font-size: 0.85rem;
-  color: var(--color-dehighlight);
+  color: var(--muted);
   line-height: 1.4;
   font-family: var(--font-text);
 }
 
-/* Levels section */
 .t-levels {
   margin-bottom: 16px;
 }
-
 .t-level-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 16px;
   background: rgba(30, 30, 30, 0.9);
-  border: 1px solid var(--color-boder);
+  border: 1px solid var(--border);
   border-radius: 10px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s;
   margin-bottom: 2px;
+  touch-action: manipulation;
 }
-
 .t-level-header:hover {
   background: rgba(40, 40, 40, 0.9);
 }
-
 .t-level-header.active {
   background: rgba(250, 204, 21, 0.1);
-  border-color: var(--color-highlight);
+  border-color: var(--highlight);
 }
-
 .t-level-title {
   font-family: var(--font-bold);
-  color: var(--color-text);
+  color: var(--text);
   font-size: 0.95rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-
 .t-level-arrow {
-  color: var(--color-highlight);
+  color: var(--highlight);
   font-size: 1.2rem;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s;
 }
-
 .t-level-header.active .t-level-arrow {
   transform: rotate(180deg);
 }
-
 .t-level-content {
   display: none;
   padding: 0 16px 16px;
@@ -659,90 +548,76 @@ th.highlight-col {
   border-radius: 0 0 10px 10px;
   margin-bottom: 8px;
 }
-
 .t-level-content.active {
   display: block;
 }
 
-/* Boons and Flaws */
 .t-abilities {
   display: grid;
   gap: 12px;
 }
-
 .t-ability {
   padding: 10px 12px;
   border-radius: 8px;
   border-left: 3px solid;
 }
-
 .t-boon {
   background: rgba(0, 100, 0, 0.1);
   border-left-color: #22c55e;
 }
-
 .t-flaw {
   background: rgba(100, 0, 0, 0.1);
   border-left-color: #ef4444;
 }
-
 .t-ability-name {
   font-family: var(--font-bold);
   font-size: 0.9rem;
   margin-bottom: 6px;
-  color: var(--color-text);
+  color: var(--text);
 }
-
 .t-boon .t-ability-name {
   color: #22c55e;
 }
-
 .t-flaw .t-ability-name {
   color: #ef4444;
 }
-
 .t-ability-effect {
   font-size: 0.85rem;
-  color: var(--color-dehighlight);
+  color: var(--muted);
   line-height: 1.4;
   font-family: var(--font-text);
 }
 
-/* Milestones section */
 .t-milestones {
   margin-bottom: 16px;
 }
-
 .t-milestones-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 16px;
   background: rgba(30, 30, 30, 0.9);
-  border: 1px solid var(--color-boder);
+  border: 1px solid var(--border);
   border-radius: 10px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s;
   margin-bottom: 2px;
+  touch-action: manipulation;
 }
-
 .t-milestones-header:hover {
   background: rgba(40, 40, 40, 0.9);
 }
-
 .t-milestones-header.active {
   background: rgba(250, 204, 21, 0.1);
-  border-color: var(--color-highlight);
+  border-color: var(--highlight);
 }
-
 .t-milestones-title {
   font-family: var(--font-bold);
-  color: var(--color-text);
+  color: var(--text);
   font-size: 0.95rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-
 .t-milestones-content {
   display: none;
   padding: 0 16px 16px;
@@ -751,7 +626,6 @@ th.highlight-col {
   border-top: none;
   border-radius: 0 0 10px 10px;
 }
-
 .t-milestones-content.active {
   display: block;
 }
@@ -763,31 +637,27 @@ th.highlight-col {
   padding: 8px 0;
   border-bottom: 1px solid #1a1a1a;
 }
-
 .t-milestone:last-child {
   border-bottom: none;
 }
-
 .t-milestone-bullet {
   width: 6px;
   height: 6px;
-  background: var(--color-highlight);
+  background: var(--highlight);
   border-radius: 50%;
   margin-top: 6px;
   flex-shrink: 0;
 }
-
 .t-milestone-text {
   font-size: 0.85rem;
-  color: var(--color-dehighlight);
+  color: var(--muted);
   line-height: 1.4;
   font-family: var(--font-text);
 }
 
-/* Description */
 .t-description {
   font-size: 0.85rem;
-  color: var(--color-dehighlight);
+  color: var(--muted);
   line-height: 1.5;
   padding: 12px;
   background: rgba(10, 10, 10, 0.8);
@@ -795,16 +665,122 @@ th.highlight-col {
   margin-bottom: 16px;
   font-family: var(--font-text);
 }
-
-/* Save DC badge */
 .t-save-dc {
   display: inline-block;
   background: rgba(250, 204, 21, 0.1);
-  border: 1px solid var(--color-highlight);
-  color: var(--color-highlight);
+  border: 1px solid var(--highlight);
+  color: var(--highlight);
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 0.8rem;
   font-family: var(--font-bold);
   margin-bottom: 16px;
+}
+
+/* === Mobile === */
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem;
+  }
+  .container {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .logo-image {
+    height: 60px;
+    margin-right: 1rem;
+  }
+  .nav-links {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .dropbtn {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .search-container {
+    width: 100%;
+    min-width: 200px;
+  }
+  .dropdown-content {
+    min-width: 180px;
+  }
+  .central-wrapper {
+    padding: 20px 15px;
+  }
+  .central-box {
+    padding: 20px;
+  }
+  #table-container table {
+    font-size: 0.9rem;
+  }
+  #table-container th,
+  #table-container td {
+    padding: 0.6rem 0.8rem;
+  }
+  .t-hero {
+    height: 200px;
+  }
+  .t-monogram {
+    width: 100px;
+    height: 100px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0.8rem;
+  }
+  .logo-image {
+    height: 45px;
+  }
+  .dropbtn {
+    font-size: 14px;
+    padding: 6px;
+  }
+  .nav-links {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .central-wrapper {
+    padding: 15px 10px;
+  }
+  .central-box {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+  #table-container {
+    margin: 1rem -15px;
+    padding: 0 15px;
+  }
+  #table-container table {
+    font-size: 0.8rem;
+    min-width: 500px;
+  }
+  #table-container th,
+  #table-container td {
+    padding: 0.5rem 0.6rem;
+  }
+  .t-hero {
+    height: 160px;
+  }
+  .t-monogram {
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+  .t-head {
+    font-size: 0.95rem;
+  }
+  .t-grid {
+    font-size: 0.85rem;
+  }
+  .t-badge {
+    font-size: 0.75rem;
+  }
+  .summary-rules {
+    padding: 0.8rem 1rem;
+    margin-bottom: 1.5rem;
+  }
 }
