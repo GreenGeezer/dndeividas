@@ -1,7 +1,19 @@
+const container = document.getElementById("table-container");
+
+// Show loading state
+container.innerHTML =
+  '<p style="text-align: center; color: var(--muted); padding: 2rem;">Loading armor data...</p>';
+
 fetch("../../content/armor.json")
-  .then((response) => response.json())
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json();
+  })
   .then((data) => {
-    const container = document.getElementById("table-container");
+    // Clear loading state
+    container.innerHTML = "";
 
     // Create the table and header row
     const table = document.createElement("table");
@@ -106,15 +118,19 @@ fetch("../../content/armor.json")
         const col = rows[i].cells[columnIndex];
         if (col) col.classList.add("highlight-col");
       }
-      document.addEventListener("click", function (event) {
-        if (!table.contains(event.target)) {
-          table
-            .querySelectorAll("td, th")
-            .forEach((el) => el.classList.remove("highlight-col"));
-        }
-      });
+    });
+
+    // Add document click listener to remove highlights when clicking outside
+    document.addEventListener("click", function (event) {
+      if (!table.contains(event.target)) {
+        table
+          .querySelectorAll("td, th")
+          .forEach((el) => el.classList.remove("highlight-col"));
+      }
     });
   })
   .catch((err) => {
     console.error("Failed to load armor.json:", err);
+    container.innerHTML =
+      '<p style="text-align: center; color: #ef4444; padding: 2rem;">Failed to load armor data. Please refresh the page.</p>';
   });

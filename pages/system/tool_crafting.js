@@ -1,7 +1,25 @@
+const container = document.getElementById("tools-container");
+
+// Show loading state
+container.innerHTML =
+  '<p style="text-align: center; color: var(--muted); padding: 2rem;">Loading tools...</p>';
+
 fetch("../../content/tools.json")
-  .then((res) => res.json())
+  .then((res) => {
+    if (!res.ok) {
+      throw new Error(`HTTP error! Status: ${res.status}`);
+    }
+    return res.json();
+  })
   .then((tools) => {
-    const container = document.getElementById("tools-container");
+    // Clear loading state
+    container.innerHTML = "";
+
+    if (!tools || tools.length === 0) {
+      container.innerHTML =
+        '<p style="text-align: center; color: var(--muted); padding: 2rem;">No tools found.</p>';
+      return;
+    }
 
     tools.forEach((tool) => {
       const block = document.createElement("div");
@@ -55,6 +73,6 @@ fetch("../../content/tools.json")
   })
   .catch((err) => {
     console.error("Error loading tools.json:", err);
-    document.getElementById("tools-container").innerText =
-      "Failed to load tools.";
+    container.innerHTML =
+      '<p style="text-align: center; color: #ef4444; padding: 2rem;">Failed to load tools. Please refresh the page.</p>';
   });

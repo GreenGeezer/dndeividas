@@ -218,19 +218,46 @@ function toggleMilestones(header) {
 }
 
 async function boot() {
-  const payloads = await Promise.all(
-    transformationFiles.map((path) =>
-      fetch(path)
-        .then((r) => r.json())
-        .catch((err) => {
-          console.error(`Failed to load ${path}:`, err);
-          return null;
-        })
-    )
-  );
+  const row = document.getElementById("transformations-row");
 
-  const all = payloads.filter(Boolean).flatMap(pickTransformations);
-  all.forEach(renderCard);
+  // Show loading state
+  row.innerHTML =
+    '<p style="text-align: center; color: var(--muted); padding: 2rem;">Loading transformations...</p>';
+
+  try {
+    const payloads = await Promise.all(
+      transformationFiles.map((path) =>
+        fetch(path)
+          .then((r) => {
+            if (!r.ok) {
+              throw new Error(`HTTP error! Status: ${r.status}`);
+            }
+            return r.json();
+          })
+          .catch((err) => {
+            console.error(`Failed to load ${path}:`, err);
+            return null;
+          })
+      )
+    );
+
+    // Clear loading state
+    row.innerHTML = "";
+
+    const all = payloads.filter(Boolean).flatMap(pickTransformations);
+
+    if (all.length === 0) {
+      row.innerHTML =
+        '<p style="text-align: center; color: var(--muted); padding: 2rem;">No transformations found.</p>';
+      return;
+    }
+
+    all.forEach(renderCard);
+  } catch (err) {
+    console.error("Failed to load transformations:", err);
+    row.innerHTML =
+      '<p style="text-align: center; color: #ef4444; padding: 2rem;">Failed to load transformations. Please refresh the page.</p>';
+  }
 }
 
 document.addEventListener("DOMContentLoaded", boot);
