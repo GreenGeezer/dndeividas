@@ -676,6 +676,186 @@ p {
   font-family: var(--font-bold);
   margin-bottom: 16px;
 }
+/* === Material Cards === */
+.page-title {
+  color: var(--highlight);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: var(--font-bold);
+}
+
+.page-subtitle {
+  color: var(--muted);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: var(--font-text);
+  font-size: 0.95rem;
+}
+
+.materials-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.material-card {
+  background: linear-gradient(180deg, #111 0%, var(--bg) 70%);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.material-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.8);
+}
+
+.material-header {
+  padding: 16px 20px;
+  background: rgba(30, 30, 30, 0.9);
+  border-bottom: 2px solid var(--border);
+}
+
+.material-title {
+  margin: 0;
+  color: var(--highlight);
+  font-family: var(--font-bold);
+  font-size: 1.3rem;
+}
+
+.material-body {
+  padding: 20px;
+}
+
+.material-preview {
+  color: var(--muted);
+  font-family: var(--font-text);
+  margin: 0 0 12px 0;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+.material-badges {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.material-badge-armor {
+  font-family: var(--font-text);
+  font-size: 0.8rem;
+  border: 1px solid #2a2a2a;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(0, 100, 0, 0.1);
+  color: #22c55e;
+  white-space: nowrap;
+}
+
+.material-badge-weapon {
+  font-family: var(--font-text);
+  font-size: 0.8rem;
+  border: 1px solid #2a2a2a;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(100, 0, 0, 0.1);
+  color: #ef4444;
+  white-space: nowrap;
+}
+
+.material-details {
+  display: none;
+  padding-top: 16px;
+  border-top: 1px solid #222;
+  margin-top: 16px;
+}
+
+.material-details.active {
+  display: block;
+}
+
+.material-section {
+  margin-bottom: 16px;
+}
+
+.material-section-title {
+  color: var(--text);
+  font-family: var(--font-bold);
+  font-size: 1rem;
+  margin: 0 0 8px 0;
+}
+
+.material-section-text {
+  color: var(--muted);
+  font-family: var(--font-text);
+  margin: 0;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.material-armor-effect {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: rgba(0, 100, 0, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid #22c55e;
+}
+
+.material-weapon-effect {
+  padding: 12px;
+  background: rgba(100, 0, 0, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid #ef4444;
+}
+
+.material-effect-title {
+  font-family: var(--font-bold);
+  font-size: 0.95rem;
+  margin: 0 0 8px 0;
+}
+
+.material-armor-effect .material-effect-title {
+  color: #22c55e;
+}
+
+.material-weapon-effect .material-effect-title {
+  color: #ef4444;
+}
+
+.material-effect-text {
+  color: var(--text);
+  font-family: var(--font-text);
+  margin: 0 0 8px 0;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.material-cost {
+  color: var(--muted);
+  font-family: var(--font-text);
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+.material-cost strong {
+  color: var(--highlight);
+}
+
+.loading-message {
+  text-align: center;
+  color: var(--muted);
+  padding: 2rem;
+}
+
+.error-message {
+  text-align: center;
+  color: #ef4444;
+  padding: 2rem;
+}
+
 /* === Etharis Map Styling === */
 .etharis-map {
   position: relative;
