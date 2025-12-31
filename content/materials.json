@@ -64,14 +64,6 @@
     "weapon_cost": ""
   },
   {
-    "name": "Materials",
-    "description": "--- title: Materials --- [[Adamantine]]  [[Carapace]]  [[Darksteel]]  [[Demonhide]]  [[Dragonhide and Dragonbone Plate]]  [[Ilithon]]  [[Ironbark]]  [[Krakenhide]]  [[Mithral]]  [[Silver]]  [[Spider Silk]]",
-    "armor_effect": "",
-    "armor_cost": "",
-    "weapon_effect": "",
-    "weapon_cost": ""
-  },
-  {
     "name": "Mithral",
     "description": "Mithral deposits are fiercely controlled by the City-State of Morencia and the fractious Thousand Rivers Kingdoms. Once they discovered veins of this precious ore, these nations forged pacts and hired elite mercenaries and assassins to maintain their monopoly. Rival powers seeking mithral often vanish mysteriously, ensuring the material’s scarcity and inflated prices.  Mithral’s silvery-blue metal defies elemental damage and can unpredictably repel magic. Elves prize it for its lightness, while dwarves value its resilience. Securing raw mithral ore likely involves secret negotiations or daring infiltration of Morencia’s guarded mines.",
     "armor_effect": "This armor loses the cumbersome property if it had it. Mithral armor also becomes one armor category lighter, Heavy armor loses its Strength score requirement and light armor can be used without any armor proficiencies. In addition, mithral armor has no maximum Dexterity modifier for AC.  While wearing mithral armor, magic tends to rebound off of you. Once per round, when you are targeted by a line spell or a spell that requires a ranged attack roll, you may roll a d6. On a roll of 5 or 6, you are unaffected by the spell.",
