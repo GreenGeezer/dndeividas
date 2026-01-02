@@ -1,8 +1,7 @@
 const container = document.querySelector(".central-box");
 
 // Show loading state
-container.innerHTML =
-  '<p style="text-align: center; color: var(--muted); padding: 2rem;">Loading poisons data...</p>';
+container.innerHTML = '<p class="loading-message">Loading poisons data...</p>';
 
 fetch("../../content/poisons.json")
   .then((response) => {
@@ -17,9 +16,8 @@ fetch("../../content/poisons.json")
 
     // Add page title
     const title = document.createElement("h1");
+    title.className = "page-title";
     title.textContent = "Poisons & Toxins";
-    title.style.cssText =
-      "color: var(--highlight); text-align: center; margin-bottom: 2rem; font-family: var(--font-bold);";
     container.appendChild(title);
 
     // Helper function to determine rarity based on market value
@@ -144,41 +142,27 @@ fetch("../../content/poisons.json")
         }
 
         const card = document.createElement("div");
-        card.className = "poison-card";
-        card.style.cssText = `
-        background: linear-gradient(180deg, #111 0%, var(--bg) 70%);
-        border: 1px solid var(--border);
-        border-radius: 12px;
-        overflow: hidden;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
-        transition: transform 0.2s, box-shadow 0.2s;
-      `;
+        card.className = "material-card";
 
         // Card header
         const header = document.createElement("div");
-        header.style.cssText = `
-        padding: 16px 20px;
-        background: rgba(30, 30, 30, 0.9);
-        border-bottom: 2px solid var(--border);
-      `;
+        header.className = "material-header";
 
         const titleEl = document.createElement("h2");
+        titleEl.className = "material-title";
         titleEl.textContent = poison.title;
-        titleEl.style.cssText =
-          "margin: 0 0 8px 0; color: var(--highlight); font-family: var(--font-bold); font-size: 1.3rem;";
 
         // Types and Cost row
         const metaRow = document.createElement("div");
         metaRow.style.cssText =
-          "display: flex; gap: 12px; flex-wrap: wrap; align-items: center;";
+          "display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-top: 8px;";
 
         // Types badges
         if (poison.types && poison.types.length > 0) {
           poison.types.forEach((type) => {
             const typeBadge = document.createElement("span");
+            typeBadge.className = "material-badge-weapon";
             typeBadge.textContent = type;
-            typeBadge.style.cssText =
-              "font-family: var(--font-text); font-size: 0.75rem; border: 1px solid #ef4444; padding: 3px 8px; border-radius: 999px; background: rgba(239, 68, 68, 0.1); color: #ef4444;";
             metaRow.appendChild(typeBadge);
           });
         }
@@ -198,47 +182,33 @@ fetch("../../content/poisons.json")
 
         // Card body
         const body = document.createElement("div");
-        body.style.cssText = "padding: 20px;";
+        body.className = "material-body";
 
-        // Brief description preview
-        const preview = document.createElement("p");
-        preview.textContent =
-          poison.description.slice(0, 120) +
-          (poison.description.length > 120 ? "..." : "");
-        preview.style.cssText =
-          "color: var(--muted); font-family: var(--font-text); margin: 0 0 12px 0; line-height: 1.6; font-size: 0.9rem;";
-        body.appendChild(preview);
+        // Description (always visible)
+        const descSection = document.createElement("div");
+        descSection.className = "material-section";
+        descSection.style.cssText = "margin-bottom: 12px;";
 
-        // Toggle button
+        const descText = document.createElement("p");
+        descText.className = "material-section-text";
+        descText.textContent = poison.description;
+
+        descSection.appendChild(descText);
+        body.appendChild(descSection);
+
+        // Toggle button for details
         const toggleContainer = document.createElement("div");
         toggleContainer.className = "t-toggle-container";
-        toggleContainer.style.cssText = "margin-top: 12px; text-align: center;";
 
         const toggleBtn = document.createElement("button");
         toggleBtn.className = "t-toggle-btn";
-        toggleBtn.style.cssText = `
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        width: 100%;
-        padding: 8px 16px;
-        background: rgba(30, 30, 30, 0.9);
-        border: 1px solid var(--border);
-        border-radius: 8px;
-        color: var(--text);
-        font-family: var(--font-bold);
-        font-size: 0.85rem;
-        cursor: pointer;
-        transition: all 0.2s;
-      `;
 
         const toggleText = document.createElement("span");
         toggleText.textContent = "View Details";
 
         const toggleArrow = document.createElement("span");
+        toggleArrow.className = "t-toggle-arrow";
         toggleArrow.textContent = "▼";
-        toggleArrow.style.cssText = "transition: transform 0.2s;";
 
         toggleBtn.appendChild(toggleText);
         toggleBtn.appendChild(toggleArrow);
@@ -247,26 +217,25 @@ fetch("../../content/poisons.json")
 
         // Detailed content (hidden by default)
         const detailsContent = document.createElement("div");
-        detailsContent.style.cssText =
-          "display: none; padding-top: 16px; border-top: 1px solid #222; margin-top: 16px;";
+        detailsContent.className = "material-details";
 
-        // Full Description
-        const descSection = document.createElement("div");
-        descSection.style.cssText = "margin-bottom: 16px;";
+        // Effect
+        if (poison.effect) {
+          const effectSection = document.createElement("div");
+          effectSection.className = "material-weapon-effect";
 
-        const descLabel = document.createElement("h3");
-        descLabel.textContent = "Description";
-        descLabel.style.cssText =
-          "color: var(--text); font-family: var(--font-bold); font-size: 1rem; margin: 0 0 8px 0;";
+          const effectLabel = document.createElement("h3");
+          effectLabel.className = "material-effect-title";
+          effectLabel.textContent = "Effect";
 
-        const descText = document.createElement("p");
-        descText.textContent = poison.description;
-        descText.style.cssText =
-          "color: var(--muted); font-family: var(--font-text); margin: 0; line-height: 1.6;";
+          const effectText = document.createElement("p");
+          effectText.className = "material-effect-text";
+          effectText.textContent = poison.effect;
 
-        descSection.appendChild(descLabel);
-        descSection.appendChild(descText);
-        detailsContent.appendChild(descSection);
+          effectSection.appendChild(effectLabel);
+          effectSection.appendChild(effectText);
+          detailsContent.appendChild(effectSection);
+        }
 
         // Acquisition
         if (poison.aquisition) {
@@ -275,39 +244,18 @@ fetch("../../content/poisons.json")
             "margin-bottom: 16px; padding: 12px; background: rgba(20, 20, 20, 0.9); border-radius: 8px; border-left: 3px solid var(--highlight);";
 
           const acqLabel = document.createElement("h3");
-          acqLabel.textContent = "Acquisition";
           acqLabel.style.cssText =
             "color: var(--highlight); font-family: var(--font-bold); font-size: 0.95rem; margin: 0 0 8px 0;";
+          acqLabel.textContent = "Acquisition";
 
           const acqText = document.createElement("p");
-          acqText.textContent = poison.aquisition;
           acqText.style.cssText =
             "color: var(--muted); font-family: var(--font-text); margin: 0; line-height: 1.5; font-size: 0.9rem;";
+          acqText.textContent = poison.aquisition;
 
           acqSection.appendChild(acqLabel);
           acqSection.appendChild(acqText);
           detailsContent.appendChild(acqSection);
-        }
-
-        // Effect
-        if (poison.effect) {
-          const effectSection = document.createElement("div");
-          effectSection.style.cssText =
-            "padding: 12px; background: rgba(100, 0, 0, 0.1); border-radius: 8px; border-left: 3px solid #ef4444; margin-bottom: 16px;";
-
-          const effectLabel = document.createElement("h3");
-          effectLabel.textContent = "Effect";
-          effectLabel.style.cssText =
-            "color: #ef4444; font-family: var(--font-bold); font-size: 0.95rem; margin: 0 0 8px 0;";
-
-          const effectText = document.createElement("p");
-          effectText.textContent = poison.effect;
-          effectText.style.cssText =
-            "color: var(--text); font-family: var(--font-text); margin: 0; line-height: 1.5; font-size: 0.9rem;";
-
-          effectSection.appendChild(effectLabel);
-          effectSection.appendChild(effectText);
-          detailsContent.appendChild(effectSection);
         }
 
         // Stats grid
@@ -353,31 +301,17 @@ fetch("../../content/poisons.json")
 
         // Toggle functionality
         toggleBtn.addEventListener("click", () => {
-          if (detailsContent.style.display === "none") {
-            detailsContent.style.display = "block";
-            toggleText.textContent = "Hide Details";
-            toggleArrow.style.transform = "rotate(180deg)";
-            toggleBtn.style.background = "rgba(250, 204, 21, 0.1)";
-            toggleBtn.style.borderColor = "var(--highlight)";
-            toggleBtn.style.color = "var(--highlight)";
-          } else {
-            detailsContent.style.display = "none";
+          if (detailsContent.classList.contains("active")) {
+            detailsContent.classList.remove("active");
+            toggleBtn.classList.remove("active");
             toggleText.textContent = "View Details";
             toggleArrow.style.transform = "rotate(0deg)";
-            toggleBtn.style.background = "rgba(30, 30, 30, 0.9)";
-            toggleBtn.style.borderColor = "var(--border)";
-            toggleBtn.style.color = "var(--text)";
+          } else {
+            detailsContent.classList.add("active");
+            toggleBtn.classList.add("active");
+            toggleText.textContent = "Hide Details";
+            toggleArrow.style.transform = "rotate(180deg)";
           }
-        });
-
-        // Add hover effect
-        card.addEventListener("mouseenter", () => {
-          card.style.transform = "translateY(-4px)";
-          card.style.boxShadow = "0 12px 28px rgba(0, 0, 0, 0.8)";
-        });
-        card.addEventListener("mouseleave", () => {
-          card.style.transform = "translateY(0)";
-          card.style.boxShadow = "0 8px 20px rgba(0, 0, 0, 0.6)";
         });
 
         tabContents[rarity].appendChild(card);
@@ -392,5 +326,5 @@ fetch("../../content/poisons.json")
   .catch((err) => {
     console.error("Failed to load poisons.json:", err);
     container.innerHTML =
-      '<p style="text-align: center; color: #ef4444; padding: 2rem;">Failed to load poisons data. Please refresh the page.</p>';
+      '<p class="error-message">Failed to load poisons data. Please refresh the page.</p>';
   });

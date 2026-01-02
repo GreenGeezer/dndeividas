@@ -75,7 +75,7 @@
       "description": "A versatile positoxin designed to harm undead and heal the living.",
       "image": "bloodwine.webp",
       "aquisition": "Created by mixing the blood of a holy creature with blessed wine.",
-      "effect": "",
+      "effect": "An undead creature subjected to this poison must succeed on a Constitution saving throw, taking 10 (3d6) radiant damage on a failed save, or half as much damage on a successful one. The bloodwine can also be consumed by a living creature, and it remains in the system of that creature for up to 12 hours. Any undead that attempt to consume the creature or drink its blood is affected by the bloodwine as if they had ingested it themselves.",
       "types": ["Ingested", "Injury", "Positoxin"],
       "stats": {
         "market_value": 25,
