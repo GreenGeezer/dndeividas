@@ -29,6 +29,8 @@ Promise.all([
       { key: "simple_ranged", label: "Simple Ranged Weapons" },
       { key: "martial_melee", label: "Martial Melee Weapons" },
       { key: "martial_ranged", label: "Martial Ranged Weapons" },
+      { key: "advanced_melee", label: "Advanced Melee Weapons" },
+      { key: "advanced_ranged", label: "Advanced Ranged Weapons" },
     ];
 
     // Helper function to parse properties and create tooltips
@@ -92,7 +94,7 @@ Promise.all([
 
       // Column headers
       const columnRow = document.createElement("tr");
-      ["Name", "Cost", "Damage", "Weight", "Properties", "Mastery"].forEach(
+      ["Name", "Damage", "Weight", "Properties", "Mastery", "Cost"].forEach(
         (header) => {
           const th = document.createElement("th");
           th.textContent = header;
@@ -111,11 +113,6 @@ Promise.all([
         const nameCell = document.createElement("td");
         nameCell.textContent = weapon.name;
         row.appendChild(nameCell);
-
-        // Cost
-        const costCell = document.createElement("td");
-        costCell.textContent = weapon.cost;
-        row.appendChild(costCell);
 
         // Damage
         const damageCell = document.createElement("td");
@@ -152,6 +149,11 @@ Promise.all([
         masterySpan.appendChild(tooltip);
         masteryCell.appendChild(masterySpan);
         row.appendChild(masteryCell);
+
+        // Cost
+        const costCell = document.createElement("td");
+        costCell.textContent = weapon.cost;
+        row.appendChild(costCell);
 
         tbody.appendChild(row);
       });

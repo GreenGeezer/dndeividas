@@ -2,313 +2,653 @@
   "simple_melee": [
     {
       "name": "Club",
-      "cost": "1 sp",
       "damage": "1d4 bludgeoning",
       "weight": "2 lb.",
       "properties": "Light",
-      "mastery": "Slow"
+      "mastery": "Slow",
+      "cost": "10 cp"
     },
     {
       "name": "Dagger",
-      "cost": "2 gp",
       "damage": "1d4 piercing",
       "weight": "1 lb.",
       "properties": "Finesse, Light, Thrown (range 20/60)",
-      "mastery": "Nick"
+      "mastery": "Nick",
+      "cost": "2 sp"
     },
     {
       "name": "Greatclub",
-      "cost": "2 sp",
       "damage": "1d8 bludgeoning",
       "weight": "10 lb.",
       "properties": "Two-Handed",
-      "mastery": "Push"
+      "mastery": "Push",
+      "cost": "20 cp"
     },
     {
       "name": "Handaxe",
-      "cost": "5 gp",
       "damage": "1d6 slashing",
       "weight": "2 lb.",
       "properties": "Light, Thrown (range 20/60)",
-      "mastery": "Vex"
+      "mastery": "Vex",
+      "cost": "5 sp"
     },
     {
       "name": "Javelin",
-      "cost": "5 sp",
       "damage": "1d6 piercing",
       "weight": "2 lb.",
       "properties": "Thrown (range 30/120)",
-      "mastery": "Slow"
+      "mastery": "Slow",
+      "cost": "50 cp"
     },
     {
       "name": "Light Hammer",
-      "cost": "2 gp",
       "damage": "1d4 bludgeoning",
       "weight": "2 lb.",
       "properties": "Light, Thrown (range 20/60)",
-      "mastery": "Nick"
+      "mastery": "Nick",
+      "cost": "2 sp"
     },
     {
       "name": "Mace",
-      "cost": "5 gp",
       "damage": "1d6 bludgeoning",
       "weight": "4 lb.",
       "properties": "",
-      "mastery": "Sap"
+      "mastery": "Sap",
+      "cost": "5 sp"
     },
     {
       "name": "Quarterstaff",
-      "cost": "2 sp",
       "damage": "1d6 bludgeoning",
       "weight": "4 lb.",
       "properties": "Versatile (1d8)",
-      "mastery": "Topple"
+      "mastery": "Topple",
+      "cost": "20 cp"
     },
     {
       "name": "Sickle",
-      "cost": "1 gp",
       "damage": "1d4 slashing",
       "weight": "2 lb.",
       "properties": "Light",
-      "mastery": "Nick"
+      "mastery": "Nick",
+      "cost": "1 sp"
     },
     {
       "name": "Spear",
-      "cost": "1 gp",
       "damage": "1d6 piercing",
       "weight": "3 lb.",
       "properties": "Thrown (range 20/60), Versatile (1d8)",
-      "mastery": "Sap"
+      "mastery": "Sap",
+      "cost": "1 sp"
     }
   ],
   "simple_ranged": [
     {
       "name": "Dart",
-      "cost": "5 cp",
       "damage": "1d4 piercing",
       "weight": "1/4 lb.",
       "properties": "Finesse, Thrown (range 20/60)",
-      "mastery": "Vex"
+      "mastery": "Vex",
+      "cost": "5 cp"
     },
     {
       "name": "Light Crossbow",
-      "cost": "25 gp",
       "damage": "1d8 piercing",
       "weight": "5 lb.",
       "properties": "Ammunition (range 80/320), Loading, Two-Handed",
-      "mastery": "Slow"
+      "mastery": "Slow",
+      "cost": "25 sp"
     },
     {
       "name": "Shortbow",
-      "cost": "25 gp",
       "damage": "1d6 piercing",
       "weight": "2 lb.",
       "properties": "Ammunition (range 80/320), Two-Handed",
-      "mastery": "Vex"
+      "mastery": "Vex",
+      "cost": "25 sp"
     },
     {
       "name": "Sling",
-      "cost": "1 sp",
       "damage": "1d4 bludgeoning",
       "weight": "",
       "properties": "Ammunition (range 30/120)",
-      "mastery": "Slow"
+      "mastery": "Slow",
+      "cost": "10 cp"
     }
   ],
   "martial_melee": [
     {
       "name": "Battleaxe",
-      "cost": "10 gp",
       "damage": "1d8 slashing",
       "weight": "4 lb.",
       "properties": "Versatile (1d10)",
-      "mastery": "Topple"
+      "mastery": "Topple",
+      "cost": "10 sp"
     },
     {
       "name": "Flail",
-      "cost": "10 gp",
       "damage": "1d8 bludgeoning",
       "weight": "2 lb.",
       "properties": "",
-      "mastery": "Sap"
+      "mastery": "Sap",
+      "cost": "10 sp"
     },
     {
       "name": "Glaive",
-      "cost": "20 gp",
       "damage": "1d10 slashing",
       "weight": "6 lb.",
       "properties": "Heavy, Reach, Two-Handed",
-      "mastery": "Graze"
+      "mastery": "Graze",
+      "cost": "20 sp"
     },
     {
       "name": "Greataxe",
-      "cost": "30 gp",
       "damage": "1d12 slashing",
       "weight": "7 lb.",
       "properties": "Heavy, Two-Handed",
-      "mastery": "Cleave"
+      "mastery": "Cleave",
+      "cost": "30 sp"
     },
     {
       "name": "Greatsword",
-      "cost": "50 gp",
       "damage": "2d6 slashing",
       "weight": "6 lb.",
       "properties": "Heavy, Two-Handed",
-      "mastery": "Graze"
+      "mastery": "Graze",
+      "cost": "50 sp"
     },
     {
       "name": "Halberd",
-      "cost": "20 gp",
       "damage": "1d10 slashing",
       "weight": "6 lb.",
       "properties": "Heavy, Reach, Two-Handed",
-      "mastery": "Cleave"
+      "mastery": "Cleave",
+      "cost": "20 sp"
     },
     {
       "name": "Lance",
-      "cost": "10 gp",
       "damage": "1d10 piercing",
       "weight": "6 lb.",
       "properties": "Heavy, Reach, Two-Handed (unless mounted)",
-      "mastery": "Topple"
+      "mastery": "Topple",
+      "cost": "10 sp"
     },
     {
       "name": "Longsword",
-      "cost": "15 gp",
       "damage": "1d8 slashing",
       "weight": "3 lb.",
       "properties": "Versatile (1d10)",
-      "mastery": "Sap"
+      "mastery": "Sap",
+      "cost": "15 sp"
     },
     {
       "name": "Maul",
-      "cost": "10 gp",
       "damage": "2d6 bludgeoning",
       "weight": "10 lb.",
       "properties": "Heavy, Two-Handed",
-      "mastery": "Topple"
+      "mastery": "Topple",
+      "cost": "10 sp"
     },
     {
       "name": "Morningstar",
-      "cost": "15 gp",
       "damage": "1d8 piercing",
       "weight": "4 lb.",
       "properties": "",
-      "mastery": "Sap"
+      "mastery": "Sap",
+      "cost": "15 sp"
     },
     {
       "name": "Pike",
-      "cost": "5 gp",
       "damage": "1d10 piercing",
       "weight": "18 lb.",
       "properties": "Heavy, Reach, Two-Handed",
-      "mastery": "Push"
+      "mastery": "Push",
+      "cost": "5 sp"
     },
     {
       "name": "Rapier",
-      "cost": "25 gp",
       "damage": "1d8 piercing",
       "weight": "2 lb.",
       "properties": "Finesse",
-      "mastery": "Vex"
+      "mastery": "Vex",
+      "cost": "25 sp"
     },
     {
       "name": "Scimitar",
-      "cost": "25 gp",
       "damage": "1d6 slashing",
       "weight": "3 lb.",
       "properties": "Finesse, Light",
-      "mastery": "Nick"
+      "mastery": "Nick",
+      "cost": "25 sp"
     },
     {
       "name": "Shortsword",
-      "cost": "10 gp",
       "damage": "1d6 piercing",
       "weight": "2 lb.",
       "properties": "Finesse, Light",
-      "mastery": "Vex"
+      "mastery": "Vex",
+      "cost": "10 sp"
     },
     {
       "name": "Trident",
-      "cost": "5 gp",
       "damage": "1d8 piercing",
       "weight": "4 lb.",
       "properties": "Thrown (range 20/60), Versatile (1d10)",
-      "mastery": "Topple"
+      "mastery": "Topple",
+      "cost": "5 sp"
     },
     {
       "name": "War Pick",
-      "cost": "5 gp",
       "damage": "1d8 piercing",
       "weight": "2 lb.",
       "properties": "Versatile (1d10)",
-      "mastery": "Sap"
+      "mastery": "Sap",
+      "cost": "5 sp"
     },
     {
       "name": "Warhammer",
-      "cost": "15 gp",
       "damage": "1d8 bludgeoning",
       "weight": "5 lb.",
       "properties": "Versatile (1d10)",
-      "mastery": "Push"
+      "mastery": "Push",
+      "cost": "15 sp"
     },
     {
       "name": "Whip",
-      "cost": "2 gp",
       "damage": "1d4 slashing",
       "weight": "3 lb.",
       "properties": "Finesse, Reach",
-      "mastery": "Slow"
+      "mastery": "Slow",
+      "cost": "2 sp"
     }
   ],
   "martial_ranged": [
     {
       "name": "Blowgun",
-      "cost": "10 gp",
       "damage": "1 piercing",
       "weight": "1 lb.",
       "properties": "Ammunition (range 25/100), Loading",
-      "mastery": "Vex"
+      "mastery": "Vex",
+      "cost": "10 sp"
     },
     {
       "name": "Hand Crossbow",
-      "cost": "75 gp",
       "damage": "1d6 piercing",
       "weight": "3 lb.",
       "properties": "Ammunition (range 30/120), Light, Loading",
-      "mastery": "Vex"
+      "mastery": "Vex",
+      "cost": "75 sp"
     },
     {
       "name": "Heavy Crossbow",
-      "cost": "50 gp",
       "damage": "1d10 piercing",
       "weight": "18 lb.",
       "properties": "Ammunition (range 100/400), Heavy, Loading, Two-Handed",
-      "mastery": "Push"
+      "mastery": "Push",
+      "cost": "50 sp"
     },
     {
       "name": "Longbow",
-      "cost": "50 gp",
       "damage": "1d8 piercing",
       "weight": "2 lb.",
       "properties": "Ammunition (range 150/600), Heavy, Two-Handed",
-      "mastery": "Slow"
+      "mastery": "Slow",
+      "cost": "50 sp"
     },
     {
       "name": "Musket",
-      "cost": "500 gp",
       "damage": "1d12 piercing",
       "weight": "10 lb.",
       "properties": "Ammunition (range 40/120), Loading, Two-Handed",
-      "mastery": "Slow"
+      "mastery": "Slow",
+      "cost": "5 gp"
     },
     {
       "name": "Pistol",
-      "cost": "250 gp",
       "damage": "1d10 piercing",
       "weight": "3 lb.",
       "properties": "Ammunition (range 30/90), Loading",
-      "mastery": "Vex"
+      "mastery": "Vex",
+      "cost": "2 gp 50 sp"
+    }
+  ],
+  "advanced_melee": [
+    {
+      "name": "Catchpole",
+      "damage": "1d6 piercing",
+      "weight": "5 lb.",
+      "properties": "Hafted, Reach, Two-Handed",
+      "mastery": "Entangling",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Cavalry Flail",
+      "damage": "1d8 bludgeoning",
+      "weight": "3 lb.",
+      "properties": "Momentum (1d12)",
+      "mastery": "Swift",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Cavalry Hammer",
+      "damage": "1d8 bludgeoning",
+      "weight": "3 lb.",
+      "properties": "Armor-Piercing, Momentum (1d12)",
+      "mastery": "Slow",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Cavalry Pick",
+      "damage": "1d8 piercing",
+      "weight": "3 lb.",
+      "properties": "Armor-Piercing, Momentum (1d12)",
+      "mastery": "Sap",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Chakram",
+      "damage": "1d6 slashing",
+      "weight": "1 lb.",
+      "properties": "Finesse, Light, Thrown (range 30/120)",
+      "mastery": "Returning",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Claymore",
+      "damage": "2d6 slashing",
+      "weight": "7 lb.",
+      "properties": "Heavy, Two-Handed",
+      "mastery": "Brutal",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Double Blade",
+      "damage": "1d6 slashing",
+      "weight": "5 lb.",
+      "properties": "Double, Momentum (1d10), Two-Handed",
+      "mastery": "Set",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Double Spear",
+      "damage": "1d6 piercing",
+      "weight": "4 lb.",
+      "properties": "Double, Momentum (1d10), Two-Handed",
+      "mastery": "Set",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Elite Rapier",
+      "damage": "1d8 piercing",
+      "weight": "2 lb.",
+      "properties": "Finesse",
+      "mastery": "Swift",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Fighting Chain",
+      "damage": "1d4 bludgeoning",
+      "weight": "3 lb.",
+      "properties": "Double, Finesse, Reach, Two-Handed",
+      "mastery": "Disarming",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Fighting Chain, Brutal",
+      "damage": "1d6 slashing",
+      "weight": "6 lb.",
+      "properties": "Double, Finesse, Reach, Two-Handed",
+      "mastery": "Brutal",
+      "cost": "7 gp 50 sp"
+    },
+    {
+      "name": "Fighting Chain, Hook",
+      "damage": "1d4 bludgeoning",
+      "weight": "3 lb.",
+      "properties": "Damage (Piercing), Double, Finesse, Reach, Two-Handed",
+      "mastery": "Entangling",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Fighting Chain, Sickle",
+      "damage": "1d4 bludgeoning",
+      "weight": "3 lb.",
+      "properties": "Damage (Slashing), Double, Finesse, Reach, Two-Handed",
+      "mastery": "Entangling",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Gladiator Net",
+      "damage": "1d6 bludgeoning",
+      "weight": "5 lb.",
+      "properties": "Thrown (range 10/30)",
+      "mastery": "Entangling",
+      "cost": "3 gp 50 sp"
+    },
+    {
+      "name": "Guardian Poleaxe",
+      "damage": "1d10 slashing",
+      "weight": "9 lb.",
+      "properties": "Damage (Piercing), Hafted, Heavy, Reach, Two-Handed",
+      "mastery": "Set",
+      "cost": "7 gp 50 sp"
+    },
+    {
+      "name": "Knightly Lance",
+      "damage": "2d6 piercing",
+      "weight": "6 lb.",
+      "properties": "Momentum (2d10), Reach, Two-Handed (unless mounted)",
+      "mastery": "Set",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Knightly Sword",
+      "damage": "1d8 slashing",
+      "weight": "3 lb.",
+      "properties": "Versatile (1d10)",
+      "mastery": "Defending",
+      "cost": "7 gp 50 sp"
+    },
+    {
+      "name": "Military Fork",
+      "damage": "2d6 piercing",
+      "weight": "8 lb.",
+      "properties": "Hafted, Heavy, Reach, Two-Handed",
+      "mastery": "Disarming",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Parrying Dagger",
+      "damage": "1d4 piercing",
+      "weight": "1 lb.",
+      "properties": "Finesse, Light, Thrown (range 20/60)",
+      "mastery": "Disarming",
+      "cost": "3 gp 50 sp"
+    },
+    {
+      "name": "Polearm",
+      "damage": "1d12 piercing",
+      "weight": "12 lb.",
+      "properties": "Hafted, Heavy, Reach, Two-Handed",
+      "mastery": "Set",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Punching Dagger",
+      "damage": "1d4 piercing",
+      "weight": "1 lb.",
+      "properties": "Armor-Piercing, Finesse, Light",
+      "mastery": "Defending",
+      "cost": "3 gp"
+    },
+    {
+      "name": "Returning Club",
+      "damage": "1d4 bludgeoning",
+      "weight": "2 lb.",
+      "properties": "Light, Thrown (range 20/60)",
+      "mastery": "Returning",
+      "cost": "3 gp"
+    },
+    {
+      "name": "Sabre",
+      "damage": "1d8 slashing",
+      "weight": "2 lb.",
+      "properties": "Finesse",
+      "mastery": "Swift",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Sheathed Staff",
+      "damage": "1d6 bludgeoning",
+      "weight": "6 lb.",
+      "properties": "Double, Versatile (1d8)",
+      "mastery": "Topple",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Side-handle Baton",
+      "damage": "1d4 bludgeoning",
+      "weight": "2 lb.",
+      "properties": "Finesse, Light",
+      "mastery": "Swift",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Wrath Axe",
+      "damage": "2d6 slashing",
+      "weight": "12 lb.",
+      "properties": "Hafted, Heavy, Momentum (2d8), Two-Handed",
+      "mastery": "Brutal",
+      "cost": "7 gp 50 sp"
+    },
+    {
+      "name": "Wrath Maul",
+      "damage": "2d6 bludgeoning",
+      "weight": "15 lb.",
+      "properties": "Hafted, Heavy, Momentum (2d8), Two-Handed",
+      "mastery": "Brutal",
+      "cost": "7 gp 50 sp"
+    }
+  ],
+  "advanced_ranged": [
+    {
+      "name": "Arbalest",
+      "damage": "2d6 piercing",
+      "weight": "20 lb.",
+      "properties": "Ammunition (range 80/300; bolt), Heavy, Loading, Two-Handed",
+      "mastery": "Strong-Draw",
+      "cost": "7 gp 50 sp"
+    },
+    {
+      "name": "Blackpowder Pistol",
+      "damage": "2d4 piercing",
+      "weight": "4 lb.",
+      "properties": "Ammunition (range 20/80; paper cartridge bullet), Blackpowder, Light, Loading",
+      "mastery": "Vex",
+      "cost": "2 gp"
+    },
+    {
+      "name": "Blackpowder Rifle",
+      "damage": "2d6 piercing",
+      "weight": "10 lb.",
+      "properties": "Ammunition (range 80/300; paper cartridge bullet), Blackpowder, Loading, Two-Handed",
+      "mastery": "Slow",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Blunderbuss",
+      "damage": "2d6 piercing",
+      "weight": "10 lb.",
+      "properties": "Ammunition (range 30/90; paper cartridge bullet), Blackpowder, Cumbersome, Loading, Two-Handed",
+      "mastery": "Scatter (10 ft.)",
+      "cost": "7 gp 50 sp"
+    },
+    {
+      "name": "Blunderbuss, Hand",
+      "damage": "2d4 piercing",
+      "weight": "4 lb.",
+      "properties": "Ammunition (range 15/60; paper cartridge bullet), Blackpowder, Loading",
+      "mastery": "Scatter (5 ft.)",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Composite Longbow",
+      "damage": "1d8 piercing",
+      "weight": "2 lb.",
+      "properties": "Ammunition (range 200/600; arrow), Heavy, Two-Handed",
+      "mastery": "Strong-Draw",
+      "cost": "7 gp 50 sp"
+    },
+    {
+      "name": "Composite Shortbow",
+      "damage": "1d6 piercing",
+      "weight": "2 lb.",
+      "properties": "Ammunition (range 100/400; arrow), Two-Handed",
+      "mastery": "Strong-Draw",
+      "cost": "4 gp"
+    },
+    {
+      "name": "Dragon Pistol",
+      "damage": "2d4 piercing",
+      "weight": "4 lb.",
+      "properties": "Ammunition (range 20; dragon shot), Blackpowder, Loading",
+      "mastery": "Scatter (5 ft.)",
+      "cost": "3 gp 50 sp"
+    },
+    {
+      "name": "Dragon Rifle",
+      "damage": "2d6 piercing",
+      "weight": "4 lb.",
+      "properties": "Ammunition (range 30; dragon shot), Blackpowder, Loading",
+      "mastery": "Scatter (10 ft.)",
+      "cost": "7 gp 50 sp"
+    },
+    {
+      "name": "Flame Bellows",
+      "damage": "2d6 fire",
+      "weight": "11 lb.",
+      "properties": "Ammunition (range 15; bellows cannister), Cumbersome, Loading, Magazine (20), Two-Handed",
+      "mastery": "Scatter (10 ft.)",
+      "cost": "7 gp 50 sp"
+    },
+    {
+      "name": "Repeater Crossbow",
+      "damage": "1d8 piercing",
+      "weight": "7 lb.",
+      "properties": "Ammunition (range 80/300; bolt), Magazine (6), Repeater, Two-Handed",
+      "mastery": "Slow",
+      "cost": "7 gp 50 sp"
+    },
+    {
+      "name": "Repeater Crossbow, Hand",
+      "damage": "1d6 piercing",
+      "weight": "3 lb.",
+      "properties": "Ammunition (range 30/120; bolt), Light, Magazine (3), Repeater",
+      "mastery": "Vex",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Repeater Crossbow, Heavy",
+      "damage": "1d10 piercing",
+      "weight": "20 lb.",
+      "properties": "Ammunition (range 100/400; bolt), Heavy, Magazine (9), Repeater, Two-Handed",
+      "mastery": "Push",
+      "cost": "10 gp"
+    },
+    {
+      "name": "Repeater Needler",
+      "damage": "1 piercing",
+      "weight": "3 lb.",
+      "properties": "Ammunition (range 30/120; blowgun needle), Light, Magazine (6), Repeater",
+      "mastery": "Vex",
+      "cost": "5 gp"
+    },
+    {
+      "name": "Repeater Slinger",
+      "damage": "1d8 bludgeoning",
+      "weight": "9 lb.",
+      "properties": "Ammunition (range 80/300; bullet), Magazine (9), Repeater, Two-Handed",
+      "mastery": "Slow",
+      "cost": "7 gp 50 sp"
     }
   ]
 }
