@@ -1,10 +1,10 @@
 [
   {
     "name": "Adamantine",
-    "description": "--- title: Adamantine ---  Adamantine’s secretive forging techniques are jealously guarded by the dwarves of the Bürach Empire, specifically in the dwarven thanedom of Rauland. The capital city of Sthelenwald stands amid the jagged mountains, its forges lit by glowing runes and watched over by stern dwarven overseers. Only those who earn the trust of these dwarven lords—through great deeds or impressive wealth—can gain access to raw adamant or have an item forged from it.  Adamantine is formed by blending adamant (mined from rare adamantite ores deep in asteroids or volcanic fissures) with silver and electrum. It is black with a green sheen in candlelight and impossibly hard. Dwarven master-smiths know how to temper brittleness into durability, creating armor and weapons that resist critical blows and cleave through hardened barriers. To learn its secret is to risk dwarven ire and imperial scrutiny.",
+    "description": "Adamantine’s secretive forging techniques are jealously guarded by the dwarves of the Bürach Empire, specifically in the dwarven thanedom of Rauland. The capital city of Sthelenwald stands amid the jagged mountains, its forges lit by glowing runes and watched over by stern dwarven overseers. Only those who earn the trust of these dwarven lords—through great deeds or impressive wealth—can gain access to raw adamant or have an item forged from it.  Adamantine is formed by blending adamant (mined from rare adamantite ores deep in asteroids or volcanic fissures) with silver and electrum. It is black with a green sheen in candlelight and impossibly hard. Dwarven master-smiths know how to temper brittleness into durability, creating armor and weapons that resist critical blows and cleave through hardened barriers. To learn its secret is to risk dwarven ire and imperial scrutiny.",
     "armor_effect": "The base Damage Reduction of the armor is increased by 4. While you’re wearing it, critical hits that strike you are treated as normal hits.",
     "armor_cost": "150 × base armor cost.",
-    "weapon_effect": "",
+    "weapon_effect": "Whenever an adamantine weapon hits an object, it results in an automatic critical hit. Adamantine weapons are known to be hard enough to penetrate the heavy layered exteriors of magical golems, allowing one to damage them without the need for magic.",
     "weapon_cost": "50 gp + base weapon cost."
   },
   {
@@ -12,24 +12,32 @@
     "description": "The Islands of Chult, lying in the southeastern waters of the Castinellan Provinces, are overgrown with prehistoric jungles and teeming with saurian beasts. While nominally independent, Chult’s resources—especially the abundance of monstrous shells, chitin, and hides—are coveted by surrounding nations. Expeditions from mercantile princes, adventurer companies, and imperial armies all vie for these raw materials, hoping to return home with enough monster carapace to craft exceptional armor.  Carapace armor is lighter than steel and can grant remarkable agility. Druids, frontier warriors, and tribal champions often wear it, drawn from creatures with immense natural DR. The process of harvesting and treating the shell is part of local Chultan tradition, involving complex rituals and dances meant to appease the beast’s lingering spirit.",
     "armor_effect": "This armor loses the cumbersome property if it had it. In addition, its maximum Dexterity modifier to AC is increased by 1. In addition you gain tremmor sence 15ft.",
     "armor_cost": "10 × base armor cost. There is an additional cost of 1,200 gp for medium armor and 2,000 gp for heavy armor. The price is reduced by 50% if you posses the body of a slain large-sized creature with DR 5 or more.",
-    "weapon_effect": "",
-    "weapon_cost": ""
+    "weapon_effect": "Weapons fashioned from carapace retain the potency of their previous owners. Any poison applied to this weapon deals an aditional poison damage dice.",
+    "weapon_cost": "25g + base weapon cost."
   },
   {
     "name": "Darksteel",
     "description": "Darksteel was first smelted in Toletum, the capital of the Castinellan Provinces, after miners discovered rich deposits of dilmerithium in the Corova mountains. The Arcanist Inquisition and Sanctioned Witch Hunters, both influential factions in Toletum, arm themselves with darksteel gear to suppress enemy spellcasters. Anyone wishing to buy or sell darksteel faces oppressive scrutiny from the Inquisition, ensuring Toletum’s monopoly.  Darksteel disrupts magical energies, making it invaluable for capturing or combating spellcasters. It’s dark brown with a subtle sheen. Rumors say that some secret dwarven halls and hidden gnome workshops also know how to shape it, but the Inquisition’s spies ensure such knowledge seldom spreads.",
     "armor_effect": "While wearing Darksteel armor, you have advantage on saving throws against spells. Every other creature within 5ft of you make their concentration checks with disadvantage so long as they are within 5ft of you. Once a day, you can cast *counter spell*. This feature resets after a long rest.",
     "armor_cost": "50 × base armor cost.",
-    "weapon_effect": "",
-    "weapon_cost": "50gp + base weapon cost."
+    "weapon_effect": "Darksteel weapons disrupt magical energies. When you hit a creature concentrating on a spell, that creature has disadvantage on the concentration saving throw. In addition, the next spell hit attack the creature casts is with disadvantage.",
+    "weapon_cost": "75gp + base weapon cost."
+  },
+  {
+    "name": "Delerium",
+    "description": "Delerium is an eldritch crystalline mineral born from the meteor that annihilated Drakkenheim. It forms in jagged octarine crystals that hum with unstable arcane resonance, glowing brighter in the presence of magic. Though lethally hazardous in its raw state, delerium refined through advanced arcane techniques becomes stable enough to forge into arms and armor—never safe, merely controlled.  Delerium-forged equipment bends the rules of magic, amplifying power while inviting corruption. Those who wield it walk a knife’s edge between transcendence and annihilation.",
+    "armor_effect": "While wearing Delerium armor, whenever you fail a saving throw against a spell or magical effect, you can choose to succeed instead. If you do, you gain one level of contamination. While you have at least one level of contamination, your spell save DC and spell attack rolls increase by 1.",
+    "armor_cost": "75 × base armor cost. Crafting requires stable delerium and sanctioned arcane facilities.",
+    "weapon_effect": "Delerium weapons count as magical. When you hit a creature with this weapon, you may choose to destabilize the embedded crystal. If you do, your contamination level is also added to the hit and damage roll. After resolving the attack, you must succeed on a DC 12 Constitution saving throw or gain one level of contamination. On a critical hit, the weapon releases a pulse of warped magic: roll once on the Arcane Anomalies table (the wielder is excluded from harmful effects where reasonable).",
+    "weapon_cost": "300 gp + 10× base weapon cost. Crafting requires stable delerium fragments or shards."
   },
   {
     "name": "Demonhide",
     "description": "Demonhide is infamous among the Hell Knight Paladin Order, a dogmatic and ruthless sect that wages endless war against demons. Operating throughout Etharis, they often haunt the borders of the Bürach Empire and Ostoyan frontiers, returning from their crusades with demon corpses. They craft demonhide armor to channel the demons’ regenerative properties against their enemies—though at a terrible cost to their own bodies and souls.  Demonhide fuses with the wearer’s flesh. Its leathery texture and faint infernal runes reflect the tormented essence bound within. Warriors who don it rarely do so lightly, as the corruption it may spread can be nearly as dangerous as the foes it helps them overcome.",
     "armor_effect": "Demonhide infuses with the wearers flesh, binding the hard leathery hide with the skin. Due to this magical symbiotic relationship, you can as an Action spend 1 hit-die and for one minute gain CON + 1 temporary hit-points per turn, provided that you have at least 1 hit point, as the Armor forcibly melds your flesh back together. After the effect ends you need to make a DC 10 CON saving throw. On a failure, you suffer one point of exhaustion.  Removing the Armor cost half of your health. The Armor can only be removed after a remove curse spell has been cast on it.",
     "armor_cost": "20 × base armor cost.",
-    "weapon_effect": "",
-    "weapon_cost": ""
+    "weapon_effect": "Demonhide weapons hunger for blood. When you reduce a creature to 0 hit points with this weapon, you gain temporary hit points equal to twice your Constitution modifier (minimum 2). If the creature was a fiend, you instead regain one expended hit die. Each time this effect triggers, you must succeed on a DC 10 Wisdom saving throw or gain one level of exhaustion.",
+    "weapon_cost": "25gp + 3× base weapon cost"
   },
   {
     "name": "Dragonhide And Dragonbone Plate",
@@ -44,8 +52,8 @@
     "description": "In the wake of Drakenheim’s horrific devastation—an eldritch catastrophe that twisted space and reality—survivors and craftsmen improvised. Strange crystals and shards of otherworldly matter litter the ruinous streets. Desperate artisans and psionic savants learned to shape these shards into Ilithon armor. Today, wandering merchants or daring scavengers poke through the irradiated rubble of Drakenheim to find the raw psychic materials needed.  Ilithon armor protects the mind, repelling psionic assaults and obscuring telepathic detection. Owning a suit marks you as someone who has ventured too close to Drakenheim’s madness, or who has trafficked with the psionically gifted outcasts eking a living in its devastated outskirts.",
     "armor_effect": "While wearing this armor, you gain resistance to psychic damage and immunity to effects that would read your thoughts, discern lies, determine your alignment, or reveal your creature type. Additionally, you control whether creatures can communicate with you telepathically.   When you take psychic damage, the source of that damage takes half of the damage dealt back to them.   Moreover, you can cast _mage hand_ at will, with the hand being invisible, and _telekinesis_ once per day. This feature resets after a long rest.",
     "armor_cost": "20 × base armor cost.",
-    "weapon_effect": "",
-    "weapon_cost": ""
+    "weapon_effect": "Ilithon weapons channel psychic force. Once per turn when you hit a creature, you may force it to make an Intelligence saving throw (DC 8 + your proficiency bonus + your spellcasting ability modifier, or Intelligence if you lack one), on a falure, the creatue is affected the command word inscibed into this weapon. The command word can be changed after a short or long rest.",
+    "weapon_cost": "2x base weapon cost."
   },
   {
     "name": "Ironbark",
@@ -60,8 +68,8 @@
     "description": "The Valikan Raiders rule the northern seas with blood and bravery. Amid ice floes and furious storms, these reavers hunt krakens—a sport no sane mind would attempt. To the Valikans, a kraken hunt is a rite of passage, and those who survive return with monstrous hides crackling with latent elemental power. A suit of krakenhide armor signals one’s status as a legend of the icy seas.  Krakenhide preserves the monstrous strength and elemental fury of the deep. It grants incredible aquatic mobility and the power to hurl bolts of lightning, reflecting the kraken’s own devastating might. Acquiring it demands not just a successful hunt, but the favor of the Valikan clans who consider these hunts sacred.",
     "armor_effect": "While wearing this armor, your swimming speed is equal to your walking speed. If your swimming speed already is equal to walking speed, the swimming speed is instead increased by 10ft. In addition, as a bonus action you can expend half your hit-die and magically create a bolt of lightning, which can strike a target you can see within 90 feet. The target must make a DC 16 DEX saving throw, taking 1d10 per proficiency level lightning damage on a failed save, or half as much on a successful one.",
     "armor_cost": "100 × base armor cost. Includes bribes, commissions, and securing rare components at expensive northern auctions.",
-    "weapon_effect": "",
-    "weapon_cost": ""
+    "weapon_effect": "Krakenhide weapons crackle with stormbound power. When you hit a creature, you may push it up to 10 feet away from you. If the creature is pushed into a wall, water or is already submerged, it is stunned until the start of its next turn.",
+    "weapon_cost": "100gp + 5x base weapon cost"
   },
   {
     "name": "Mithral",
@@ -80,11 +88,19 @@
     "weapon_cost": "10 gp + base weapon cost."
   },
   {
+    "name": "Solarwood",
+    "description": "Solarwood is a sacred living material grown only within the hidden Solar Grove of western Raevo. Cultivated by the archdruid Sylina Florian before The Darkfall, the Solarwood tree channels the lingering essence of the sun into its silver bark and burnished golden leaves. Beneath its radiant boughs, life flourishes despite Ostoya’s eternal night.  Solarwood is warm to the touch and emits a steady, gentle radiance. Undead are repelled by its light, and vampires are burned merely by proximity. Its bark is extraordinarily resilient, deflecting mundane tools and yielding only to skilled druidic woodcarvers who know the rites to shape it without killing its spirit.  The druids of the Solar Grove consider Solarwood holy; felling the tree is unthinkable. Only fallen branches or carefully pruned limbs are ever given over for crafting. As a result, Solarwood arms and armor are vanishingly rare, most often carried by veteran knights of the Order of Dawn or champions trusted to wield hope itself as a weapon.",
+    "armor_effect": "Solarwood armor emits soft radiant light in a 10-foot radius, that is inperceptable for most. Undead creatures have disadvantage on attack rolls against the wearer while within this light. While wearing Solarwood armor, you gain resistance to necrotic damage and advantage on saving throws against being frightened. Additionally, once per long rest, as a reaction when you would be reduced to 0 hit points, you instead drop to 1 hit point and emit a burst of solar energy. Each undead creature of your choice within 10 feet takes radiant damage equal to five times your proficiency bonus.",
+    "armor_cost": "100 × base armor cost. Crafting additionally requires access to Solarwood branches willingly provided by the Solar Grove druids.",
+    "weapon_effect": "Solarwood weapons count as magical. While wielding this weapon, you do not suffer disadvantage on attack rolls due to darkness, being unable to see the target, or the target being heavily obscured. In addition, you have advantage on attack rolls against creatures that are invisible or hidden from you.  As a bonus action, you can cause the weapon to flare with solar radiance. While flared, the weapon sheds true sunlight in a 15-foot radius. The light lasts until the start of your next turn.",
+    "weapon_cost": "500 gp + 5× base weapon cost. Solarwood weapons can only be crafted from fallen branches or gifted limbs of the Solarwood."
+  },
+  {
     "name": "Spider Silk",
     "description": "In the Ostoyan Empire, clever aristocrats and vampire nobles have established secret “spider farms” deep under their gothic estates. They harvest giant arachnid silk to craft garments and armors with unmatched softness and resilience. To wear spider silk in Ostoya is to display wealth and status, a subtle declaration of your ties to its dark courts.  Spider silk is a gothic blend of enchanting elegance and tensile strength. Its creation is an artful process, involving alchemical treatments and delicate weaving. The resulting armor is flexible, comfortable, and faintly unnerving, like a beautiful trap waiting to ensnare its prey.",
     "armor_effect": "Spider Silk Armor would be incredibly light and flexible, allowing for easier movement. Your movement speed is increased by 5ft. In addition, so long as you wear the armor and at least 2 limbs are attached to the surface you have Spider Climb. Once a day, you can cast *web*. This feature resets after a long rest.",
     "armor_cost": "200 gp + base armor cost.",
-    "weapon_effect": "",
-    "weapon_cost": ""
+    "weapon_effect": "Spider silk weapons are unnervingly precise. Once per turn, when you hit a creature that is restrained, grappled, prone, or otherwise impaired, you may immediately make a second attack against the same target as part of the same action. This second attack stask with extra attack.",
+    "weapon_cost": "300 gp + × base weapon cost. Silk is hard to form into steal, but not impossible."
   }
 ]
