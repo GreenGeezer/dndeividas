@@ -1,0 +1,7 @@
+name = "fred_fetcher"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[[r2_buckets]]
+binding = "AUDIO"
+bucket_name = "dndeividas-backend"

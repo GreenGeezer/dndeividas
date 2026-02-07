@@ -1666,6 +1666,18 @@ h3 {
   min-width: 180px;
 }
 
+.music-load-error {
+  border: 1px solid rgba(216, 180, 91, 0.3);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  background: rgba(18, 16, 13, 0.8);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+
 .music-volume {
   width: 120px;
   height: 4px;
